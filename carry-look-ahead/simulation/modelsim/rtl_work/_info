@@ -1,0 +1,380 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/VHDL/projects/carry-look-ahead/simulation/modelsim
+T_opt
+!s110 1662666949
+VPQO>I4Q@9:M<5bDh8coAk2
+04 3 3 work cla rtl 1
+=1-8a3bfdebd3f1-631a48c5-78-3614
+!s124 OEM10U85 
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1662668742
+VaGzzQ61BGM3EZ=T=Xb=zC2
+04 6 6 work cla_tb behave 1
+=1-8a3bfdebd3f1-631a4fc6-12a-3bc8
+!s124 OEM10U86 
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+Ecla
+Z4 w1662650843
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R1
+Z7 8D:/VHDL/projects/carry-look-ahead/CLA.vhd
+Z8 FD:/VHDL/projects/carry-look-ahead/CLA.vhd
+l0
+L8 1
+VecgBiI`C@clP1ANZTF3YI2
+!s100 G=QP^c5gOa[2Q0^_VGfO93
+Z9 OL;C;2021.2;73
+31
+Z10 !s110 1662666946
+!i10b 1
+Z11 !s108 1662666946.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/carry-look-ahead/CLA.vhd|
+Z13 !s107 D:/VHDL/projects/carry-look-ahead/CLA.vhd|
+!i113 0
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Artl
+Z16 DEx4 work 10 cla_16_bit 0 22 S3C0[1_aIUR3RIRRg4_[H1
+R5
+R6
+Z17 DEx4 work 3 cla 0 22 ecgBiI`C@clP1ANZTF3YI2
+!i122 3
+l26
+L19 26
+V0kQeiWN:QfT55JB=JF1gJ2
+!s100 BH?kSZI<?S0efNAZAl0Q[3
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Ecla_16_bit
+Z18 w1662641020
+R5
+R6
+!i122 6
+R1
+Z19 8D:/VHDL/projects/carry-look-ahead/CLA_16_bit.vhd
+Z20 FD:/VHDL/projects/carry-look-ahead/CLA_16_bit.vhd
+l0
+L5 1
+VS3C0[1_aIUR3RIRRg4_[H1
+!s100 39=E<c@n=mJO7[zML_iMV3
+R9
+31
+Z21 !s110 1662666947
+!i10b 1
+R11
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/carry-look-ahead/CLA_16_bit.vhd|
+Z23 !s107 D:/VHDL/projects/carry-look-ahead/CLA_16_bit.vhd|
+!i113 0
+R14
+R15
+Artl
+Z24 DEx4 work 9 cla_4_bit 0 22 DiB26GgYOD:Q:PJzlHlk_2
+R5
+R6
+R16
+!i122 6
+l25
+L18 25
+VNGLzmO1<z7F=4Akg0okNA1
+!s100 >Md8hdDT5MW9[AHJ1W`0n1
+R9
+31
+R21
+!i10b 1
+R11
+R22
+R23
+!i113 0
+R14
+R15
+Ecla_16_bit_tb
+Z25 w1662648376
+Z26 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R5
+R6
+!i122 8
+R1
+Z27 8D:/VHDL/projects/carry-look-ahead/tests/CLA_16_bit_tb.vhd
+Z28 FD:/VHDL/projects/carry-look-ahead/tests/CLA_16_bit_tb.vhd
+l0
+L6 1
+V8PN6dCHc[@^HXCLb]E@GN1
+!s100 <jnom_ceO4B]DLe[VW?c:3
+R9
+31
+R21
+!i10b 1
+Z29 !s108 1662666947.000000
+Z30 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/carry-look-ahead/tests/CLA_16_bit_tb.vhd|
+Z31 !s107 D:/VHDL/projects/carry-look-ahead/tests/CLA_16_bit_tb.vhd|
+!i113 0
+R14
+R15
+Abehave
+R16
+R26
+R5
+R6
+DEx4 work 13 cla_16_bit_tb 0 22 8PN6dCHc[@^HXCLb]E@GN1
+!i122 8
+l42
+L10 57
+Vd[@YnaLNL?UbAQo@H>YZe1
+!s100 4iU1755^8hEAOHlI_N8X91
+R9
+31
+R21
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R14
+R15
+Ecla_4_bit
+Z32 w1662635375
+R5
+R6
+!i122 5
+R1
+Z33 8D:/VHDL/projects/carry-look-ahead/CLA_4_bit.vhd
+Z34 FD:/VHDL/projects/carry-look-ahead/CLA_4_bit.vhd
+l0
+L5 1
+VDiB26GgYOD:Q:PJzlHlk_2
+!s100 dW:3iAF0i3B`6_SGib>1H3
+R9
+31
+R10
+!i10b 1
+R11
+Z35 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/carry-look-ahead/CLA_4_bit.vhd|
+Z36 !s107 D:/VHDL/projects/carry-look-ahead/CLA_4_bit.vhd|
+!i113 0
+R14
+R15
+Artl
+Z37 DEx4 work 10 full_adder 0 22 Ze:HR;bPY7WXR_8TS[1aS3
+R5
+R6
+R24
+!i122 5
+l28
+L18 29
+V7RAeZfM5T8C4F<<i[d1bd3
+!s100 TTolzVgNLM6hMf`lkCo1z2
+R9
+31
+R10
+!i10b 1
+R11
+R35
+R36
+!i113 0
+R14
+R15
+Ecla_4_bit_tb
+Z38 w1662649217
+Z39 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R5
+R6
+!i122 7
+R1
+Z40 8D:/VHDL/projects/carry-look-ahead/tests/CLA_4_bit_tb.vhd
+Z41 FD:/VHDL/projects/carry-look-ahead/tests/CLA_4_bit_tb.vhd
+l0
+L6 1
+VoEg[zBz`BL@9gNXWL93]T0
+!s100 ^dg<S]UWhEeW]YbRg_=cX0
+R9
+31
+R21
+!i10b 1
+R29
+Z42 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/carry-look-ahead/tests/CLA_4_bit_tb.vhd|
+Z43 !s107 D:/VHDL/projects/carry-look-ahead/tests/CLA_4_bit_tb.vhd|
+!i113 0
+R14
+R15
+Abehave
+R24
+R39
+R5
+R6
+DEx4 work 12 cla_4_bit_tb 0 22 oEg[zBz`BL@9gNXWL93]T0
+!i122 7
+l47
+L10 62
+V6Ck3Ee[MfifSJVgef854j3
+!s100 D[2^g]ziS72ncj0>VG^U`3
+R9
+31
+R21
+!i10b 1
+R29
+R42
+R43
+!i113 0
+R14
+R15
+Ecla_tb
+Z44 w1662668722
+R5
+R6
+!i122 19
+R1
+Z45 8D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd
+Z46 FD:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd
+l0
+L5 1
+VkG=H0cd<jGY8gFm?W=]0@3
+!s100 S4DXTA3gm2L:FdQzRg4OK2
+R9
+32
+Z47 !s110 1662668731
+!i10b 1
+Z48 !s108 1662668731.000000
+Z49 !s90 -reportprogress|300|-work|work|D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd|
+Z50 !s107 D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd|
+!i113 0
+Z51 o-work work
+R15
+Abehave
+R17
+R5
+R6
+DEx4 work 6 cla_tb 0 22 kG=H0cd<jGY8gFm?W=]0@3
+!i122 19
+l43
+L9 57
+VT_EVO;zQ@bkUK4Dk1[^6D1
+!s100 ZO:ZCE0>Bg=710QQcC`W@2
+R9
+32
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 0
+R51
+R15
+Efull_adder
+Z52 w1662582329
+R5
+R6
+!i122 4
+R1
+Z53 8D:/VHDL/projects/carry-look-ahead/full_adder.vhd
+Z54 FD:/VHDL/projects/carry-look-ahead/full_adder.vhd
+l0
+L5 1
+VZe:HR;bPY7WXR_8TS[1aS3
+!s100 ;6RoiaWhCHDAc1fMB:@0e3
+R9
+31
+R10
+!i10b 1
+R11
+Z55 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/carry-look-ahead/full_adder.vhd|
+Z56 !s107 D:/VHDL/projects/carry-look-ahead/full_adder.vhd|
+!i113 0
+R14
+R15
+Artl
+R5
+R6
+R37
+!i122 4
+l21
+L18 11
+V2PYL6R<V:ooG94DiTINT71
+!s100 LLkfdoTQz[R<N0aLDL]2C1
+R9
+31
+R10
+!i10b 1
+R11
+R55
+R56
+!i113 0
+R14
+R15
+Efull_adder_tb
+Z57 w1662583268
+R5
+R6
+!i122 9
+R1
+Z58 8D:/VHDL/projects/carry-look-ahead/tests/full_adder_tb.vhd
+Z59 FD:/VHDL/projects/carry-look-ahead/tests/full_adder_tb.vhd
+l0
+L5 1
+VL=f^6LJEKd2Uaf0BEo3Ee2
+!s100 _J[Q@D52Kj6FPimCW9e7c0
+R9
+31
+R21
+!i10b 1
+R29
+Z60 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/carry-look-ahead/tests/full_adder_tb.vhd|
+Z61 !s107 D:/VHDL/projects/carry-look-ahead/tests/full_adder_tb.vhd|
+!i113 0
+R14
+R15
+Abehave
+R37
+R5
+R6
+DEx4 work 13 full_adder_tb 0 22 L=f^6LJEKd2Uaf0BEo3Ee2
+!i122 9
+l17
+L9 35
+V4NcXl2A`01JD;TZe^fmG;3
+!s100 :bG4L?QOdc[RmzGZD2W4O3
+R9
+31
+R21
+!i10b 1
+R29
+R60
+R61
+!i113 0
+R14
+R15

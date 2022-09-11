@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity register_1_bit_tb is
+end register_1_bit_tb;
+
+
+architecture behave of register_1_bit_tb is
+begin
+
+end behave;

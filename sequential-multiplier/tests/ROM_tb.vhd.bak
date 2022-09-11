@@ -1,0 +1,49 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity ROM_tb is
+end ROM_tb;
+
+
+architecture behave of ROM_tb is
+	signal d,q,clr: std_logic := '0';
+	signal clk : std_logic := '0';
+	constant half_period: time := 5ns;
+	
+	-- lookup table for the test values
+	type test_vector is record
+		  d,q,clr: std_logic;
+   end record; 
+	
+	type test_vector_array is array(natural range<>) of test_vector;
+	constant test_vectors : test_vector_array := (
+		('0', '0','0'),
+		('1', '1','0'),
+		('0', '0','0'),
+		('1', '1','0'),
+		('1', '0','1')
+	);
+begin
+	register_1_bit_ins : entity work.register_1_bit port map(d=>d,q=>q,clk=>clk,clr=>clr);
+	
+	clk_process: process
+	begin
+		for i in test_vectors'range loop
+			wait for 2ns;
+			d <= test_vectors(i).d;
+			clr <= test_vectors(i).clr;
+			wait for 3ns;
+			clk <= not clk;
+			wait for 5ns;
+			clk <= not clk;
+			
+			-- test if the outcome is correct
+			assert((q=test_vectors(i).q))
+			report "test_vector failed for input d="&std_logic'image(d)&
+					 ", clr="&std_logic'image(clr) severity error;
+			-- end the test.
+		end loop;
+		wait;
+	end process clk_process;
+end behave;

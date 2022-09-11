@@ -1,0 +1,14 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/adder/full_adder.vhd}
+vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/register/register_1_bit.vhd}
+vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/controller/controller.vhd}
+vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/adder/CLA_4_bit.vhd}
+vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/register/register_4_bit.vhd}
+vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd}
+

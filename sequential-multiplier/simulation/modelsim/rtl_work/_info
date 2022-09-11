@@ -1,0 +1,551 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/VHDL/projects/sequential-multiplier/simulation/modelsim
+T_opt
+!s110 1662905920
+VZe2CJ>^83g^2<@15=1k3J2
+04 21 3 work sequential_multiplier rtl 1
+=1-8a3bfdebd3f1-631dee3f-384-4668
+!s124 OEM10U31 
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1662907983
+VOkG_SW5QWj<daa54gHQWG2
+04 24 6 work sequential_multiplier_tb behave 1
+=7-8a3bfdebd3f1-631df64e-288-d88
+!s124 OEM10U37 
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+Ecla_4_bit
+Z4 w1662635375
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 3
+R1
+Z7 8D:/VHDL/projects/sequential-multiplier/components/adder/CLA_4_bit.vhd
+Z8 FD:/VHDL/projects/sequential-multiplier/components/adder/CLA_4_bit.vhd
+l0
+L5 1
+VDiB26GgYOD:Q:PJzlHlk_2
+!s100 dW:3iAF0i3B`6_SGib>1H3
+Z9 OL;C;2021.2;73
+31
+Z10 !s110 1662905914
+!i10b 1
+Z11 !s108 1662905914.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/sequential-multiplier/components/adder/CLA_4_bit.vhd|
+Z13 !s107 D:/VHDL/projects/sequential-multiplier/components/adder/CLA_4_bit.vhd|
+!i113 0
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Artl
+Z16 DEx4 work 10 full_adder 0 22 Ze:HR;bPY7WXR_8TS[1aS3
+R5
+R6
+Z17 DEx4 work 9 cla_4_bit 0 22 DiB26GgYOD:Q:PJzlHlk_2
+!i122 3
+l28
+L18 29
+V7RAeZfM5T8C4F<<i[d1bd3
+!s100 TTolzVgNLM6hMf`lkCo1z2
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Econtroller
+Z18 w1662905542
+R5
+R6
+!i122 11
+R1
+Z19 8D:/VHDL/projects/sequential-multiplier/components/controller/controller.vhd
+Z20 FD:/VHDL/projects/sequential-multiplier/components/controller/controller.vhd
+l0
+L8 1
+V8KA9AO@UCHM_^Id5olF:N1
+!s100 <]2]HRk>JHXU]UGYUYD9:2
+R9
+31
+Z21 !s110 1662905917
+!i10b 1
+Z22 !s108 1662905917.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/sequential-multiplier/components/controller/controller.vhd|
+Z24 !s107 D:/VHDL/projects/sequential-multiplier/components/controller/controller.vhd|
+!i113 0
+R14
+R15
+Artl
+Z25 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z26 DEx4 work 3 rom 0 22 >C;9FGiR1P]C69PAXHEPm0
+Z27 DEx4 work 14 state_register 0 22 J94DVK^fzdCiz3OmYO>AF3
+R5
+R6
+Z28 DEx4 work 10 controller 0 22 8KA9AO@UCHM_^Id5olF:N1
+!i122 11
+l26
+L22 22
+VJ@zeNa28K`^HRZ^9Bo7cj3
+!s100 Rk;dKnnL;KJUdIG>50Clc1
+R9
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R14
+R15
+Econtroller_tb
+Z29 w1662887923
+R5
+R6
+!i122 16
+R1
+Z30 8D:/VHDL/projects/sequential-multiplier/tests/controller_tb.vhd
+Z31 FD:/VHDL/projects/sequential-multiplier/tests/controller_tb.vhd
+l0
+L5 1
+V>gMZM5HJ1=zI==AoS?8Xh3
+!s100 EA@iBJGM]>OmNzABL>B;a1
+R9
+32
+Z32 !s110 1662907076
+!i10b 1
+Z33 !s108 1662907075.000000
+Z34 !s90 -reportprogress|300|-work|work|D:/VHDL/projects/sequential-multiplier/tests/controller_tb.vhd|
+Z35 !s107 D:/VHDL/projects/sequential-multiplier/tests/controller_tb.vhd|
+!i113 0
+Z36 o-work work
+R15
+Abehave
+R28
+R5
+R6
+DEx4 work 13 controller_tb 0 22 >gMZM5HJ1=zI==AoS?8Xh3
+!i122 16
+l53
+L9 79
+VjNnJmU:a^8kKe[?5hQ2cQ1
+!s100 z53`UjT0TIT?B>mRS3H1a3
+R9
+32
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 0
+R36
+R15
+Efull_adder
+Z37 w1662582329
+R5
+R6
+!i122 0
+R1
+Z38 8D:/VHDL/projects/sequential-multiplier/components/adder/full_adder.vhd
+Z39 FD:/VHDL/projects/sequential-multiplier/components/adder/full_adder.vhd
+l0
+L5 1
+VZe:HR;bPY7WXR_8TS[1aS3
+!s100 ;6RoiaWhCHDAc1fMB:@0e3
+R9
+31
+R10
+!i10b 1
+Z40 !s108 1662905913.000000
+Z41 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/sequential-multiplier/components/adder/full_adder.vhd|
+Z42 !s107 D:/VHDL/projects/sequential-multiplier/components/adder/full_adder.vhd|
+!i113 0
+R14
+R15
+Artl
+R5
+R6
+R16
+!i122 0
+l21
+L18 11
+V2PYL6R<V:ooG94DiTINT71
+!s100 LLkfdoTQz[R<N0aLDL]2C1
+R9
+31
+R10
+!i10b 1
+R40
+R41
+R42
+!i113 0
+R14
+R15
+Eregister_1_bit
+Z43 w1662896908
+R5
+R6
+!i122 1
+R1
+Z44 8D:/VHDL/projects/sequential-multiplier/components/register/register_1_bit.vhd
+Z45 FD:/VHDL/projects/sequential-multiplier/components/register/register_1_bit.vhd
+l0
+L5 1
+V0QjWlRSQi=3o]<Z?5hbKz1
+!s100 jjk:2X1?dnnHT_]e[MEjg0
+R9
+31
+R10
+!i10b 1
+R11
+Z46 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/sequential-multiplier/components/register/register_1_bit.vhd|
+Z47 !s107 D:/VHDL/projects/sequential-multiplier/components/register/register_1_bit.vhd|
+!i113 0
+R14
+R15
+Artl
+R5
+R6
+Z48 DEx4 work 14 register_1_bit 0 22 0QjWlRSQi=3o]<Z?5hbKz1
+!i122 1
+l16
+L15 11
+Vf6B03ac;37gAXSCLNOOmY2
+!s100 Z37>j7D1e1Wk_lD@3<bOV1
+R9
+31
+R10
+!i10b 1
+R11
+R46
+R47
+!i113 0
+R14
+R15
+Eregister_1_bit_tb
+Z49 w1662762939
+R5
+R6
+!i122 9
+R1
+Z50 8D:/VHDL/projects/sequential-multiplier/tests/register_1_bit_tb.vhd
+Z51 FD:/VHDL/projects/sequential-multiplier/tests/register_1_bit_tb.vhd
+l0
+L5 1
+V;6dWBDM3`baU[X@Mo4W9[1
+!s100 TR_UE_93mQ7X;THUVG7za1
+R9
+31
+Z52 !s110 1662905916
+!i10b 1
+Z53 !s108 1662905916.000000
+Z54 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/sequential-multiplier/tests/register_1_bit_tb.vhd|
+Z55 !s107 D:/VHDL/projects/sequential-multiplier/tests/register_1_bit_tb.vhd|
+!i113 0
+R14
+R15
+Abehave
+R48
+R5
+R6
+DEx4 work 17 register_1_bit_tb 0 22 ;6dWBDM3`baU[X@Mo4W9[1
+!i122 9
+l27
+L9 41
+Vl8c9>Zg4Rb^Si>SULEnQT0
+!s100 dkKiIRcRaPO9BIfTBV>RE1
+R9
+31
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 0
+R14
+R15
+Eregister_4_bit
+Z56 w1662719249
+R5
+R6
+!i122 4
+R1
+Z57 8D:/VHDL/projects/sequential-multiplier/components/register/register_4_bit.vhd
+Z58 FD:/VHDL/projects/sequential-multiplier/components/register/register_4_bit.vhd
+l0
+L4 1
+VO_6@U[PW=UR>j^l[1@Q@03
+!s100 VTWz>Hzzk<67>GK44CJVO2
+R9
+31
+Z59 !s110 1662905915
+!i10b 1
+R11
+Z60 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/sequential-multiplier/components/register/register_4_bit.vhd|
+Z61 !s107 D:/VHDL/projects/sequential-multiplier/components/register/register_4_bit.vhd|
+!i113 0
+R14
+R15
+Artl
+R48
+R5
+R6
+Z62 DEx4 work 14 register_4_bit 0 22 O_6@U[PW=UR>j^l[1@Q@03
+!i122 4
+l14
+L13 7
+VSi^kAWI5hF<`>74jT?z1Y3
+!s100 FeRWP1<Gjl@UlHijh7>5I2
+R9
+31
+R59
+!i10b 1
+R11
+R60
+R61
+!i113 0
+R14
+R15
+Erom
+Z63 w1662905523
+R25
+R5
+R6
+!i122 2
+R1
+Z64 8D:/VHDL/projects/sequential-multiplier/components/controller/ROM.vhd
+Z65 FD:/VHDL/projects/sequential-multiplier/components/controller/ROM.vhd
+l0
+L6 1
+V>C;9FGiR1P]C69PAXHEPm0
+!s100 Aj7=^5i49Qd]FX]nQe1;k3
+R9
+31
+R10
+!i10b 1
+R11
+Z66 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/sequential-multiplier/components/controller/ROM.vhd|
+Z67 !s107 D:/VHDL/projects/sequential-multiplier/components/controller/ROM.vhd|
+!i113 0
+R14
+R15
+Artl
+R25
+R5
+R6
+R26
+!i122 2
+l91
+L14 87
+VDlK05]b?n>9?D^PT]?EPg2
+!s100 QXQPbgjigCei:FJ2oRVlV1
+R9
+31
+R10
+!i10b 1
+R11
+R66
+R67
+!i113 0
+R14
+R15
+Erom_tb
+Z68 w1662804946
+R5
+R6
+!i122 10
+R1
+Z69 8D:/VHDL/projects/sequential-multiplier/tests/ROM_tb.vhd
+Z70 FD:/VHDL/projects/sequential-multiplier/tests/ROM_tb.vhd
+l0
+L5 1
+VTIlcSICc2Lfz56jKCBj[Q0
+!s100 WO[J6TG0i;D<dj_kV_b<51
+R9
+31
+R21
+!i10b 1
+R53
+Z71 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/sequential-multiplier/tests/ROM_tb.vhd|
+Z72 !s107 D:/VHDL/projects/sequential-multiplier/tests/ROM_tb.vhd|
+!i113 0
+R14
+R15
+Abehave
+R25
+R26
+R5
+R6
+DEx4 work 6 rom_tb 0 22 TIlcSICc2Lfz56jKCBj[Q0
+!i122 10
+l48
+L9 56
+V]njdSjB?QciKHOUJ0UH900
+!s100 eSX1VHdz1NTVOUGin]RQS0
+R9
+31
+R21
+!i10b 1
+R53
+R71
+R72
+!i113 0
+R14
+R15
+Esequential_multiplier
+Z73 w1662907170
+R5
+R6
+!i122 19
+R1
+Z74 8D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd
+Z75 FD:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd
+l0
+L9 1
+VL^z]:6=A8ei0<<d?aN>nI3
+!s100 oBcb<YShnlO9j_6?[;jFV0
+R9
+32
+Z76 !s110 1662907177
+!i10b 1
+Z77 !s108 1662907177.000000
+Z78 !s90 -reportprogress|300|-work|work|D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd|
+Z79 !s107 D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd|
+!i113 0
+R36
+R15
+Artl
+R17
+R48
+R62
+R28
+R5
+R6
+Z80 DEx4 work 21 sequential_multiplier 0 22 L^z]:6=A8ei0<<d?aN>nI3
+!i122 19
+l39
+L19 83
+VTimL>_b2z<6R[L6d`Pk@Z0
+!s100 0c3_jIe1n21DFHi^_D:Ll2
+R9
+32
+R76
+!i10b 1
+R77
+R78
+R79
+!i113 0
+R36
+R15
+Esequential_multiplier_tb
+Z81 w1662907915
+R25
+R5
+R6
+!i122 20
+R1
+Z82 8D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd
+Z83 FD:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd
+l0
+L6 1
+VH3>2aGSC8mfaC[AboT]Ej2
+!s100 eW81:bEMM4zmb5i?o_3]30
+R9
+32
+Z84 !s110 1662907946
+!i10b 1
+Z85 !s108 1662907946.000000
+Z86 !s90 -reportprogress|300|-work|work|D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd|
+Z87 !s107 D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd|
+!i113 0
+R36
+R15
+Abehave
+R80
+R25
+R5
+R6
+DEx4 work 24 sequential_multiplier_tb 0 22 H3>2aGSC8mfaC[AboT]Ej2
+!i122 20
+l14
+L10 38
+VPn0c^8N@=WMgY=ok:_Yc^3
+!s100 @@?n6Bm`U2i`ib42KMLJf1
+R9
+32
+R84
+!i10b 1
+R85
+R86
+R87
+!i113 0
+R36
+R15
+Estate_register
+Z88 w1662806104
+R5
+R6
+!i122 5
+R1
+Z89 8D:/VHDL/projects/sequential-multiplier/components/controller/state_register.vhd
+Z90 FD:/VHDL/projects/sequential-multiplier/components/controller/state_register.vhd
+l0
+L5 1
+VJ94DVK^fzdCiz3OmYO>AF3
+!s100 ^VJ8oHhB::lBJnggjNTVJ2
+R9
+31
+R59
+!i10b 1
+Z91 !s108 1662905915.000000
+Z92 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/sequential-multiplier/components/controller/state_register.vhd|
+Z93 !s107 D:/VHDL/projects/sequential-multiplier/components/controller/state_register.vhd|
+!i113 0
+R14
+R15
+Artl
+R48
+R62
+R5
+R6
+R27
+!i122 5
+l16
+L15 9
+V5Ck]1JLH:]j;C28Oe0<DT1
+!s100 1PbS7B;CWYP[7>5DhDAK;2
+R9
+31
+R59
+!i10b 1
+R91
+R92
+R93
+!i113 0
+R14
+R15

@@ -1,0 +1,117 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11e vcom 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/VHDL/projects/project1/simulation/modelsim
+T_opt
+!s110 1662580384
+Va;z8HQFhEUz2_fBG[2L<F1
+04 18 3 work and_gate_simulator rtl 1
+=1-8a3bfdebd3f1-6318f69e-290-4194
+!s124 OEM10U1 
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1662580408
+VP8E]XkAC0F27mhRFb0[=o3
+04 21 2 work and_gate_simulator_tb tb 1
+=1-8a3bfdebd3f1-6318f6b6-3af-45c4
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+Eand_gate_simulator
+Z4 w1662569319
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R1
+Z7 8D:/VHDL/projects/project1/and_gate_simulator.vhd
+Z8 FD:/VHDL/projects/project1/and_gate_simulator.vhd
+l0
+L5 1
+VkMBjDPa`>cEo`o6JGO65P3
+!s100 Z[D4a?[^AMl2g`8zIK?__1
+Z9 OL;C;2021.2;73
+31
+Z10 !s110 1662580379
+!i10b 1
+Z11 !s108 1662580378.000000
+Z12 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/project1/and_gate_simulator.vhd|
+Z13 !s107 D:/VHDL/projects/project1/and_gate_simulator.vhd|
+!i113 0
+Z14 o-93 -work work
+Z15 tExplicit 1 CvgOpt 0
+Artl
+R5
+R6
+Z16 DEx4 work 18 and_gate_simulator 0 22 kMBjDPa`>cEo`o6JGO65P3
+!i122 0
+l15
+L14 4
+VjYnlB7nM6EjSX[9_QeMcl2
+!s100 z^W6boK5zO6lI19jMUWPN1
+R9
+31
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Eand_gate_simulator_tb
+Z17 w1662580264
+R5
+R6
+!i122 1
+R1
+Z18 8D:/VHDL/projects/project1/and_gate_simulator_tb.vhd
+Z19 FD:/VHDL/projects/project1/and_gate_simulator_tb.vhd
+l0
+L5 1
+VJo>90]JlPB8Oi_;J2SkHm0
+!s100 6LbFVER0jT]ZBoTP_24PN3
+R9
+31
+Z20 !s110 1662580380
+!i10b 1
+Z21 !s108 1662580379.000000
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/VHDL/projects/project1/and_gate_simulator_tb.vhd|
+Z23 !s107 D:/VHDL/projects/project1/and_gate_simulator_tb.vhd|
+!i113 0
+R14
+R15
+Atb
+R16
+R5
+R6
+DEx4 work 21 and_gate_simulator_tb 0 22 Jo>90]JlPB8Oi_;J2SkHm0
+!i122 1
+l12
+L9 17
+VB7?2>1^RIT5LfE9X2J@R>0
+!s100 76P=dMKFFUTYZCc`E<I2A2
+R9
+31
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R14
+R15

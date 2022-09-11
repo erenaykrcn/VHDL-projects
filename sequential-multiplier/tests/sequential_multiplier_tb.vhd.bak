@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity sequential_multiplier_tb is
+end sequential_multiplier_tb;
+
+
+architecture behave of sequential_multiplier_tb is
+
+end behave;

@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity state_register is
+	port(
+		d: in std_logic_vector(4 downto 0);
+		clr: in std_logic;
+		clk: in std_logic;
+		q: out std_logic_vector(4 downto 0)
+	);
+end state_register;
+
+
+architecture rtl of state_register is
+begin
+	register_4_bit: entity work.register_4_bit port map(
+		d=>d(3 downto 0),clr=>clr,clk=>clk,q=>q(3 downto 0)
+	);
+	register_1_bit: entity work.register_1_bit port map(
+		d=>d(4),clr=>clr,clk=>clk,q=>q(4)
+	);
+end rtl;

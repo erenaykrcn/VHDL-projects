@@ -1,0 +1,64 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity ROM_tb is
+end ROM_tb;
+
+
+architecture behave of ROM_tb is
+	-- helper function to print out the bit vector
+	function vec2str(vec: std_logic_vector) return string is
+		variable result: string(vec'left+1 downto 1);
+	begin
+	  for i in vec'range loop
+		 if (vec(i) = '1') then
+			result(i+1) := '1';
+		 elsif (vec(i) = '0') then
+			result(i+1) := '0';
+		 else
+			result(i+1) := 'X';
+		 end if;
+	  end loop;
+	return result;
+	end function;
+
+	signal address: std_logic_vector(5 downto 0);
+	signal data: std_logic_vector(8 downto 0);
+	
+	-- lookup table for the test values
+	type test_vector is record
+		  address: std_logic_vector(5 downto 0);
+		  data: std_logic_vector(8 downto 0);
+   end record;
+	
+	type test_vector_array is array(natural range<>) of test_vector;
+	constant test_vectors : test_vector_array := (
+		("000000", "000000001"),
+		("000001", "000000010"),
+		("000010", "110000101"),
+		("000011", "XXXXXXXXX"),
+		("000100", "XXXXXXXXX"),
+		("000101", "00X101110"),
+		("000110", "01X100111"),
+		("000111", "00XX00111"),
+		("001000", "000000000"),
+		("001001", "XXXXXXXXX")
+	);
+begin
+	ROM_ins : entity work.ROM port map(address=>address,data=>data);
+	
+	tb: process
+	begin
+		for i in test_vectors'range loop
+			address <= test_vectors(i).address;
+			wait for 50ns;
+			
+			-- test if the outcome is correct
+			assert((data=test_vectors(i).data))
+			report "test_vector failed for input address="&vec2str(address) severity error;
+			-- end the test.
+		end loop;
+		wait;
+	end process;
+end behave;

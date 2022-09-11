@@ -1,0 +1,378 @@
+|sequential_multiplier
+multiplicator[0] => pr_3_to_0_in.IN1
+multiplicator[1] => pr_3_to_0_in.IN1
+multiplicator[2] => pr_3_to_0_in.IN1
+multiplicator[3] => pr_3_to_0_in.IN1
+multiplicand[0] => Equal0.IN3
+multiplicand[0] => register_4_bit:multiplicand_register.d[0]
+multiplicand[1] => Equal0.IN2
+multiplicand[1] => register_4_bit:multiplicand_register.d[1]
+multiplicand[2] => Equal0.IN1
+multiplicand[2] => register_4_bit:multiplicand_register.d[2]
+multiplicand[3] => Equal0.IN0
+multiplicand[3] => register_4_bit:multiplicand_register.d[3]
+product[0] <= register_4_bit:product_register_3_to_0.q[0]
+product[1] <= register_4_bit:product_register_3_to_0.q[1]
+product[2] <= register_4_bit:product_register_3_to_0.q[2]
+product[3] <= register_4_bit:product_register_3_to_0.q[3]
+product[4] <= register_4_bit:product_register_7_to_4.q[0]
+product[5] <= register_4_bit:product_register_7_to_4.q[1]
+product[6] <= register_4_bit:product_register_7_to_4.q[2]
+product[7] <= register_4_bit:product_register_7_to_4.q[3]
+overflow <= register_1_bit:product_register_8.q
+
+
+|sequential_multiplier|controller:controller
+pr_0 => rom:ROM_ins.address[5]
+init => state_register:state_register_ins.clr
+clk_mcand <= rom:ROM_ins.data[8]
+clk_prod <= rom:ROM_ins.data[7]
+mux <= rom:ROM_ins.data[6]
+shift <= rom:ROM_ins.data[5]
+clk => state_register:state_register_ins.clk
+
+
+|sequential_multiplier|controller:controller|state_register:state_register_ins
+d[0] => register_4_bit:register_4_bit.d[0]
+d[1] => register_4_bit:register_4_bit.d[1]
+d[2] => register_4_bit:register_4_bit.d[2]
+d[3] => register_4_bit:register_4_bit.d[3]
+d[4] => register_1_bit:register_1_bit.d
+clr => register_4_bit:register_4_bit.clr
+clr => register_1_bit:register_1_bit.clr
+clk => register_4_bit:register_4_bit.clk
+clk => register_1_bit:register_1_bit.clk
+q[0] <= register_4_bit:register_4_bit.q[0]
+q[1] <= register_4_bit:register_4_bit.q[1]
+q[2] <= register_4_bit:register_4_bit.q[2]
+q[3] <= register_4_bit:register_4_bit.q[3]
+q[4] <= register_1_bit:register_1_bit.q
+
+
+|sequential_multiplier|controller:controller|state_register:state_register_ins|register_4_bit:register_4_bit
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|sequential_multiplier|controller:controller|state_register:state_register_ins|register_4_bit:register_4_bit|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|controller:controller|state_register:state_register_ins|register_4_bit:register_4_bit|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|controller:controller|state_register:state_register_ins|register_4_bit:register_4_bit|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|controller:controller|state_register:state_register_ins|register_4_bit:register_4_bit|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|controller:controller|state_register:state_register_ins|register_1_bit:register_1_bit
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|controller:controller|ROM:ROM_ins
+address[0] => Mux0.IN10
+address[0] => Mux1.IN10
+address[0] => Mux2.IN10
+address[0] => Mux3.IN10
+address[0] => Mux4.IN19
+address[0] => Mux5.IN19
+address[0] => Mux6.IN69
+address[0] => Mux7.IN69
+address[0] => Mux8.IN69
+address[1] => Mux0.IN9
+address[1] => Mux1.IN9
+address[1] => Mux2.IN9
+address[1] => Mux3.IN9
+address[1] => Mux5.IN18
+address[1] => Mux6.IN68
+address[1] => Mux7.IN68
+address[1] => Mux8.IN68
+address[2] => Mux0.IN8
+address[2] => Mux1.IN8
+address[2] => Mux2.IN8
+address[2] => Mux3.IN8
+address[2] => Mux4.IN18
+address[2] => Mux5.IN17
+address[2] => Mux6.IN67
+address[2] => Mux7.IN67
+address[2] => Mux8.IN67
+address[3] => Mux4.IN17
+address[3] => Mux5.IN16
+address[3] => Mux6.IN66
+address[3] => Mux7.IN66
+address[3] => Mux8.IN66
+address[4] => Mux4.IN16
+address[4] => Mux6.IN65
+address[4] => Mux7.IN65
+address[4] => Mux8.IN65
+address[5] => Mux6.IN64
+address[5] => Mux7.IN64
+address[5] => Mux8.IN64
+data[0] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+data[1] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+data[2] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+data[3] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+data[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+data[5] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+data[6] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+data[7] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+data[8] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:multiplicand_register
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|sequential_multiplier|register_4_bit:multiplicand_register|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:multiplicand_register|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:multiplicand_register|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:multiplicand_register|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:product_register_3_to_0
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|sequential_multiplier|register_4_bit:product_register_3_to_0|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:product_register_3_to_0|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:product_register_3_to_0|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:product_register_3_to_0|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:product_register_7_to_4
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|sequential_multiplier|register_4_bit:product_register_7_to_4|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:product_register_7_to_4|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:product_register_7_to_4|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_4_bit:product_register_7_to_4|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|register_1_bit:product_register_8
+d => q~reg0.DATAIN
+clr => q~reg0.ACLR
+clk => q~reg0.CLK
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|CLA_4_bit:adder
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|sequential_multiplier|CLA_4_bit:adder|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|CLA_4_bit:adder|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|CLA_4_bit:adder|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sequential_multiplier|CLA_4_bit:adder|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+

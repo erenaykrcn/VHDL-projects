@@ -1,0 +1,482 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do CLA_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying D:/VHDL/IntelQuartus/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/VHDL/projects/carry-look-ahead/full_adder.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:55:45 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/carry-look-ahead/full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder
+# -- Compiling architecture rtl of full_adder
+# End time: 21:55:45 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/carry-look-ahead/CLA_4_bit.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:55:46 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/carry-look-ahead/CLA_4_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_4_bit
+# -- Compiling architecture rtl of CLA_4_bit
+# -- Loading entity full_adder
+# End time: 21:55:46 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/carry-look-ahead/CLA_16_bit.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:55:46 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/carry-look-ahead/CLA_16_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_16_bit
+# -- Compiling architecture rtl of CLA_16_bit
+# -- Loading entity CLA_4_bit
+# End time: 21:55:46 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/carry-look-ahead/CLA.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:55:46 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/carry-look-ahead/CLA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA
+# -- Compiling architecture rtl of CLA
+# -- Loading entity CLA_16_bit
+# End time: 21:55:46 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {D:/VHDL/projects/carry-look-ahead/full_adder.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:55:46 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/carry-look-ahead/full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder
+# -- Compiling architecture rtl of full_adder
+# End time: 21:55:46 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/carry-look-ahead/CLA_4_bit.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:55:46 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/carry-look-ahead/CLA_4_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_4_bit
+# -- Compiling architecture rtl of CLA_4_bit
+# -- Loading entity full_adder
+# End time: 21:55:46 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/carry-look-ahead/CLA_16_bit.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:55:46 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/carry-look-ahead/CLA_16_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_16_bit
+# -- Compiling architecture rtl of CLA_16_bit
+# -- Loading entity CLA_4_bit
+# End time: 21:55:47 on Sep 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/carry-look-ahead/tests/CLA_4_bit_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:55:47 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_4_bit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Compiling entity CLA_4_bit_tb
+# -- Compiling architecture behave of CLA_4_bit_tb
+# -- Loading entity CLA_4_bit
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_4_bit_tb.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:55:47 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom -93 -work work {D:/VHDL/projects/carry-look-ahead/tests/CLA_16_bit_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:55:47 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_16_bit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CLA_16_bit_tb
+# -- Compiling architecture behave of CLA_16_bit_tb
+# -- Loading entity CLA_16_bit
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_16_bit_tb.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:55:47 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom -93 -work work {D:/VHDL/projects/carry-look-ahead/tests/full_adder_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:55:47 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/carry-look-ahead/tests/full_adder_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder_tb
+# -- Compiling architecture behave of full_adder_tb
+# -- Loading entity full_adder
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/full_adder_tb.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/full_adder_tb.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/full_adder_tb.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/full_adder_tb.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:55:47 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# vcom -93 -work work {D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:55:47 on Sep 08,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_tb
+# -- Compiling architecture behave of CLA_tb
+# -- Loading entity CLA
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 21:55:47 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs="+acc"  CLA
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs=""+acc"" CLA 
+# Start time: 21:55:47 on Sep 08,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cla(rtl)#1
+# Loading work.cla_16_bit(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+vsim -voptargs=+acc work.cla_tb
+# End time: 21:56:42 on Sep 08,2022, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.cla_tb 
+# Start time: 21:56:42 on Sep 08,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cla_tb(behave)#1
+# Loading work.cla(rtl)#1
+# Loading work.cla_16_bit(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+add wave -position insertpoint  \
+sim:/cla_tb/x \
+sim:/cla_tb/y \
+sim:/cla_tb/s \
+sim:/cla_tb/inv \
+sim:/cla_tb/overflow
+add wave -position insertpoint  \
+sim:/cla_tb/x \
+sim:/cla_tb/y \
+sim:/cla_tb/s \
+sim:/cla_tb/inv \
+sim:/cla_tb/overflow
+# (vish-4014) No objects found matching 'sim:/cla_tb/x'.
+# (vish-4014) No objects found matching 'sim:/cla_tb/y'.
+# (vish-4014) No objects found matching 'sim:/cla_tb/s'.
+# (vish-4014) No objects found matching 'sim:/cla_tb/inv'.
+# (vish-4014) No objects found matching 'sim:/cla_tb/overflow'.
+run 50ns
+# ** Error: test_vector failed for input x=0000000000100001000000000000000000000000000000001000111111100000, y=0000000000000000110000000000000000000000000000000000111111100000
+#    Time: 40 ns  Iteration: 0  Instance: /cla_tb
+vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:05:45 on Sep 08,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_tb
+# -- Compiling architecture behave of CLA_tb
+# -- Loading entity CLA
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(56): (vcom-1581) No feasible entries for infix operator '&'.
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(56): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(56): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(56): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(57): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(57): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+# ** Note: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(63): VHDL Compiler exiting
+# End time: 22:05:46 on Sep 08,2022, Elapsed time: 0:00:01
+# Errors: 6, Warnings: 1
+vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:07:00 on Sep 08,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_tb
+# -- Compiling architecture behave of CLA_tb
+# -- Loading entity CLA
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(56): (vcom-1136) Unknown identifier "to_string".
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(56): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(56): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(56): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(57): (vcom-1590) Bad expression in left operand of infix expression '&'.
+# ** Error: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(57): Type error resolving infix expression "&" as type std.STANDARD.STRING.
+# ** Note: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(63): VHDL Compiler exiting
+# End time: 22:07:00 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 1
+vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:08:15 on Sep 08,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_tb
+# -- Compiling architecture behave of CLA_tb
+# -- Loading entity CLA
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 22:08:15 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.cla_tb
+# End time: 22:08:23 on Sep 08,2022, Elapsed time: 0:11:41
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc" work.cla_tb 
+# Start time: 22:08:23 on Sep 08,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cla_tb(behave)#1
+# Loading work.cla(rtl)#1
+# Loading work.cla_16_bit(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 50ns
+# ** Error: Test1: test_vector failed for input x=0000000000100001000000000000000000000000000000001000111111100000, y=0000000000000000110000000000000000000000000000000000111111100000
+#    Time: 40 ns  Iteration: 0  Instance: /cla_tb
+vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:10:11 on Sep 08,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_tb
+# -- Compiling architecture behave of CLA_tb
+# -- Loading entity CLA
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 22:10:11 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.cla_tb
+# End time: 22:10:18 on Sep 08,2022, Elapsed time: 0:01:55
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc" work.cla_tb 
+# Start time: 22:10:18 on Sep 08,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cla_tb(behave)#1
+# Loading work.cla(rtl)#1
+# Loading work.cla_16_bit(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 50ns
+# ** Error: Test1: test_vector failed for input x=0000000000100001000000000000000000000000000000001000111111100000, y=0000000000000000110000000000000000000000000000000000111111100000
+#    Time: 40 ns  Iteration: 0  Instance: /cla_tb
+vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:12:16 on Sep 08,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_tb
+# -- Compiling architecture behave of CLA_tb
+# -- Loading entity CLA
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 22:12:16 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.cla_tb
+# End time: 22:12:23 on Sep 08,2022, Elapsed time: 0:02:05
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc" work.cla_tb 
+# Start time: 22:12:23 on Sep 08,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cla_tb(behave)#1
+# Loading work.cla(rtl)#1
+# Loading work.cla_16_bit(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 50ns
+# ** Error: Test0: test_vector failed for input x=0000000000000000000000000000000000000000000000000000001001010110, y=0000000000000000110000000000000000000000000000000000000000000010
+#    Time: 20 ns  Iteration: 0  Instance: /cla_tb
+# ** Error: Test1: test_vector failed for input x=0000000000100001000000000000000000000000000000001000111111100000, y=0000000000000000110000000000000000000000000000000000111111100000
+#    Time: 40 ns  Iteration: 0  Instance: /cla_tb
+vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:14:15 on Sep 08,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_tb
+# -- Compiling architecture behave of CLA_tb
+# -- Loading entity CLA
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 22:14:15 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.cla_tb
+# End time: 22:14:23 on Sep 08,2022, Elapsed time: 0:02:00
+# Errors: 2, Warnings: 0
+# vsim -voptargs="+acc" work.cla_tb 
+# Start time: 22:14:23 on Sep 08,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cla_tb(behave)#1
+# Loading work.cla(rtl)#1
+# Loading work.cla_16_bit(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 50ns
+# ** Error: Test2: test_vector failed for input x=0000000000100001000000000000000000000000000000001000111111100000, y=0000000000000000110000000000000000000000000000000000111111100000
+#    Time: 40 ns  Iteration: 0  Instance: /cla_tb
+vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:18:13 on Sep 08,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_tb
+# -- Compiling architecture behave of CLA_tb
+# -- Loading entity CLA
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 22:18:13 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.cla_tb
+# End time: 22:18:21 on Sep 08,2022, Elapsed time: 0:03:58
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc" work.cla_tb 
+# Start time: 22:18:21 on Sep 08,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cla_tb(behave)#1
+# Loading work.cla(rtl)#1
+# Loading work.cla_16_bit(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 50ns
+vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:19:48 on Sep 08,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_tb
+# -- Compiling architecture behave of CLA_tb
+# -- Loading entity CLA
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 22:19:49 on Sep 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.cla_tb
+# End time: 22:19:57 on Sep 08,2022, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.cla_tb 
+# Start time: 22:19:57 on Sep 08,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cla_tb(behave)#1
+# Loading work.cla(rtl)#1
+# Loading work.cla_16_bit(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 100ns
+vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 22:25:31 on Sep 08,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_tb
+# -- Compiling architecture behave of CLA_tb
+# -- Loading entity CLA
+# ** Warning: D:/VHDL/projects/carry-look-ahead/tests/CLA_tb.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 22:25:31 on Sep 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim -voptargs=+acc work.cla_tb
+# End time: 22:25:41 on Sep 08,2022, Elapsed time: 0:05:44
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.cla_tb 
+# Start time: 22:25:41 on Sep 08,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cla_tb(behave)#1
+# Loading work.cla(rtl)#1
+# Loading work.cla_16_bit(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 250ns
+vsim -voptargs=+acc work.cla_tb
+# End time: 22:34:54 on Sep 08,2022, Elapsed time: 0:09:13
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.cla_tb 
+# Start time: 22:34:54 on Sep 08,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cla_tb(behave)#1
+# Loading work.cla(rtl)#1
+# Loading work.cla_16_bit(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 250ns
+# End time: 22:35:06 on Sep 08,2022, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0

@@ -1,0 +1,86 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do and_gate_simulator_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2021.2 Lib Mapping Utility 2021.04 Apr 14 2021
+# vmap work rtl_work 
+# Copying D:/VHDL/IntelQuartus/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/VHDL/projects/project1/and_gate_simulator.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:52:58 on Sep 07,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/project1/and_gate_simulator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_gate_simulator
+# -- Compiling architecture rtl of and_gate_simulator
+# End time: 21:52:59 on Sep 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {D:/VHDL/projects/project1/and_gate_simulator_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 21:52:59 on Sep 07,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/project1/and_gate_simulator_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and_gate_simulator_tb
+# -- Compiling architecture tb of and_gate_simulator_tb
+# -- Loading entity and_gate_simulator
+# End time: 21:53:00 on Sep 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs="+acc"  and_gate_simulator
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs=""+acc"" and_gate_simulator 
+# Start time: 21:53:00 on Sep 07,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.and_gate_simulator(rtl)#1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+vsim -voptargs=+acc work.and_gate_simulator_tb
+# End time: 21:53:25 on Sep 07,2022, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.and_gate_simulator_tb 
+# Start time: 21:53:25 on Sep 07,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.and_gate_simulator_tb(tb)#1
+# Loading work.and_gate_simulator(rtl)#1
+add wave -position insertpoint  \
+sim:/and_gate_simulator_tb/a
+add wave -position insertpoint  \
+sim:/and_gate_simulator_tb/b
+add wave -position insertpoint  \
+sim:/and_gate_simulator_tb/x
+run 50ns
+# End time: 21:58:22 on Sep 07,2022, Elapsed time: 0:04:57
+# Errors: 0, Warnings: 0

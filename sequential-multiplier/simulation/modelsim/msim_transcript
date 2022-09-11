@@ -1,0 +1,534 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# ** Error: License checkout has been disallowed because
+# only one session is allowed to run on an uncounted nodelocked
+# license and an instance of QuestaSim is already running with a
+# nodelocked license on this machine.
+# Unable to checkout a viewer license necessary for use of the Questa Intel Starter FPGA Edition graphical user interface.  Vsim is closing.
+
+# 
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/adder/full_adder.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:33 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/components/adder/full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder
+# -- Compiling architecture rtl of full_adder
+# End time: 16:18:34 on Sep 11,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/register/register_1_bit.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:34 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/components/register/register_1_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_1_bit
+# -- Compiling architecture rtl of register_1_bit
+# End time: 16:18:34 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/controller/ROM.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:34 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/components/controller/ROM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM
+# -- Compiling architecture rtl of ROM
+# End time: 16:18:34 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/adder/CLA_4_bit.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:34 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/components/adder/CLA_4_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CLA_4_bit
+# -- Compiling architecture rtl of CLA_4_bit
+# -- Loading entity full_adder
+# End time: 16:18:34 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/register/register_4_bit.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:34 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/components/register/register_4_bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_4_bit
+# -- Compiling architecture rtl of register_4_bit
+# -- Loading entity register_1_bit
+# End time: 16:18:35 on Sep 11,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/controller/state_register.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:35 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/components/controller/state_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity state_register
+# -- Compiling architecture rtl of state_register
+# -- Loading entity register_4_bit
+# -- Loading entity register_1_bit
+# End time: 16:18:35 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/controller/controller.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:35 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/components/controller/controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controller
+# -- Compiling architecture rtl of controller
+# -- Loading entity state_register
+# -- Loading package NUMERIC_STD
+# -- Loading entity ROM
+# End time: 16:18:35 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:36 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sequential_multiplier
+# -- Compiling architecture rtl of sequential_multiplier
+# ** Warning: D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity controller
+# -- Loading entity register_4_bit
+# -- Loading entity register_1_bit
+# -- Loading entity CLA_4_bit
+# End time: 16:18:36 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/tests/controller_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:36 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/tests/controller_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controller_tb
+# -- Compiling architecture behave of controller_tb
+# -- Loading entity controller
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/controller_tb.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:18:36 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/tests/register_1_bit_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:36 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/tests/register_1_bit_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_1_bit_tb
+# -- Compiling architecture behave of register_1_bit_tb
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/register_1_bit_tb.vhd(12): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity register_1_bit
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/register_1_bit_tb.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/register_1_bit_tb.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/register_1_bit_tb.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:18:36 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/tests/ROM_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:36 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/tests/ROM_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM_tb
+# -- Compiling architecture behave of ROM_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity ROM
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/ROM_tb.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:18:37 on Sep 11,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/components/controller/controller.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:37 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/components/controller/controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controller
+# -- Compiling architecture rtl of controller
+# -- Loading entity state_register
+# -- Loading package NUMERIC_STD
+# -- Loading entity ROM
+# End time: 16:18:37 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd}
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:37 on Sep 11,2022
+# vcom -reportprogress 300 -93 -work work D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sequential_multiplier_tb
+# -- Compiling architecture behave of sequential_multiplier_tb
+# -- Loading entity sequential_multiplier
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:18:37 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs="+acc"  sequential_multiplier
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L cyclonev_hssi -L rtl_work -L work -voptargs=""+acc"" sequential_multiplier 
+# Start time: 16:18:37 on Sep 11,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sequential_multiplier(rtl)#1
+# Loading ieee.numeric_std(body)
+# Loading work.controller(rtl)#1
+# Loading work.state_register(rtl)#1
+# Loading work.register_4_bit(rtl)#1
+# Loading work.register_1_bit(rtl)#1
+# Loading work.rom(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sequential_multiplier/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /sequential_multiplier/controller/ROM_ins
+# Break key hit
+# Simulation stop requested.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+add wave -position insertpoint  \
+sim:/sequential_multiplier/multiplicator \
+sim:/sequential_multiplier/multiplicand \
+sim:/sequential_multiplier/product
+run 200ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sequential_multiplier/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /sequential_multiplier/controller/ROM_ins
+vsim -voptargs=+acc work.sequential_multiplier_tb
+# End time: 16:19:43 on Sep 11,2022, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" work.sequential_multiplier_tb 
+# Start time: 16:19:43 on Sep 11,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sequential_multiplier_tb(behave)#1
+# Loading work.sequential_multiplier(rtl)#1
+# Loading ieee.numeric_std(body)
+# Loading work.controller(rtl)#1
+# Loading work.state_register(rtl)#1
+# Loading work.register_4_bit(rtl)#1
+# Loading work.register_1_bit(rtl)#1
+# Loading work.rom(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+add wave -position insertpoint  \
+sim:/sequential_multiplier_tb/multiplicator \
+sim:/sequential_multiplier_tb/multiplicand \
+sim:/sequential_multiplier_tb/product
+run 200ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 3  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:24:56 on Sep 11,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sequential_multiplier
+# -- Compiling architecture rtl of sequential_multiplier
+# ** Warning: D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity controller
+# -- Loading entity register_4_bit
+# -- Loading entity register_1_bit
+# -- Loading entity CLA_4_bit
+# End time: 16:24:56 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+run 200ns
+vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:26:38 on Sep 11,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sequential_multiplier
+# -- Compiling architecture rtl of sequential_multiplier
+# ** Warning: D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity controller
+# -- Loading entity register_4_bit
+# -- Loading entity register_1_bit
+# -- Loading entity CLA_4_bit
+# End time: 16:26:38 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13) Recompile work.sequential_multiplier_tb(behave) because work.sequential_multiplier has changed.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.sequential_multiplier_tb(behave)#1
+# Loading work.sequential_multiplier(rtl)#1
+# Loading ieee.numeric_std(body)
+# Loading work.controller(rtl)#1
+# Loading work.state_register(rtl)#1
+# Loading work.register_4_bit(rtl)#1
+# Loading work.register_1_bit(rtl)#1
+# Loading work.rom(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 500ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 3  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:27:47 on Sep 11,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sequential_multiplier_tb
+# -- Compiling architecture behave of sequential_multiplier_tb
+# -- Loading entity sequential_multiplier
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:27:47 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sequential_multiplier_tb(behave)#1
+# Loading work.sequential_multiplier(rtl)#1
+# Loading work.controller(rtl)#1
+# Loading work.state_register(rtl)#1
+# Loading work.register_4_bit(rtl)#1
+# Loading work.register_1_bit(rtl)#1
+# Loading work.rom(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 500ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 3  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Error: Test failed for operation: 
+#    Time: 400 ns  Iteration: 0  Instance: /sequential_multiplier_tb
+add wave -position insertpoint  \
+sim:/sequential_multiplier_tb/sequential_multiplier_ins/init
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+run 500ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 3  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Error: Test failed for operation: 
+#    Time: 400 ns  Iteration: 0  Instance: /sequential_multiplier_tb
+vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/tests/controller_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:37:55 on Sep 11,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/tests/controller_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controller_tb
+# -- Compiling architecture behave of controller_tb
+# -- Loading entity controller
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/controller_tb.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:37:56 on Sep 11,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:38:02 on Sep 11,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sequential_multiplier_tb
+# -- Compiling architecture behave of sequential_multiplier_tb
+# -- Loading entity sequential_multiplier
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:38:02 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:38:07 on Sep 11,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sequential_multiplier
+# -- Compiling architecture rtl of sequential_multiplier
+# ** Warning: D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity controller
+# -- Loading entity register_4_bit
+# -- Loading entity register_1_bit
+# -- Loading entity CLA_4_bit
+# End time: 16:38:07 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sequential_multiplier_tb(behave)#1
+# Loading work.sequential_multiplier(rtl)#1
+# Loading work.controller(rtl)#1
+# Loading work.state_register(rtl)#1
+# Loading work.register_4_bit(rtl)#1
+# Loading work.register_1_bit(rtl)#1
+# Loading work.rom(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 500ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 3  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Error: Test failed for operation: 
+#    Time: 400 ns  Iteration: 0  Instance: /sequential_multiplier_tb
+vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:39:37 on Sep 11,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity sequential_multiplier
+# -- Compiling architecture rtl of sequential_multiplier
+# ** Warning: D:/VHDL/projects/sequential-multiplier/sequential_multiplier.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading entity controller
+# -- Loading entity register_4_bit
+# -- Loading entity register_1_bit
+# -- Loading entity CLA_4_bit
+# End time: 16:39:37 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sequential_multiplier_tb(behave)#1
+# Loading work.sequential_multiplier(rtl)#1
+# Loading work.controller(rtl)#1
+# Loading work.state_register(rtl)#1
+# Loading work.register_4_bit(rtl)#1
+# Loading work.register_1_bit(rtl)#1
+# Loading work.rom(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 500ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 3  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+run 100ns
+run 1us
+vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd
+# Questa Intel Starter FPGA Edition-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:52:26 on Sep 11,2022
+# vcom -reportprogress 300 -work work D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sequential_multiplier_tb
+# -- Compiling architecture behave of sequential_multiplier_tb
+# -- Loading entity sequential_multiplier
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: D:/VHDL/projects/sequential-multiplier/tests/sequential_multiplier_tb.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:52:26 on Sep 11,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+run 2us
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.sequential_multiplier_tb(behave)#1
+# Loading work.sequential_multiplier(rtl)#1
+# Loading work.controller(rtl)#1
+# Loading work.state_register(rtl)#1
+# Loading work.register_4_bit(rtl)#1
+# Loading work.register_1_bit(rtl)#1
+# Loading work.rom(rtl)#1
+# Loading work.cla_4_bit(rtl)#1
+# Loading work.full_adder(rtl)#1
+run 2 qs
+# Invalid time value: 2 qs
+run 2us
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 2  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 10 ns  Iteration: 3  Instance: /sequential_multiplier_tb/sequential_multiplier_ins/controller/ROM_ins
+# End time: 16:54:02 on Sep 11,2022, Elapsed time: 0:34:19
+# Errors: 0, Warnings: 3

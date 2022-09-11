@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity full_adder_tb is
+end full_adder_tb;
+
+
+architecture behave of full_adder_tb is
+begin
+
+end behave;

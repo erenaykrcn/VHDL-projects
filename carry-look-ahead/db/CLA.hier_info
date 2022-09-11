@@ -1,0 +1,1637 @@
+|CLA
+x[0] => cla_16_bit:CLA_16_bit_ins_1.x[0]
+x[1] => cla_16_bit:CLA_16_bit_ins_1.x[1]
+x[2] => cla_16_bit:CLA_16_bit_ins_1.x[2]
+x[3] => cla_16_bit:CLA_16_bit_ins_1.x[3]
+x[4] => cla_16_bit:CLA_16_bit_ins_1.x[4]
+x[5] => cla_16_bit:CLA_16_bit_ins_1.x[5]
+x[6] => cla_16_bit:CLA_16_bit_ins_1.x[6]
+x[7] => cla_16_bit:CLA_16_bit_ins_1.x[7]
+x[8] => cla_16_bit:CLA_16_bit_ins_1.x[8]
+x[9] => cla_16_bit:CLA_16_bit_ins_1.x[9]
+x[10] => cla_16_bit:CLA_16_bit_ins_1.x[10]
+x[11] => cla_16_bit:CLA_16_bit_ins_1.x[11]
+x[12] => cla_16_bit:CLA_16_bit_ins_1.x[12]
+x[13] => cla_16_bit:CLA_16_bit_ins_1.x[13]
+x[14] => cla_16_bit:CLA_16_bit_ins_1.x[14]
+x[15] => cla_16_bit:CLA_16_bit_ins_1.x[15]
+x[16] => cla_16_bit:CLA_16_bit_ins_2.x[0]
+x[17] => cla_16_bit:CLA_16_bit_ins_2.x[1]
+x[18] => cla_16_bit:CLA_16_bit_ins_2.x[2]
+x[19] => cla_16_bit:CLA_16_bit_ins_2.x[3]
+x[20] => cla_16_bit:CLA_16_bit_ins_2.x[4]
+x[21] => cla_16_bit:CLA_16_bit_ins_2.x[5]
+x[22] => cla_16_bit:CLA_16_bit_ins_2.x[6]
+x[23] => cla_16_bit:CLA_16_bit_ins_2.x[7]
+x[24] => cla_16_bit:CLA_16_bit_ins_2.x[8]
+x[25] => cla_16_bit:CLA_16_bit_ins_2.x[9]
+x[26] => cla_16_bit:CLA_16_bit_ins_2.x[10]
+x[27] => cla_16_bit:CLA_16_bit_ins_2.x[11]
+x[28] => cla_16_bit:CLA_16_bit_ins_2.x[12]
+x[29] => cla_16_bit:CLA_16_bit_ins_2.x[13]
+x[30] => cla_16_bit:CLA_16_bit_ins_2.x[14]
+x[31] => cla_16_bit:CLA_16_bit_ins_2.x[15]
+x[32] => cla_16_bit:CLA_16_bit_ins_3.x[0]
+x[33] => cla_16_bit:CLA_16_bit_ins_3.x[1]
+x[34] => cla_16_bit:CLA_16_bit_ins_3.x[2]
+x[35] => cla_16_bit:CLA_16_bit_ins_3.x[3]
+x[36] => cla_16_bit:CLA_16_bit_ins_3.x[4]
+x[37] => cla_16_bit:CLA_16_bit_ins_3.x[5]
+x[38] => cla_16_bit:CLA_16_bit_ins_3.x[6]
+x[39] => cla_16_bit:CLA_16_bit_ins_3.x[7]
+x[40] => cla_16_bit:CLA_16_bit_ins_3.x[8]
+x[41] => cla_16_bit:CLA_16_bit_ins_3.x[9]
+x[42] => cla_16_bit:CLA_16_bit_ins_3.x[10]
+x[43] => cla_16_bit:CLA_16_bit_ins_3.x[11]
+x[44] => cla_16_bit:CLA_16_bit_ins_3.x[12]
+x[45] => cla_16_bit:CLA_16_bit_ins_3.x[13]
+x[46] => cla_16_bit:CLA_16_bit_ins_3.x[14]
+x[47] => cla_16_bit:CLA_16_bit_ins_3.x[15]
+x[48] => cla_16_bit:CLA_16_bit_ins_4.x[0]
+x[49] => cla_16_bit:CLA_16_bit_ins_4.x[1]
+x[50] => cla_16_bit:CLA_16_bit_ins_4.x[2]
+x[51] => cla_16_bit:CLA_16_bit_ins_4.x[3]
+x[52] => cla_16_bit:CLA_16_bit_ins_4.x[4]
+x[53] => cla_16_bit:CLA_16_bit_ins_4.x[5]
+x[54] => cla_16_bit:CLA_16_bit_ins_4.x[6]
+x[55] => cla_16_bit:CLA_16_bit_ins_4.x[7]
+x[56] => cla_16_bit:CLA_16_bit_ins_4.x[8]
+x[57] => cla_16_bit:CLA_16_bit_ins_4.x[9]
+x[58] => cla_16_bit:CLA_16_bit_ins_4.x[10]
+x[59] => cla_16_bit:CLA_16_bit_ins_4.x[11]
+x[60] => cla_16_bit:CLA_16_bit_ins_4.x[12]
+x[61] => cla_16_bit:CLA_16_bit_ins_4.x[13]
+x[62] => cla_16_bit:CLA_16_bit_ins_4.x[14]
+x[63] => cla_16_bit:CLA_16_bit_ins_4.x[15]
+y[0] => cla_16_bit:CLA_16_bit_ins_1.y[0]
+y[1] => cla_16_bit:CLA_16_bit_ins_1.y[1]
+y[2] => cla_16_bit:CLA_16_bit_ins_1.y[2]
+y[3] => cla_16_bit:CLA_16_bit_ins_1.y[3]
+y[4] => cla_16_bit:CLA_16_bit_ins_1.y[4]
+y[5] => cla_16_bit:CLA_16_bit_ins_1.y[5]
+y[6] => cla_16_bit:CLA_16_bit_ins_1.y[6]
+y[7] => cla_16_bit:CLA_16_bit_ins_1.y[7]
+y[8] => cla_16_bit:CLA_16_bit_ins_1.y[8]
+y[9] => cla_16_bit:CLA_16_bit_ins_1.y[9]
+y[10] => cla_16_bit:CLA_16_bit_ins_1.y[10]
+y[11] => cla_16_bit:CLA_16_bit_ins_1.y[11]
+y[12] => cla_16_bit:CLA_16_bit_ins_1.y[12]
+y[13] => cla_16_bit:CLA_16_bit_ins_1.y[13]
+y[14] => cla_16_bit:CLA_16_bit_ins_1.y[14]
+y[15] => cla_16_bit:CLA_16_bit_ins_1.y[15]
+y[16] => cla_16_bit:CLA_16_bit_ins_2.y[0]
+y[17] => cla_16_bit:CLA_16_bit_ins_2.y[1]
+y[18] => cla_16_bit:CLA_16_bit_ins_2.y[2]
+y[19] => cla_16_bit:CLA_16_bit_ins_2.y[3]
+y[20] => cla_16_bit:CLA_16_bit_ins_2.y[4]
+y[21] => cla_16_bit:CLA_16_bit_ins_2.y[5]
+y[22] => cla_16_bit:CLA_16_bit_ins_2.y[6]
+y[23] => cla_16_bit:CLA_16_bit_ins_2.y[7]
+y[24] => cla_16_bit:CLA_16_bit_ins_2.y[8]
+y[25] => cla_16_bit:CLA_16_bit_ins_2.y[9]
+y[26] => cla_16_bit:CLA_16_bit_ins_2.y[10]
+y[27] => cla_16_bit:CLA_16_bit_ins_2.y[11]
+y[28] => cla_16_bit:CLA_16_bit_ins_2.y[12]
+y[29] => cla_16_bit:CLA_16_bit_ins_2.y[13]
+y[30] => cla_16_bit:CLA_16_bit_ins_2.y[14]
+y[31] => cla_16_bit:CLA_16_bit_ins_2.y[15]
+y[32] => cla_16_bit:CLA_16_bit_ins_3.y[0]
+y[33] => cla_16_bit:CLA_16_bit_ins_3.y[1]
+y[34] => cla_16_bit:CLA_16_bit_ins_3.y[2]
+y[35] => cla_16_bit:CLA_16_bit_ins_3.y[3]
+y[36] => cla_16_bit:CLA_16_bit_ins_3.y[4]
+y[37] => cla_16_bit:CLA_16_bit_ins_3.y[5]
+y[38] => cla_16_bit:CLA_16_bit_ins_3.y[6]
+y[39] => cla_16_bit:CLA_16_bit_ins_3.y[7]
+y[40] => cla_16_bit:CLA_16_bit_ins_3.y[8]
+y[41] => cla_16_bit:CLA_16_bit_ins_3.y[9]
+y[42] => cla_16_bit:CLA_16_bit_ins_3.y[10]
+y[43] => cla_16_bit:CLA_16_bit_ins_3.y[11]
+y[44] => cla_16_bit:CLA_16_bit_ins_3.y[12]
+y[45] => cla_16_bit:CLA_16_bit_ins_3.y[13]
+y[46] => cla_16_bit:CLA_16_bit_ins_3.y[14]
+y[47] => cla_16_bit:CLA_16_bit_ins_3.y[15]
+y[48] => cla_16_bit:CLA_16_bit_ins_4.y[0]
+y[49] => cla_16_bit:CLA_16_bit_ins_4.y[1]
+y[50] => cla_16_bit:CLA_16_bit_ins_4.y[2]
+y[51] => cla_16_bit:CLA_16_bit_ins_4.y[3]
+y[52] => cla_16_bit:CLA_16_bit_ins_4.y[4]
+y[53] => cla_16_bit:CLA_16_bit_ins_4.y[5]
+y[54] => cla_16_bit:CLA_16_bit_ins_4.y[6]
+y[55] => cla_16_bit:CLA_16_bit_ins_4.y[7]
+y[56] => cla_16_bit:CLA_16_bit_ins_4.y[8]
+y[57] => cla_16_bit:CLA_16_bit_ins_4.y[9]
+y[58] => cla_16_bit:CLA_16_bit_ins_4.y[10]
+y[59] => cla_16_bit:CLA_16_bit_ins_4.y[11]
+y[60] => cla_16_bit:CLA_16_bit_ins_4.y[12]
+y[61] => cla_16_bit:CLA_16_bit_ins_4.y[13]
+y[62] => cla_16_bit:CLA_16_bit_ins_4.y[14]
+y[63] => cla_16_bit:CLA_16_bit_ins_4.y[15]
+inv => cla_16_bit:CLA_16_bit_ins_1.inv
+inv => c1.IN1
+inv => cla_16_bit:CLA_16_bit_ins_1.c_in
+inv => cla_16_bit:CLA_16_bit_ins_2.inv
+inv => cla_16_bit:CLA_16_bit_ins_3.inv
+inv => cla_16_bit:CLA_16_bit_ins_4.inv
+s[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1].DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2].DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3].DB_MAX_OUTPUT_PORT_TYPE
+s[4] <= s[4].DB_MAX_OUTPUT_PORT_TYPE
+s[5] <= s[5].DB_MAX_OUTPUT_PORT_TYPE
+s[6] <= s[6].DB_MAX_OUTPUT_PORT_TYPE
+s[7] <= s[7].DB_MAX_OUTPUT_PORT_TYPE
+s[8] <= s[8].DB_MAX_OUTPUT_PORT_TYPE
+s[9] <= s[9].DB_MAX_OUTPUT_PORT_TYPE
+s[10] <= s[10].DB_MAX_OUTPUT_PORT_TYPE
+s[11] <= s[11].DB_MAX_OUTPUT_PORT_TYPE
+s[12] <= s[12].DB_MAX_OUTPUT_PORT_TYPE
+s[13] <= s[13].DB_MAX_OUTPUT_PORT_TYPE
+s[14] <= s[14].DB_MAX_OUTPUT_PORT_TYPE
+s[15] <= s[15].DB_MAX_OUTPUT_PORT_TYPE
+s[16] <= s[16].DB_MAX_OUTPUT_PORT_TYPE
+s[17] <= s[17].DB_MAX_OUTPUT_PORT_TYPE
+s[18] <= s[18].DB_MAX_OUTPUT_PORT_TYPE
+s[19] <= s[19].DB_MAX_OUTPUT_PORT_TYPE
+s[20] <= s[20].DB_MAX_OUTPUT_PORT_TYPE
+s[21] <= s[21].DB_MAX_OUTPUT_PORT_TYPE
+s[22] <= s[22].DB_MAX_OUTPUT_PORT_TYPE
+s[23] <= s[23].DB_MAX_OUTPUT_PORT_TYPE
+s[24] <= s[24].DB_MAX_OUTPUT_PORT_TYPE
+s[25] <= s[25].DB_MAX_OUTPUT_PORT_TYPE
+s[26] <= s[26].DB_MAX_OUTPUT_PORT_TYPE
+s[27] <= s[27].DB_MAX_OUTPUT_PORT_TYPE
+s[28] <= s[28].DB_MAX_OUTPUT_PORT_TYPE
+s[29] <= s[29].DB_MAX_OUTPUT_PORT_TYPE
+s[30] <= s[30].DB_MAX_OUTPUT_PORT_TYPE
+s[31] <= s[31].DB_MAX_OUTPUT_PORT_TYPE
+s[32] <= s[32].DB_MAX_OUTPUT_PORT_TYPE
+s[33] <= s[33].DB_MAX_OUTPUT_PORT_TYPE
+s[34] <= s[34].DB_MAX_OUTPUT_PORT_TYPE
+s[35] <= s[35].DB_MAX_OUTPUT_PORT_TYPE
+s[36] <= s[36].DB_MAX_OUTPUT_PORT_TYPE
+s[37] <= s[37].DB_MAX_OUTPUT_PORT_TYPE
+s[38] <= s[38].DB_MAX_OUTPUT_PORT_TYPE
+s[39] <= s[39].DB_MAX_OUTPUT_PORT_TYPE
+s[40] <= s[40].DB_MAX_OUTPUT_PORT_TYPE
+s[41] <= s[41].DB_MAX_OUTPUT_PORT_TYPE
+s[42] <= s[42].DB_MAX_OUTPUT_PORT_TYPE
+s[43] <= s[43].DB_MAX_OUTPUT_PORT_TYPE
+s[44] <= s[44].DB_MAX_OUTPUT_PORT_TYPE
+s[45] <= s[45].DB_MAX_OUTPUT_PORT_TYPE
+s[46] <= s[46].DB_MAX_OUTPUT_PORT_TYPE
+s[47] <= s[47].DB_MAX_OUTPUT_PORT_TYPE
+s[48] <= s[48].DB_MAX_OUTPUT_PORT_TYPE
+s[49] <= s[49].DB_MAX_OUTPUT_PORT_TYPE
+s[50] <= s[50].DB_MAX_OUTPUT_PORT_TYPE
+s[51] <= s[51].DB_MAX_OUTPUT_PORT_TYPE
+s[52] <= s[52].DB_MAX_OUTPUT_PORT_TYPE
+s[53] <= s[53].DB_MAX_OUTPUT_PORT_TYPE
+s[54] <= s[54].DB_MAX_OUTPUT_PORT_TYPE
+s[55] <= s[55].DB_MAX_OUTPUT_PORT_TYPE
+s[56] <= s[56].DB_MAX_OUTPUT_PORT_TYPE
+s[57] <= s[57].DB_MAX_OUTPUT_PORT_TYPE
+s[58] <= s[58].DB_MAX_OUTPUT_PORT_TYPE
+s[59] <= s[59].DB_MAX_OUTPUT_PORT_TYPE
+s[60] <= s[60].DB_MAX_OUTPUT_PORT_TYPE
+s[61] <= s[61].DB_MAX_OUTPUT_PORT_TYPE
+s[62] <= s[62].DB_MAX_OUTPUT_PORT_TYPE
+s[63] <= s[63].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1
+x[0] => cla_4_bit:CLA_4_bit_ins_1.x[0]
+x[1] => cla_4_bit:CLA_4_bit_ins_1.x[1]
+x[2] => cla_4_bit:CLA_4_bit_ins_1.x[2]
+x[3] => cla_4_bit:CLA_4_bit_ins_1.x[3]
+x[4] => cla_4_bit:CLA_4_bit_ins_2.x[0]
+x[5] => cla_4_bit:CLA_4_bit_ins_2.x[1]
+x[6] => cla_4_bit:CLA_4_bit_ins_2.x[2]
+x[7] => cla_4_bit:CLA_4_bit_ins_2.x[3]
+x[8] => cla_4_bit:CLA_4_bit_ins_3.x[0]
+x[9] => cla_4_bit:CLA_4_bit_ins_3.x[1]
+x[10] => cla_4_bit:CLA_4_bit_ins_3.x[2]
+x[11] => cla_4_bit:CLA_4_bit_ins_3.x[3]
+x[12] => cla_4_bit:CLA_4_bit_ins_4.x[0]
+x[13] => cla_4_bit:CLA_4_bit_ins_4.x[1]
+x[14] => cla_4_bit:CLA_4_bit_ins_4.x[2]
+x[15] => cla_4_bit:CLA_4_bit_ins_4.x[3]
+y[0] => cla_4_bit:CLA_4_bit_ins_1.y[0]
+y[1] => cla_4_bit:CLA_4_bit_ins_1.y[1]
+y[2] => cla_4_bit:CLA_4_bit_ins_1.y[2]
+y[3] => cla_4_bit:CLA_4_bit_ins_1.y[3]
+y[4] => cla_4_bit:CLA_4_bit_ins_2.y[0]
+y[5] => cla_4_bit:CLA_4_bit_ins_2.y[1]
+y[6] => cla_4_bit:CLA_4_bit_ins_2.y[2]
+y[7] => cla_4_bit:CLA_4_bit_ins_2.y[3]
+y[8] => cla_4_bit:CLA_4_bit_ins_3.y[0]
+y[9] => cla_4_bit:CLA_4_bit_ins_3.y[1]
+y[10] => cla_4_bit:CLA_4_bit_ins_3.y[2]
+y[11] => cla_4_bit:CLA_4_bit_ins_3.y[3]
+y[12] => cla_4_bit:CLA_4_bit_ins_4.y[0]
+y[13] => cla_4_bit:CLA_4_bit_ins_4.y[1]
+y[14] => cla_4_bit:CLA_4_bit_ins_4.y[2]
+y[15] => cla_4_bit:CLA_4_bit_ins_4.y[3]
+c_in => c1.IN1
+c_in => cla_4_bit:CLA_4_bit_ins_1.c_in
+inv => cla_4_bit:CLA_4_bit_ins_1.inv
+inv => cla_4_bit:CLA_4_bit_ins_2.inv
+inv => cla_4_bit:CLA_4_bit_ins_3.inv
+inv => cla_4_bit:CLA_4_bit_ins_4.inv
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= cla_4_bit:CLA_4_bit_ins_1.s[0]
+s[1] <= cla_4_bit:CLA_4_bit_ins_1.s[1]
+s[2] <= cla_4_bit:CLA_4_bit_ins_1.s[2]
+s[3] <= cla_4_bit:CLA_4_bit_ins_1.s[3]
+s[4] <= cla_4_bit:CLA_4_bit_ins_2.s[0]
+s[5] <= cla_4_bit:CLA_4_bit_ins_2.s[1]
+s[6] <= cla_4_bit:CLA_4_bit_ins_2.s[2]
+s[7] <= cla_4_bit:CLA_4_bit_ins_2.s[3]
+s[8] <= cla_4_bit:CLA_4_bit_ins_3.s[0]
+s[9] <= cla_4_bit:CLA_4_bit_ins_3.s[1]
+s[10] <= cla_4_bit:CLA_4_bit_ins_3.s[2]
+s[11] <= cla_4_bit:CLA_4_bit_ins_3.s[3]
+s[12] <= cla_4_bit:CLA_4_bit_ins_4.s[0]
+s[13] <= cla_4_bit:CLA_4_bit_ins_4.s[1]
+s[14] <= cla_4_bit:CLA_4_bit_ins_4.s[2]
+s[15] <= cla_4_bit:CLA_4_bit_ins_4.s[3]
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_1
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_2
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_3
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_4
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_1|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2
+x[0] => cla_4_bit:CLA_4_bit_ins_1.x[0]
+x[1] => cla_4_bit:CLA_4_bit_ins_1.x[1]
+x[2] => cla_4_bit:CLA_4_bit_ins_1.x[2]
+x[3] => cla_4_bit:CLA_4_bit_ins_1.x[3]
+x[4] => cla_4_bit:CLA_4_bit_ins_2.x[0]
+x[5] => cla_4_bit:CLA_4_bit_ins_2.x[1]
+x[6] => cla_4_bit:CLA_4_bit_ins_2.x[2]
+x[7] => cla_4_bit:CLA_4_bit_ins_2.x[3]
+x[8] => cla_4_bit:CLA_4_bit_ins_3.x[0]
+x[9] => cla_4_bit:CLA_4_bit_ins_3.x[1]
+x[10] => cla_4_bit:CLA_4_bit_ins_3.x[2]
+x[11] => cla_4_bit:CLA_4_bit_ins_3.x[3]
+x[12] => cla_4_bit:CLA_4_bit_ins_4.x[0]
+x[13] => cla_4_bit:CLA_4_bit_ins_4.x[1]
+x[14] => cla_4_bit:CLA_4_bit_ins_4.x[2]
+x[15] => cla_4_bit:CLA_4_bit_ins_4.x[3]
+y[0] => cla_4_bit:CLA_4_bit_ins_1.y[0]
+y[1] => cla_4_bit:CLA_4_bit_ins_1.y[1]
+y[2] => cla_4_bit:CLA_4_bit_ins_1.y[2]
+y[3] => cla_4_bit:CLA_4_bit_ins_1.y[3]
+y[4] => cla_4_bit:CLA_4_bit_ins_2.y[0]
+y[5] => cla_4_bit:CLA_4_bit_ins_2.y[1]
+y[6] => cla_4_bit:CLA_4_bit_ins_2.y[2]
+y[7] => cla_4_bit:CLA_4_bit_ins_2.y[3]
+y[8] => cla_4_bit:CLA_4_bit_ins_3.y[0]
+y[9] => cla_4_bit:CLA_4_bit_ins_3.y[1]
+y[10] => cla_4_bit:CLA_4_bit_ins_3.y[2]
+y[11] => cla_4_bit:CLA_4_bit_ins_3.y[3]
+y[12] => cla_4_bit:CLA_4_bit_ins_4.y[0]
+y[13] => cla_4_bit:CLA_4_bit_ins_4.y[1]
+y[14] => cla_4_bit:CLA_4_bit_ins_4.y[2]
+y[15] => cla_4_bit:CLA_4_bit_ins_4.y[3]
+c_in => c1.IN1
+c_in => cla_4_bit:CLA_4_bit_ins_1.c_in
+inv => cla_4_bit:CLA_4_bit_ins_1.inv
+inv => cla_4_bit:CLA_4_bit_ins_2.inv
+inv => cla_4_bit:CLA_4_bit_ins_3.inv
+inv => cla_4_bit:CLA_4_bit_ins_4.inv
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= cla_4_bit:CLA_4_bit_ins_1.s[0]
+s[1] <= cla_4_bit:CLA_4_bit_ins_1.s[1]
+s[2] <= cla_4_bit:CLA_4_bit_ins_1.s[2]
+s[3] <= cla_4_bit:CLA_4_bit_ins_1.s[3]
+s[4] <= cla_4_bit:CLA_4_bit_ins_2.s[0]
+s[5] <= cla_4_bit:CLA_4_bit_ins_2.s[1]
+s[6] <= cla_4_bit:CLA_4_bit_ins_2.s[2]
+s[7] <= cla_4_bit:CLA_4_bit_ins_2.s[3]
+s[8] <= cla_4_bit:CLA_4_bit_ins_3.s[0]
+s[9] <= cla_4_bit:CLA_4_bit_ins_3.s[1]
+s[10] <= cla_4_bit:CLA_4_bit_ins_3.s[2]
+s[11] <= cla_4_bit:CLA_4_bit_ins_3.s[3]
+s[12] <= cla_4_bit:CLA_4_bit_ins_4.s[0]
+s[13] <= cla_4_bit:CLA_4_bit_ins_4.s[1]
+s[14] <= cla_4_bit:CLA_4_bit_ins_4.s[2]
+s[15] <= cla_4_bit:CLA_4_bit_ins_4.s[3]
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_1
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_2
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_3
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_4
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_2|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3
+x[0] => cla_4_bit:CLA_4_bit_ins_1.x[0]
+x[1] => cla_4_bit:CLA_4_bit_ins_1.x[1]
+x[2] => cla_4_bit:CLA_4_bit_ins_1.x[2]
+x[3] => cla_4_bit:CLA_4_bit_ins_1.x[3]
+x[4] => cla_4_bit:CLA_4_bit_ins_2.x[0]
+x[5] => cla_4_bit:CLA_4_bit_ins_2.x[1]
+x[6] => cla_4_bit:CLA_4_bit_ins_2.x[2]
+x[7] => cla_4_bit:CLA_4_bit_ins_2.x[3]
+x[8] => cla_4_bit:CLA_4_bit_ins_3.x[0]
+x[9] => cla_4_bit:CLA_4_bit_ins_3.x[1]
+x[10] => cla_4_bit:CLA_4_bit_ins_3.x[2]
+x[11] => cla_4_bit:CLA_4_bit_ins_3.x[3]
+x[12] => cla_4_bit:CLA_4_bit_ins_4.x[0]
+x[13] => cla_4_bit:CLA_4_bit_ins_4.x[1]
+x[14] => cla_4_bit:CLA_4_bit_ins_4.x[2]
+x[15] => cla_4_bit:CLA_4_bit_ins_4.x[3]
+y[0] => cla_4_bit:CLA_4_bit_ins_1.y[0]
+y[1] => cla_4_bit:CLA_4_bit_ins_1.y[1]
+y[2] => cla_4_bit:CLA_4_bit_ins_1.y[2]
+y[3] => cla_4_bit:CLA_4_bit_ins_1.y[3]
+y[4] => cla_4_bit:CLA_4_bit_ins_2.y[0]
+y[5] => cla_4_bit:CLA_4_bit_ins_2.y[1]
+y[6] => cla_4_bit:CLA_4_bit_ins_2.y[2]
+y[7] => cla_4_bit:CLA_4_bit_ins_2.y[3]
+y[8] => cla_4_bit:CLA_4_bit_ins_3.y[0]
+y[9] => cla_4_bit:CLA_4_bit_ins_3.y[1]
+y[10] => cla_4_bit:CLA_4_bit_ins_3.y[2]
+y[11] => cla_4_bit:CLA_4_bit_ins_3.y[3]
+y[12] => cla_4_bit:CLA_4_bit_ins_4.y[0]
+y[13] => cla_4_bit:CLA_4_bit_ins_4.y[1]
+y[14] => cla_4_bit:CLA_4_bit_ins_4.y[2]
+y[15] => cla_4_bit:CLA_4_bit_ins_4.y[3]
+c_in => c1.IN1
+c_in => cla_4_bit:CLA_4_bit_ins_1.c_in
+inv => cla_4_bit:CLA_4_bit_ins_1.inv
+inv => cla_4_bit:CLA_4_bit_ins_2.inv
+inv => cla_4_bit:CLA_4_bit_ins_3.inv
+inv => cla_4_bit:CLA_4_bit_ins_4.inv
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= cla_4_bit:CLA_4_bit_ins_1.s[0]
+s[1] <= cla_4_bit:CLA_4_bit_ins_1.s[1]
+s[2] <= cla_4_bit:CLA_4_bit_ins_1.s[2]
+s[3] <= cla_4_bit:CLA_4_bit_ins_1.s[3]
+s[4] <= cla_4_bit:CLA_4_bit_ins_2.s[0]
+s[5] <= cla_4_bit:CLA_4_bit_ins_2.s[1]
+s[6] <= cla_4_bit:CLA_4_bit_ins_2.s[2]
+s[7] <= cla_4_bit:CLA_4_bit_ins_2.s[3]
+s[8] <= cla_4_bit:CLA_4_bit_ins_3.s[0]
+s[9] <= cla_4_bit:CLA_4_bit_ins_3.s[1]
+s[10] <= cla_4_bit:CLA_4_bit_ins_3.s[2]
+s[11] <= cla_4_bit:CLA_4_bit_ins_3.s[3]
+s[12] <= cla_4_bit:CLA_4_bit_ins_4.s[0]
+s[13] <= cla_4_bit:CLA_4_bit_ins_4.s[1]
+s[14] <= cla_4_bit:CLA_4_bit_ins_4.s[2]
+s[15] <= cla_4_bit:CLA_4_bit_ins_4.s[3]
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_1
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_2
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_3
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_4
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_3|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4
+x[0] => cla_4_bit:CLA_4_bit_ins_1.x[0]
+x[1] => cla_4_bit:CLA_4_bit_ins_1.x[1]
+x[2] => cla_4_bit:CLA_4_bit_ins_1.x[2]
+x[3] => cla_4_bit:CLA_4_bit_ins_1.x[3]
+x[4] => cla_4_bit:CLA_4_bit_ins_2.x[0]
+x[5] => cla_4_bit:CLA_4_bit_ins_2.x[1]
+x[6] => cla_4_bit:CLA_4_bit_ins_2.x[2]
+x[7] => cla_4_bit:CLA_4_bit_ins_2.x[3]
+x[8] => cla_4_bit:CLA_4_bit_ins_3.x[0]
+x[9] => cla_4_bit:CLA_4_bit_ins_3.x[1]
+x[10] => cla_4_bit:CLA_4_bit_ins_3.x[2]
+x[11] => cla_4_bit:CLA_4_bit_ins_3.x[3]
+x[12] => cla_4_bit:CLA_4_bit_ins_4.x[0]
+x[13] => cla_4_bit:CLA_4_bit_ins_4.x[1]
+x[14] => cla_4_bit:CLA_4_bit_ins_4.x[2]
+x[15] => cla_4_bit:CLA_4_bit_ins_4.x[3]
+y[0] => cla_4_bit:CLA_4_bit_ins_1.y[0]
+y[1] => cla_4_bit:CLA_4_bit_ins_1.y[1]
+y[2] => cla_4_bit:CLA_4_bit_ins_1.y[2]
+y[3] => cla_4_bit:CLA_4_bit_ins_1.y[3]
+y[4] => cla_4_bit:CLA_4_bit_ins_2.y[0]
+y[5] => cla_4_bit:CLA_4_bit_ins_2.y[1]
+y[6] => cla_4_bit:CLA_4_bit_ins_2.y[2]
+y[7] => cla_4_bit:CLA_4_bit_ins_2.y[3]
+y[8] => cla_4_bit:CLA_4_bit_ins_3.y[0]
+y[9] => cla_4_bit:CLA_4_bit_ins_3.y[1]
+y[10] => cla_4_bit:CLA_4_bit_ins_3.y[2]
+y[11] => cla_4_bit:CLA_4_bit_ins_3.y[3]
+y[12] => cla_4_bit:CLA_4_bit_ins_4.y[0]
+y[13] => cla_4_bit:CLA_4_bit_ins_4.y[1]
+y[14] => cla_4_bit:CLA_4_bit_ins_4.y[2]
+y[15] => cla_4_bit:CLA_4_bit_ins_4.y[3]
+c_in => c1.IN1
+c_in => cla_4_bit:CLA_4_bit_ins_1.c_in
+inv => cla_4_bit:CLA_4_bit_ins_1.inv
+inv => cla_4_bit:CLA_4_bit_ins_2.inv
+inv => cla_4_bit:CLA_4_bit_ins_3.inv
+inv => cla_4_bit:CLA_4_bit_ins_4.inv
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= cla_4_bit:CLA_4_bit_ins_1.s[0]
+s[1] <= cla_4_bit:CLA_4_bit_ins_1.s[1]
+s[2] <= cla_4_bit:CLA_4_bit_ins_1.s[2]
+s[3] <= cla_4_bit:CLA_4_bit_ins_1.s[3]
+s[4] <= cla_4_bit:CLA_4_bit_ins_2.s[0]
+s[5] <= cla_4_bit:CLA_4_bit_ins_2.s[1]
+s[6] <= cla_4_bit:CLA_4_bit_ins_2.s[2]
+s[7] <= cla_4_bit:CLA_4_bit_ins_2.s[3]
+s[8] <= cla_4_bit:CLA_4_bit_ins_3.s[0]
+s[9] <= cla_4_bit:CLA_4_bit_ins_3.s[1]
+s[10] <= cla_4_bit:CLA_4_bit_ins_3.s[2]
+s[11] <= cla_4_bit:CLA_4_bit_ins_3.s[3]
+s[12] <= cla_4_bit:CLA_4_bit_ins_4.s[0]
+s[13] <= cla_4_bit:CLA_4_bit_ins_4.s[1]
+s[14] <= cla_4_bit:CLA_4_bit_ins_4.s[2]
+s[15] <= cla_4_bit:CLA_4_bit_ins_4.s[3]
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_1
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_1|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_2
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_2|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_3
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_3|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_4
+x[0] => full_adder:full_adder_ins_1.a
+x[1] => full_adder:full_adder_ins_2.a
+x[2] => full_adder:full_adder_ins_3.a
+x[3] => full_adder:full_adder_ins_4.a
+y[0] => y_signal[0].IN0
+y[1] => y_signal[1].IN0
+y[2] => y_signal[2].IN0
+y[3] => y_signal[3].IN0
+c_in => c1.IN1
+c_in => full_adder:full_adder_ins_1.c_in
+inv => y_signal[0].IN1
+inv => y_signal[1].IN1
+inv => y_signal[2].IN1
+inv => y_signal[3].IN1
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+p <= p.DB_MAX_OUTPUT_PORT_TYPE
+s[0] <= full_adder:full_adder_ins_1.s
+s[1] <= full_adder:full_adder_ins_2.s
+s[2] <= full_adder:full_adder_ins_3.s
+s[3] <= full_adder:full_adder_ins_4.s
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_1
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_2
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_3
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CLA|CLA_16_bit:CLA_16_bit_ins_4|CLA_4_bit:CLA_4_bit_ins_4|full_adder:full_adder_ins_4
+a => prop_signal.IN0
+a => gen_signal.IN0
+b => prop_signal.IN1
+b => gen_signal.IN1
+c_in => s.IN1
+c_in => c_out.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+prop <= prop_signal.DB_MAX_OUTPUT_PORT_TYPE
+gen <= gen_signal.DB_MAX_OUTPUT_PORT_TYPE
+
+

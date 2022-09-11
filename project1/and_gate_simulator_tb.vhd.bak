@@ -1,0 +1,6 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity and_gate_simulator_tb is
+end and_gate_simulator_tb;
