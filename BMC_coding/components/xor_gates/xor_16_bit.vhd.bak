@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity xor_4_bit is
+	port(
+		input: in std_logic_vector(3 downto 0);
+		output: out std_logic
+	);
+end xor_4_bit;
+
+
+architecture rtl of xor_4_bit is
+begin
+	output <= (input(0) xor input(1)) xor (input(2) xor input(3));
+end rtl;

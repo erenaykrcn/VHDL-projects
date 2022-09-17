@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164;
+
+
+entity BMC_coding is
+end BMC_coding;
+
+
+architecture rtl of BMC_coding is
+begin
+end rtl;
