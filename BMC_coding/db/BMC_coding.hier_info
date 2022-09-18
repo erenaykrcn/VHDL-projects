@@ -1,0 +1,2873 @@
+|BMC_coding
+clk => encoder:encoder.clk
+input[0] => data[0].DATAIN
+input[1] => data[1].DATAIN
+input[2] => data[2].DATAIN
+input[3] => data[3].DATAIN
+input[4] => data[4].DATAIN
+input[5] => data[5].DATAIN
+input[6] => data[6].DATAIN
+input[7] => data[7].DATAIN
+input[8] => data[8].DATAIN
+input[9] => data[9].DATAIN
+input[10] => data[10].DATAIN
+input[11] => data[11].DATAIN
+input[12] => data[12].DATAIN
+input[13] => data[13].DATAIN
+input[14] => data[14].DATAIN
+input[15] => data[15].DATAIN
+input[16] => data[16].DATAIN
+input[17] => data[17].DATAIN
+input[18] => data[18].DATAIN
+input[19] => data[19].DATAIN
+input[20] => data[20].DATAIN
+input[21] => data[21].DATAIN
+input[22] => data[22].DATAIN
+input[23] => data[23].DATAIN
+input[24] => data[24].DATAIN
+input[25] => data[25].DATAIN
+input[26] => data[26].DATAIN
+input[27] => data[27].DATAIN
+input[28] => data[28].DATAIN
+input[29] => data[29].DATAIN
+input[30] => data[30].DATAIN
+input[31] => data[31].DATAIN
+output[0] <= output[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[4] <= output[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[5] <= output[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[6] <= output[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[7] <= output[7]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[8] <= output[8]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[9] <= output[9]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[10] <= output[10]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[11] <= output[11]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[12] <= output[12]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[13] <= output[13]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[14] <= output[14]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[15] <= output[15]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[16] <= output[16]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[17] <= output[17]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[18] <= output[18]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[19] <= output[19]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[20] <= output[20]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[21] <= output[21]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[22] <= output[22]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[23] <= output[23]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[24] <= output[24]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[25] <= output[25]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[26] <= output[26]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[27] <= output[27]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[28] <= output[28]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[29] <= output[29]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[30] <= output[30]$latch.DB_MAX_OUTPUT_PORT_TYPE
+output[31] <= output[31]$latch.DB_MAX_OUTPUT_PORT_TYPE
+mode => output[0]$latch.LATCH_ENABLE
+mode => output[1]$latch.LATCH_ENABLE
+mode => output[2]$latch.LATCH_ENABLE
+mode => output[3]$latch.LATCH_ENABLE
+mode => output[4]$latch.LATCH_ENABLE
+mode => output[5]$latch.LATCH_ENABLE
+mode => output[6]$latch.LATCH_ENABLE
+mode => output[7]$latch.LATCH_ENABLE
+mode => output[8]$latch.LATCH_ENABLE
+mode => output[9]$latch.LATCH_ENABLE
+mode => output[10]$latch.LATCH_ENABLE
+mode => output[11]$latch.LATCH_ENABLE
+mode => output[12]$latch.LATCH_ENABLE
+mode => output[13]$latch.LATCH_ENABLE
+mode => output[14]$latch.LATCH_ENABLE
+mode => output[15]$latch.LATCH_ENABLE
+mode => output[16]$latch.LATCH_ENABLE
+mode => output[17]$latch.LATCH_ENABLE
+mode => output[18]$latch.LATCH_ENABLE
+mode => output[19]$latch.LATCH_ENABLE
+mode => output[20]$latch.LATCH_ENABLE
+mode => output[21]$latch.LATCH_ENABLE
+mode => output[22]$latch.LATCH_ENABLE
+mode => output[23]$latch.LATCH_ENABLE
+mode => output[24]$latch.LATCH_ENABLE
+mode => output[25]$latch.LATCH_ENABLE
+mode => output[26]$latch.LATCH_ENABLE
+mode => output[27]$latch.LATCH_ENABLE
+mode => output[28]$latch.LATCH_ENABLE
+mode => output[29]$latch.LATCH_ENABLE
+mode => output[30]$latch.LATCH_ENABLE
+mode => output[31]$latch.LATCH_ENABLE
+mode => data[0].LATCH_ENABLE
+mode => data[1].LATCH_ENABLE
+mode => data[2].LATCH_ENABLE
+mode => data[3].LATCH_ENABLE
+mode => data[4].LATCH_ENABLE
+mode => data[5].LATCH_ENABLE
+mode => data[6].LATCH_ENABLE
+mode => data[7].LATCH_ENABLE
+mode => data[8].LATCH_ENABLE
+mode => data[9].LATCH_ENABLE
+mode => data[10].LATCH_ENABLE
+mode => data[11].LATCH_ENABLE
+mode => data[12].LATCH_ENABLE
+mode => data[13].LATCH_ENABLE
+mode => data[14].LATCH_ENABLE
+mode => data[15].LATCH_ENABLE
+mode => data[16].LATCH_ENABLE
+mode => data[17].LATCH_ENABLE
+mode => data[18].LATCH_ENABLE
+mode => data[19].LATCH_ENABLE
+mode => data[20].LATCH_ENABLE
+mode => data[21].LATCH_ENABLE
+mode => data[22].LATCH_ENABLE
+mode => data[23].LATCH_ENABLE
+mode => data[24].LATCH_ENABLE
+mode => data[25].LATCH_ENABLE
+mode => data[26].LATCH_ENABLE
+mode => data[27].LATCH_ENABLE
+mode => data[28].LATCH_ENABLE
+mode => data[29].LATCH_ENABLE
+mode => data[30].LATCH_ENABLE
+mode => data[31].LATCH_ENABLE
+
+
+|BMC_coding|encoder:encoder
+data[0] => mux_32_bit:mux_32_bit_ins1.control[0]
+data[0] => mux_32_bit:mux_32_bit_ins2.control[0]
+data[0] => xor_32_bit:xor_parity.input1[0]
+data[1] => mux_32_bit:mux_32_bit_ins1.control[1]
+data[1] => mux_32_bit:mux_32_bit_ins2.control[1]
+data[1] => xor_32_bit:xor_parity.input1[1]
+data[2] => mux_32_bit:mux_32_bit_ins1.control[2]
+data[2] => mux_32_bit:mux_32_bit_ins2.control[2]
+data[2] => xor_32_bit:xor_parity.input1[2]
+data[3] => mux_32_bit:mux_32_bit_ins1.control[3]
+data[3] => mux_32_bit:mux_32_bit_ins2.control[3]
+data[3] => xor_32_bit:xor_parity.input1[3]
+data[4] => mux_32_bit:mux_32_bit_ins1.control[4]
+data[4] => mux_32_bit:mux_32_bit_ins2.control[4]
+data[4] => xor_32_bit:xor_parity.input1[4]
+data[5] => mux_32_bit:mux_32_bit_ins1.control[5]
+data[5] => mux_32_bit:mux_32_bit_ins2.control[5]
+data[5] => xor_32_bit:xor_parity.input1[5]
+data[6] => mux_32_bit:mux_32_bit_ins1.control[6]
+data[6] => mux_32_bit:mux_32_bit_ins2.control[6]
+data[6] => xor_32_bit:xor_parity.input1[6]
+data[7] => mux_32_bit:mux_32_bit_ins1.control[7]
+data[7] => mux_32_bit:mux_32_bit_ins2.control[7]
+data[7] => xor_32_bit:xor_parity.input1[7]
+data[8] => mux_32_bit:mux_32_bit_ins1.control[8]
+data[8] => mux_32_bit:mux_32_bit_ins2.control[8]
+data[8] => xor_32_bit:xor_parity.input1[8]
+data[9] => mux_32_bit:mux_32_bit_ins1.control[9]
+data[9] => mux_32_bit:mux_32_bit_ins2.control[9]
+data[9] => xor_32_bit:xor_parity.input1[9]
+data[10] => mux_32_bit:mux_32_bit_ins1.control[10]
+data[10] => mux_32_bit:mux_32_bit_ins2.control[10]
+data[10] => xor_32_bit:xor_parity.input1[10]
+data[11] => mux_32_bit:mux_32_bit_ins1.control[11]
+data[11] => mux_32_bit:mux_32_bit_ins2.control[11]
+data[11] => xor_32_bit:xor_parity.input1[11]
+data[12] => mux_32_bit:mux_32_bit_ins1.control[12]
+data[12] => mux_32_bit:mux_32_bit_ins2.control[12]
+data[12] => xor_32_bit:xor_parity.input1[12]
+data[13] => mux_32_bit:mux_32_bit_ins1.control[13]
+data[13] => mux_32_bit:mux_32_bit_ins2.control[13]
+data[13] => xor_32_bit:xor_parity.input1[13]
+data[14] => mux_32_bit:mux_32_bit_ins1.control[14]
+data[14] => mux_32_bit:mux_32_bit_ins2.control[14]
+data[14] => xor_32_bit:xor_parity.input1[14]
+data[15] => mux_32_bit:mux_32_bit_ins1.control[15]
+data[15] => mux_32_bit:mux_32_bit_ins2.control[15]
+data[15] => xor_32_bit:xor_parity.input1[15]
+data[16] => mux_32_bit:mux_32_bit_ins1.control[16]
+data[16] => mux_32_bit:mux_32_bit_ins2.control[16]
+data[16] => xor_32_bit:xor_parity.input1[16]
+data[17] => mux_32_bit:mux_32_bit_ins1.control[17]
+data[17] => mux_32_bit:mux_32_bit_ins2.control[17]
+data[17] => xor_32_bit:xor_parity.input1[17]
+data[18] => mux_32_bit:mux_32_bit_ins1.control[18]
+data[18] => mux_32_bit:mux_32_bit_ins2.control[18]
+data[18] => xor_32_bit:xor_parity.input1[18]
+data[19] => mux_32_bit:mux_32_bit_ins1.control[19]
+data[19] => mux_32_bit:mux_32_bit_ins2.control[19]
+data[19] => xor_32_bit:xor_parity.input1[19]
+data[20] => mux_32_bit:mux_32_bit_ins1.control[20]
+data[20] => mux_32_bit:mux_32_bit_ins2.control[20]
+data[20] => xor_32_bit:xor_parity.input1[20]
+data[21] => mux_32_bit:mux_32_bit_ins1.control[21]
+data[21] => mux_32_bit:mux_32_bit_ins2.control[21]
+data[21] => xor_32_bit:xor_parity.input1[21]
+data[22] => mux_32_bit:mux_32_bit_ins1.control[22]
+data[22] => mux_32_bit:mux_32_bit_ins2.control[22]
+data[22] => xor_32_bit:xor_parity.input1[22]
+data[23] => mux_32_bit:mux_32_bit_ins1.control[23]
+data[23] => mux_32_bit:mux_32_bit_ins2.control[23]
+data[23] => xor_32_bit:xor_parity.input1[23]
+data[24] => mux_32_bit:mux_32_bit_ins1.control[24]
+data[24] => mux_32_bit:mux_32_bit_ins2.control[24]
+data[24] => xor_32_bit:xor_parity.input1[24]
+data[25] => mux_32_bit:mux_32_bit_ins1.control[25]
+data[25] => mux_32_bit:mux_32_bit_ins2.control[25]
+data[25] => xor_32_bit:xor_parity.input1[25]
+data[26] => mux_32_bit:mux_32_bit_ins1.control[26]
+data[26] => mux_32_bit:mux_32_bit_ins2.control[26]
+data[26] => xor_32_bit:xor_parity.input1[26]
+data[27] => mux_32_bit:mux_32_bit_ins1.control[27]
+data[27] => mux_32_bit:mux_32_bit_ins2.control[27]
+data[27] => xor_32_bit:xor_parity.input1[27]
+data[28] => mux_32_bit:mux_32_bit_ins1.control[28]
+data[28] => mux_32_bit:mux_32_bit_ins2.control[28]
+data[28] => xor_32_bit:xor_parity.input1[28]
+data[29] => mux_32_bit:mux_32_bit_ins1.control[29]
+data[29] => mux_32_bit:mux_32_bit_ins2.control[29]
+data[29] => xor_32_bit:xor_parity.input1[29]
+data[30] => mux_32_bit:mux_32_bit_ins1.control[30]
+data[30] => mux_32_bit:mux_32_bit_ins2.control[30]
+data[30] => xor_32_bit:xor_parity.input1[30]
+data[31] => mux_32_bit:mux_32_bit_ins1.control[31]
+data[31] => mux_32_bit:mux_32_bit_ins2.control[31]
+data[31] => xor_32_bit:xor_parity.input1[31]
+clk => register_32_bit:register_parity.clk
+clk => xor_32_bit:BMC_1_ins.input2[31]
+clk => xor_32_bit:BMC_1_ins.input2[30]
+clk => xor_32_bit:BMC_1_ins.input2[29]
+clk => xor_32_bit:BMC_1_ins.input2[28]
+clk => xor_32_bit:BMC_1_ins.input2[27]
+clk => xor_32_bit:BMC_1_ins.input2[26]
+clk => xor_32_bit:BMC_1_ins.input2[25]
+clk => xor_32_bit:BMC_1_ins.input2[24]
+clk => xor_32_bit:BMC_1_ins.input2[23]
+clk => xor_32_bit:BMC_1_ins.input2[22]
+clk => xor_32_bit:BMC_1_ins.input2[21]
+clk => xor_32_bit:BMC_1_ins.input2[20]
+clk => xor_32_bit:BMC_1_ins.input2[19]
+clk => xor_32_bit:BMC_1_ins.input2[18]
+clk => xor_32_bit:BMC_1_ins.input2[17]
+clk => xor_32_bit:BMC_1_ins.input2[16]
+clk => xor_32_bit:BMC_1_ins.input2[15]
+clk => xor_32_bit:BMC_1_ins.input2[14]
+clk => xor_32_bit:BMC_1_ins.input2[13]
+clk => xor_32_bit:BMC_1_ins.input2[12]
+clk => xor_32_bit:BMC_1_ins.input2[11]
+clk => xor_32_bit:BMC_1_ins.input2[10]
+clk => xor_32_bit:BMC_1_ins.input2[9]
+clk => xor_32_bit:BMC_1_ins.input2[8]
+clk => xor_32_bit:BMC_1_ins.input2[7]
+clk => xor_32_bit:BMC_1_ins.input2[6]
+clk => xor_32_bit:BMC_1_ins.input2[5]
+clk => xor_32_bit:BMC_1_ins.input2[4]
+clk => xor_32_bit:BMC_1_ins.input2[3]
+clk => xor_32_bit:BMC_1_ins.input2[2]
+clk => xor_32_bit:BMC_1_ins.input2[1]
+clk => xor_32_bit:BMC_1_ins.input2[0]
+clk => register_32_bit:register_BMC_0.clk
+clr => register_32_bit:register_parity.clr
+clr => register_32_bit:register_BMC_0.clr
+encoded_data[0] <= mux_32_bit:mux_32_bit_ins2.output[0]
+encoded_data[1] <= mux_32_bit:mux_32_bit_ins2.output[1]
+encoded_data[2] <= mux_32_bit:mux_32_bit_ins2.output[2]
+encoded_data[3] <= mux_32_bit:mux_32_bit_ins2.output[3]
+encoded_data[4] <= mux_32_bit:mux_32_bit_ins2.output[4]
+encoded_data[5] <= mux_32_bit:mux_32_bit_ins2.output[5]
+encoded_data[6] <= mux_32_bit:mux_32_bit_ins2.output[6]
+encoded_data[7] <= mux_32_bit:mux_32_bit_ins2.output[7]
+encoded_data[8] <= mux_32_bit:mux_32_bit_ins2.output[8]
+encoded_data[9] <= mux_32_bit:mux_32_bit_ins2.output[9]
+encoded_data[10] <= mux_32_bit:mux_32_bit_ins2.output[10]
+encoded_data[11] <= mux_32_bit:mux_32_bit_ins2.output[11]
+encoded_data[12] <= mux_32_bit:mux_32_bit_ins2.output[12]
+encoded_data[13] <= mux_32_bit:mux_32_bit_ins2.output[13]
+encoded_data[14] <= mux_32_bit:mux_32_bit_ins2.output[14]
+encoded_data[15] <= mux_32_bit:mux_32_bit_ins2.output[15]
+encoded_data[16] <= mux_32_bit:mux_32_bit_ins2.output[16]
+encoded_data[17] <= mux_32_bit:mux_32_bit_ins2.output[17]
+encoded_data[18] <= mux_32_bit:mux_32_bit_ins2.output[18]
+encoded_data[19] <= mux_32_bit:mux_32_bit_ins2.output[19]
+encoded_data[20] <= mux_32_bit:mux_32_bit_ins2.output[20]
+encoded_data[21] <= mux_32_bit:mux_32_bit_ins2.output[21]
+encoded_data[22] <= mux_32_bit:mux_32_bit_ins2.output[22]
+encoded_data[23] <= mux_32_bit:mux_32_bit_ins2.output[23]
+encoded_data[24] <= mux_32_bit:mux_32_bit_ins2.output[24]
+encoded_data[25] <= mux_32_bit:mux_32_bit_ins2.output[25]
+encoded_data[26] <= mux_32_bit:mux_32_bit_ins2.output[26]
+encoded_data[27] <= mux_32_bit:mux_32_bit_ins2.output[27]
+encoded_data[28] <= mux_32_bit:mux_32_bit_ins2.output[28]
+encoded_data[29] <= mux_32_bit:mux_32_bit_ins2.output[29]
+encoded_data[30] <= mux_32_bit:mux_32_bit_ins2.output[30]
+encoded_data[31] <= mux_32_bit:mux_32_bit_ins2.output[31]
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:xor_parity
+input1[0] => xor_16_bit:xor_16_bit_ins1.input1[0]
+input1[1] => xor_16_bit:xor_16_bit_ins1.input1[1]
+input1[2] => xor_16_bit:xor_16_bit_ins1.input1[2]
+input1[3] => xor_16_bit:xor_16_bit_ins1.input1[3]
+input1[4] => xor_16_bit:xor_16_bit_ins1.input1[4]
+input1[5] => xor_16_bit:xor_16_bit_ins1.input1[5]
+input1[6] => xor_16_bit:xor_16_bit_ins1.input1[6]
+input1[7] => xor_16_bit:xor_16_bit_ins1.input1[7]
+input1[8] => xor_16_bit:xor_16_bit_ins1.input1[8]
+input1[9] => xor_16_bit:xor_16_bit_ins1.input1[9]
+input1[10] => xor_16_bit:xor_16_bit_ins1.input1[10]
+input1[11] => xor_16_bit:xor_16_bit_ins1.input1[11]
+input1[12] => xor_16_bit:xor_16_bit_ins1.input1[12]
+input1[13] => xor_16_bit:xor_16_bit_ins1.input1[13]
+input1[14] => xor_16_bit:xor_16_bit_ins1.input1[14]
+input1[15] => xor_16_bit:xor_16_bit_ins1.input1[15]
+input1[16] => xor_16_bit:xor_16_bit_ins2.input1[0]
+input1[17] => xor_16_bit:xor_16_bit_ins2.input1[1]
+input1[18] => xor_16_bit:xor_16_bit_ins2.input1[2]
+input1[19] => xor_16_bit:xor_16_bit_ins2.input1[3]
+input1[20] => xor_16_bit:xor_16_bit_ins2.input1[4]
+input1[21] => xor_16_bit:xor_16_bit_ins2.input1[5]
+input1[22] => xor_16_bit:xor_16_bit_ins2.input1[6]
+input1[23] => xor_16_bit:xor_16_bit_ins2.input1[7]
+input1[24] => xor_16_bit:xor_16_bit_ins2.input1[8]
+input1[25] => xor_16_bit:xor_16_bit_ins2.input1[9]
+input1[26] => xor_16_bit:xor_16_bit_ins2.input1[10]
+input1[27] => xor_16_bit:xor_16_bit_ins2.input1[11]
+input1[28] => xor_16_bit:xor_16_bit_ins2.input1[12]
+input1[29] => xor_16_bit:xor_16_bit_ins2.input1[13]
+input1[30] => xor_16_bit:xor_16_bit_ins2.input1[14]
+input1[31] => xor_16_bit:xor_16_bit_ins2.input1[15]
+input2[0] => xor_16_bit:xor_16_bit_ins1.input2[0]
+input2[1] => xor_16_bit:xor_16_bit_ins1.input2[1]
+input2[2] => xor_16_bit:xor_16_bit_ins1.input2[2]
+input2[3] => xor_16_bit:xor_16_bit_ins1.input2[3]
+input2[4] => xor_16_bit:xor_16_bit_ins1.input2[4]
+input2[5] => xor_16_bit:xor_16_bit_ins1.input2[5]
+input2[6] => xor_16_bit:xor_16_bit_ins1.input2[6]
+input2[7] => xor_16_bit:xor_16_bit_ins1.input2[7]
+input2[8] => xor_16_bit:xor_16_bit_ins1.input2[8]
+input2[9] => xor_16_bit:xor_16_bit_ins1.input2[9]
+input2[10] => xor_16_bit:xor_16_bit_ins1.input2[10]
+input2[11] => xor_16_bit:xor_16_bit_ins1.input2[11]
+input2[12] => xor_16_bit:xor_16_bit_ins1.input2[12]
+input2[13] => xor_16_bit:xor_16_bit_ins1.input2[13]
+input2[14] => xor_16_bit:xor_16_bit_ins1.input2[14]
+input2[15] => xor_16_bit:xor_16_bit_ins1.input2[15]
+input2[16] => xor_16_bit:xor_16_bit_ins2.input2[0]
+input2[17] => xor_16_bit:xor_16_bit_ins2.input2[1]
+input2[18] => xor_16_bit:xor_16_bit_ins2.input2[2]
+input2[19] => xor_16_bit:xor_16_bit_ins2.input2[3]
+input2[20] => xor_16_bit:xor_16_bit_ins2.input2[4]
+input2[21] => xor_16_bit:xor_16_bit_ins2.input2[5]
+input2[22] => xor_16_bit:xor_16_bit_ins2.input2[6]
+input2[23] => xor_16_bit:xor_16_bit_ins2.input2[7]
+input2[24] => xor_16_bit:xor_16_bit_ins2.input2[8]
+input2[25] => xor_16_bit:xor_16_bit_ins2.input2[9]
+input2[26] => xor_16_bit:xor_16_bit_ins2.input2[10]
+input2[27] => xor_16_bit:xor_16_bit_ins2.input2[11]
+input2[28] => xor_16_bit:xor_16_bit_ins2.input2[12]
+input2[29] => xor_16_bit:xor_16_bit_ins2.input2[13]
+input2[30] => xor_16_bit:xor_16_bit_ins2.input2[14]
+input2[31] => xor_16_bit:xor_16_bit_ins2.input2[15]
+output[0] <= xor_16_bit:xor_16_bit_ins1.output[0]
+output[1] <= xor_16_bit:xor_16_bit_ins1.output[1]
+output[2] <= xor_16_bit:xor_16_bit_ins1.output[2]
+output[3] <= xor_16_bit:xor_16_bit_ins1.output[3]
+output[4] <= xor_16_bit:xor_16_bit_ins1.output[4]
+output[5] <= xor_16_bit:xor_16_bit_ins1.output[5]
+output[6] <= xor_16_bit:xor_16_bit_ins1.output[6]
+output[7] <= xor_16_bit:xor_16_bit_ins1.output[7]
+output[8] <= xor_16_bit:xor_16_bit_ins1.output[8]
+output[9] <= xor_16_bit:xor_16_bit_ins1.output[9]
+output[10] <= xor_16_bit:xor_16_bit_ins1.output[10]
+output[11] <= xor_16_bit:xor_16_bit_ins1.output[11]
+output[12] <= xor_16_bit:xor_16_bit_ins1.output[12]
+output[13] <= xor_16_bit:xor_16_bit_ins1.output[13]
+output[14] <= xor_16_bit:xor_16_bit_ins1.output[14]
+output[15] <= xor_16_bit:xor_16_bit_ins1.output[15]
+output[16] <= xor_16_bit:xor_16_bit_ins2.output[0]
+output[17] <= xor_16_bit:xor_16_bit_ins2.output[1]
+output[18] <= xor_16_bit:xor_16_bit_ins2.output[2]
+output[19] <= xor_16_bit:xor_16_bit_ins2.output[3]
+output[20] <= xor_16_bit:xor_16_bit_ins2.output[4]
+output[21] <= xor_16_bit:xor_16_bit_ins2.output[5]
+output[22] <= xor_16_bit:xor_16_bit_ins2.output[6]
+output[23] <= xor_16_bit:xor_16_bit_ins2.output[7]
+output[24] <= xor_16_bit:xor_16_bit_ins2.output[8]
+output[25] <= xor_16_bit:xor_16_bit_ins2.output[9]
+output[26] <= xor_16_bit:xor_16_bit_ins2.output[10]
+output[27] <= xor_16_bit:xor_16_bit_ins2.output[11]
+output[28] <= xor_16_bit:xor_16_bit_ins2.output[12]
+output[29] <= xor_16_bit:xor_16_bit_ins2.output[13]
+output[30] <= xor_16_bit:xor_16_bit_ins2.output[14]
+output[31] <= xor_16_bit:xor_16_bit_ins2.output[15]
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:xor_parity|xor_16_bit:xor_16_bit_ins1
+input1[0] => xor_4_bit:xor_4_bit_ins1.input1[0]
+input1[1] => xor_4_bit:xor_4_bit_ins1.input1[1]
+input1[2] => xor_4_bit:xor_4_bit_ins1.input1[2]
+input1[3] => xor_4_bit:xor_4_bit_ins1.input1[3]
+input1[4] => xor_4_bit:xor_4_bit_ins2.input1[0]
+input1[5] => xor_4_bit:xor_4_bit_ins2.input1[1]
+input1[6] => xor_4_bit:xor_4_bit_ins2.input1[2]
+input1[7] => xor_4_bit:xor_4_bit_ins2.input1[3]
+input1[8] => xor_4_bit:xor_4_bit_ins3.input1[0]
+input1[9] => xor_4_bit:xor_4_bit_ins3.input1[1]
+input1[10] => xor_4_bit:xor_4_bit_ins3.input1[2]
+input1[11] => xor_4_bit:xor_4_bit_ins3.input1[3]
+input1[12] => xor_4_bit:xor_4_bit_ins4.input1[0]
+input1[13] => xor_4_bit:xor_4_bit_ins4.input1[1]
+input1[14] => xor_4_bit:xor_4_bit_ins4.input1[2]
+input1[15] => xor_4_bit:xor_4_bit_ins4.input1[3]
+input2[0] => xor_4_bit:xor_4_bit_ins1.input2[0]
+input2[1] => xor_4_bit:xor_4_bit_ins1.input2[1]
+input2[2] => xor_4_bit:xor_4_bit_ins1.input2[2]
+input2[3] => xor_4_bit:xor_4_bit_ins1.input2[3]
+input2[4] => xor_4_bit:xor_4_bit_ins2.input2[0]
+input2[5] => xor_4_bit:xor_4_bit_ins2.input2[1]
+input2[6] => xor_4_bit:xor_4_bit_ins2.input2[2]
+input2[7] => xor_4_bit:xor_4_bit_ins2.input2[3]
+input2[8] => xor_4_bit:xor_4_bit_ins3.input2[0]
+input2[9] => xor_4_bit:xor_4_bit_ins3.input2[1]
+input2[10] => xor_4_bit:xor_4_bit_ins3.input2[2]
+input2[11] => xor_4_bit:xor_4_bit_ins3.input2[3]
+input2[12] => xor_4_bit:xor_4_bit_ins4.input2[0]
+input2[13] => xor_4_bit:xor_4_bit_ins4.input2[1]
+input2[14] => xor_4_bit:xor_4_bit_ins4.input2[2]
+input2[15] => xor_4_bit:xor_4_bit_ins4.input2[3]
+output[0] <= xor_4_bit:xor_4_bit_ins1.output[0]
+output[1] <= xor_4_bit:xor_4_bit_ins1.output[1]
+output[2] <= xor_4_bit:xor_4_bit_ins1.output[2]
+output[3] <= xor_4_bit:xor_4_bit_ins1.output[3]
+output[4] <= xor_4_bit:xor_4_bit_ins2.output[0]
+output[5] <= xor_4_bit:xor_4_bit_ins2.output[1]
+output[6] <= xor_4_bit:xor_4_bit_ins2.output[2]
+output[7] <= xor_4_bit:xor_4_bit_ins2.output[3]
+output[8] <= xor_4_bit:xor_4_bit_ins3.output[0]
+output[9] <= xor_4_bit:xor_4_bit_ins3.output[1]
+output[10] <= xor_4_bit:xor_4_bit_ins3.output[2]
+output[11] <= xor_4_bit:xor_4_bit_ins3.output[3]
+output[12] <= xor_4_bit:xor_4_bit_ins4.output[0]
+output[13] <= xor_4_bit:xor_4_bit_ins4.output[1]
+output[14] <= xor_4_bit:xor_4_bit_ins4.output[2]
+output[15] <= xor_4_bit:xor_4_bit_ins4.output[3]
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:xor_parity|xor_16_bit:xor_16_bit_ins1|xor_4_bit:xor_4_bit_ins1
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:xor_parity|xor_16_bit:xor_16_bit_ins1|xor_4_bit:xor_4_bit_ins2
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:xor_parity|xor_16_bit:xor_16_bit_ins1|xor_4_bit:xor_4_bit_ins3
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:xor_parity|xor_16_bit:xor_16_bit_ins1|xor_4_bit:xor_4_bit_ins4
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:xor_parity|xor_16_bit:xor_16_bit_ins2
+input1[0] => xor_4_bit:xor_4_bit_ins1.input1[0]
+input1[1] => xor_4_bit:xor_4_bit_ins1.input1[1]
+input1[2] => xor_4_bit:xor_4_bit_ins1.input1[2]
+input1[3] => xor_4_bit:xor_4_bit_ins1.input1[3]
+input1[4] => xor_4_bit:xor_4_bit_ins2.input1[0]
+input1[5] => xor_4_bit:xor_4_bit_ins2.input1[1]
+input1[6] => xor_4_bit:xor_4_bit_ins2.input1[2]
+input1[7] => xor_4_bit:xor_4_bit_ins2.input1[3]
+input1[8] => xor_4_bit:xor_4_bit_ins3.input1[0]
+input1[9] => xor_4_bit:xor_4_bit_ins3.input1[1]
+input1[10] => xor_4_bit:xor_4_bit_ins3.input1[2]
+input1[11] => xor_4_bit:xor_4_bit_ins3.input1[3]
+input1[12] => xor_4_bit:xor_4_bit_ins4.input1[0]
+input1[13] => xor_4_bit:xor_4_bit_ins4.input1[1]
+input1[14] => xor_4_bit:xor_4_bit_ins4.input1[2]
+input1[15] => xor_4_bit:xor_4_bit_ins4.input1[3]
+input2[0] => xor_4_bit:xor_4_bit_ins1.input2[0]
+input2[1] => xor_4_bit:xor_4_bit_ins1.input2[1]
+input2[2] => xor_4_bit:xor_4_bit_ins1.input2[2]
+input2[3] => xor_4_bit:xor_4_bit_ins1.input2[3]
+input2[4] => xor_4_bit:xor_4_bit_ins2.input2[0]
+input2[5] => xor_4_bit:xor_4_bit_ins2.input2[1]
+input2[6] => xor_4_bit:xor_4_bit_ins2.input2[2]
+input2[7] => xor_4_bit:xor_4_bit_ins2.input2[3]
+input2[8] => xor_4_bit:xor_4_bit_ins3.input2[0]
+input2[9] => xor_4_bit:xor_4_bit_ins3.input2[1]
+input2[10] => xor_4_bit:xor_4_bit_ins3.input2[2]
+input2[11] => xor_4_bit:xor_4_bit_ins3.input2[3]
+input2[12] => xor_4_bit:xor_4_bit_ins4.input2[0]
+input2[13] => xor_4_bit:xor_4_bit_ins4.input2[1]
+input2[14] => xor_4_bit:xor_4_bit_ins4.input2[2]
+input2[15] => xor_4_bit:xor_4_bit_ins4.input2[3]
+output[0] <= xor_4_bit:xor_4_bit_ins1.output[0]
+output[1] <= xor_4_bit:xor_4_bit_ins1.output[1]
+output[2] <= xor_4_bit:xor_4_bit_ins1.output[2]
+output[3] <= xor_4_bit:xor_4_bit_ins1.output[3]
+output[4] <= xor_4_bit:xor_4_bit_ins2.output[0]
+output[5] <= xor_4_bit:xor_4_bit_ins2.output[1]
+output[6] <= xor_4_bit:xor_4_bit_ins2.output[2]
+output[7] <= xor_4_bit:xor_4_bit_ins2.output[3]
+output[8] <= xor_4_bit:xor_4_bit_ins3.output[0]
+output[9] <= xor_4_bit:xor_4_bit_ins3.output[1]
+output[10] <= xor_4_bit:xor_4_bit_ins3.output[2]
+output[11] <= xor_4_bit:xor_4_bit_ins3.output[3]
+output[12] <= xor_4_bit:xor_4_bit_ins4.output[0]
+output[13] <= xor_4_bit:xor_4_bit_ins4.output[1]
+output[14] <= xor_4_bit:xor_4_bit_ins4.output[2]
+output[15] <= xor_4_bit:xor_4_bit_ins4.output[3]
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:xor_parity|xor_16_bit:xor_16_bit_ins2|xor_4_bit:xor_4_bit_ins1
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:xor_parity|xor_16_bit:xor_16_bit_ins2|xor_4_bit:xor_4_bit_ins2
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:xor_parity|xor_16_bit:xor_16_bit_ins2|xor_4_bit:xor_4_bit_ins3
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:xor_parity|xor_16_bit:xor_16_bit_ins2|xor_4_bit:xor_4_bit_ins4
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity
+d[0] => register_16_bit:register_16_bit_ins1.d[0]
+d[1] => register_16_bit:register_16_bit_ins1.d[1]
+d[2] => register_16_bit:register_16_bit_ins1.d[2]
+d[3] => register_16_bit:register_16_bit_ins1.d[3]
+d[4] => register_16_bit:register_16_bit_ins1.d[4]
+d[5] => register_16_bit:register_16_bit_ins1.d[5]
+d[6] => register_16_bit:register_16_bit_ins1.d[6]
+d[7] => register_16_bit:register_16_bit_ins1.d[7]
+d[8] => register_16_bit:register_16_bit_ins1.d[8]
+d[9] => register_16_bit:register_16_bit_ins1.d[9]
+d[10] => register_16_bit:register_16_bit_ins1.d[10]
+d[11] => register_16_bit:register_16_bit_ins1.d[11]
+d[12] => register_16_bit:register_16_bit_ins1.d[12]
+d[13] => register_16_bit:register_16_bit_ins1.d[13]
+d[14] => register_16_bit:register_16_bit_ins1.d[14]
+d[15] => register_16_bit:register_16_bit_ins1.d[15]
+d[16] => register_16_bit:register_16_bit_ins2.d[0]
+d[17] => register_16_bit:register_16_bit_ins2.d[1]
+d[18] => register_16_bit:register_16_bit_ins2.d[2]
+d[19] => register_16_bit:register_16_bit_ins2.d[3]
+d[20] => register_16_bit:register_16_bit_ins2.d[4]
+d[21] => register_16_bit:register_16_bit_ins2.d[5]
+d[22] => register_16_bit:register_16_bit_ins2.d[6]
+d[23] => register_16_bit:register_16_bit_ins2.d[7]
+d[24] => register_16_bit:register_16_bit_ins2.d[8]
+d[25] => register_16_bit:register_16_bit_ins2.d[9]
+d[26] => register_16_bit:register_16_bit_ins2.d[10]
+d[27] => register_16_bit:register_16_bit_ins2.d[11]
+d[28] => register_16_bit:register_16_bit_ins2.d[12]
+d[29] => register_16_bit:register_16_bit_ins2.d[13]
+d[30] => register_16_bit:register_16_bit_ins2.d[14]
+d[31] => register_16_bit:register_16_bit_ins2.d[15]
+clr => register_16_bit:register_16_bit_ins1.clr
+clr => register_16_bit:register_16_bit_ins2.clr
+clk => register_16_bit:register_16_bit_ins1.clk
+clk => register_16_bit:register_16_bit_ins2.clk
+q[0] <= register_16_bit:register_16_bit_ins1.q[0]
+q[1] <= register_16_bit:register_16_bit_ins1.q[1]
+q[2] <= register_16_bit:register_16_bit_ins1.q[2]
+q[3] <= register_16_bit:register_16_bit_ins1.q[3]
+q[4] <= register_16_bit:register_16_bit_ins1.q[4]
+q[5] <= register_16_bit:register_16_bit_ins1.q[5]
+q[6] <= register_16_bit:register_16_bit_ins1.q[6]
+q[7] <= register_16_bit:register_16_bit_ins1.q[7]
+q[8] <= register_16_bit:register_16_bit_ins1.q[8]
+q[9] <= register_16_bit:register_16_bit_ins1.q[9]
+q[10] <= register_16_bit:register_16_bit_ins1.q[10]
+q[11] <= register_16_bit:register_16_bit_ins1.q[11]
+q[12] <= register_16_bit:register_16_bit_ins1.q[12]
+q[13] <= register_16_bit:register_16_bit_ins1.q[13]
+q[14] <= register_16_bit:register_16_bit_ins1.q[14]
+q[15] <= register_16_bit:register_16_bit_ins1.q[15]
+q[16] <= register_16_bit:register_16_bit_ins2.q[0]
+q[17] <= register_16_bit:register_16_bit_ins2.q[1]
+q[18] <= register_16_bit:register_16_bit_ins2.q[2]
+q[19] <= register_16_bit:register_16_bit_ins2.q[3]
+q[20] <= register_16_bit:register_16_bit_ins2.q[4]
+q[21] <= register_16_bit:register_16_bit_ins2.q[5]
+q[22] <= register_16_bit:register_16_bit_ins2.q[6]
+q[23] <= register_16_bit:register_16_bit_ins2.q[7]
+q[24] <= register_16_bit:register_16_bit_ins2.q[8]
+q[25] <= register_16_bit:register_16_bit_ins2.q[9]
+q[26] <= register_16_bit:register_16_bit_ins2.q[10]
+q[27] <= register_16_bit:register_16_bit_ins2.q[11]
+q[28] <= register_16_bit:register_16_bit_ins2.q[12]
+q[29] <= register_16_bit:register_16_bit_ins2.q[13]
+q[30] <= register_16_bit:register_16_bit_ins2.q[14]
+q[31] <= register_16_bit:register_16_bit_ins2.q[15]
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1
+d[0] => register_4_bit:register_4_bit_ins1.d[0]
+d[1] => register_4_bit:register_4_bit_ins1.d[1]
+d[2] => register_4_bit:register_4_bit_ins1.d[2]
+d[3] => register_4_bit:register_4_bit_ins1.d[3]
+d[4] => register_4_bit:register_4_bit_ins2.d[0]
+d[5] => register_4_bit:register_4_bit_ins2.d[1]
+d[6] => register_4_bit:register_4_bit_ins2.d[2]
+d[7] => register_4_bit:register_4_bit_ins2.d[3]
+d[8] => register_4_bit:register_4_bit_ins3.d[0]
+d[9] => register_4_bit:register_4_bit_ins3.d[1]
+d[10] => register_4_bit:register_4_bit_ins3.d[2]
+d[11] => register_4_bit:register_4_bit_ins3.d[3]
+d[12] => register_4_bit:register_4_bit_ins4.d[0]
+d[13] => register_4_bit:register_4_bit_ins4.d[1]
+d[14] => register_4_bit:register_4_bit_ins4.d[2]
+d[15] => register_4_bit:register_4_bit_ins4.d[3]
+clr => register_4_bit:register_4_bit_ins1.clr
+clr => register_4_bit:register_4_bit_ins2.clr
+clr => register_4_bit:register_4_bit_ins3.clr
+clr => register_4_bit:register_4_bit_ins4.clr
+clk => register_4_bit:register_4_bit_ins1.clk
+clk => register_4_bit:register_4_bit_ins2.clk
+clk => register_4_bit:register_4_bit_ins3.clk
+clk => register_4_bit:register_4_bit_ins4.clk
+q[0] <= register_4_bit:register_4_bit_ins1.q[0]
+q[1] <= register_4_bit:register_4_bit_ins1.q[1]
+q[2] <= register_4_bit:register_4_bit_ins1.q[2]
+q[3] <= register_4_bit:register_4_bit_ins1.q[3]
+q[4] <= register_4_bit:register_4_bit_ins2.q[0]
+q[5] <= register_4_bit:register_4_bit_ins2.q[1]
+q[6] <= register_4_bit:register_4_bit_ins2.q[2]
+q[7] <= register_4_bit:register_4_bit_ins2.q[3]
+q[8] <= register_4_bit:register_4_bit_ins3.q[0]
+q[9] <= register_4_bit:register_4_bit_ins3.q[1]
+q[10] <= register_4_bit:register_4_bit_ins3.q[2]
+q[11] <= register_4_bit:register_4_bit_ins3.q[3]
+q[12] <= register_4_bit:register_4_bit_ins4.q[0]
+q[13] <= register_4_bit:register_4_bit_ins4.q[1]
+q[14] <= register_4_bit:register_4_bit_ins4.q[2]
+q[15] <= register_4_bit:register_4_bit_ins4.q[3]
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins1
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins2
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins3
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins4
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2
+d[0] => register_4_bit:register_4_bit_ins1.d[0]
+d[1] => register_4_bit:register_4_bit_ins1.d[1]
+d[2] => register_4_bit:register_4_bit_ins1.d[2]
+d[3] => register_4_bit:register_4_bit_ins1.d[3]
+d[4] => register_4_bit:register_4_bit_ins2.d[0]
+d[5] => register_4_bit:register_4_bit_ins2.d[1]
+d[6] => register_4_bit:register_4_bit_ins2.d[2]
+d[7] => register_4_bit:register_4_bit_ins2.d[3]
+d[8] => register_4_bit:register_4_bit_ins3.d[0]
+d[9] => register_4_bit:register_4_bit_ins3.d[1]
+d[10] => register_4_bit:register_4_bit_ins3.d[2]
+d[11] => register_4_bit:register_4_bit_ins3.d[3]
+d[12] => register_4_bit:register_4_bit_ins4.d[0]
+d[13] => register_4_bit:register_4_bit_ins4.d[1]
+d[14] => register_4_bit:register_4_bit_ins4.d[2]
+d[15] => register_4_bit:register_4_bit_ins4.d[3]
+clr => register_4_bit:register_4_bit_ins1.clr
+clr => register_4_bit:register_4_bit_ins2.clr
+clr => register_4_bit:register_4_bit_ins3.clr
+clr => register_4_bit:register_4_bit_ins4.clr
+clk => register_4_bit:register_4_bit_ins1.clk
+clk => register_4_bit:register_4_bit_ins2.clk
+clk => register_4_bit:register_4_bit_ins3.clk
+clk => register_4_bit:register_4_bit_ins4.clk
+q[0] <= register_4_bit:register_4_bit_ins1.q[0]
+q[1] <= register_4_bit:register_4_bit_ins1.q[1]
+q[2] <= register_4_bit:register_4_bit_ins1.q[2]
+q[3] <= register_4_bit:register_4_bit_ins1.q[3]
+q[4] <= register_4_bit:register_4_bit_ins2.q[0]
+q[5] <= register_4_bit:register_4_bit_ins2.q[1]
+q[6] <= register_4_bit:register_4_bit_ins2.q[2]
+q[7] <= register_4_bit:register_4_bit_ins2.q[3]
+q[8] <= register_4_bit:register_4_bit_ins3.q[0]
+q[9] <= register_4_bit:register_4_bit_ins3.q[1]
+q[10] <= register_4_bit:register_4_bit_ins3.q[2]
+q[11] <= register_4_bit:register_4_bit_ins3.q[3]
+q[12] <= register_4_bit:register_4_bit_ins4.q[0]
+q[13] <= register_4_bit:register_4_bit_ins4.q[1]
+q[14] <= register_4_bit:register_4_bit_ins4.q[2]
+q[15] <= register_4_bit:register_4_bit_ins4.q[3]
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins1
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins2
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins3
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins4
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_parity|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:BMC_1_ins
+input1[0] => xor_16_bit:xor_16_bit_ins1.input1[0]
+input1[1] => xor_16_bit:xor_16_bit_ins1.input1[1]
+input1[2] => xor_16_bit:xor_16_bit_ins1.input1[2]
+input1[3] => xor_16_bit:xor_16_bit_ins1.input1[3]
+input1[4] => xor_16_bit:xor_16_bit_ins1.input1[4]
+input1[5] => xor_16_bit:xor_16_bit_ins1.input1[5]
+input1[6] => xor_16_bit:xor_16_bit_ins1.input1[6]
+input1[7] => xor_16_bit:xor_16_bit_ins1.input1[7]
+input1[8] => xor_16_bit:xor_16_bit_ins1.input1[8]
+input1[9] => xor_16_bit:xor_16_bit_ins1.input1[9]
+input1[10] => xor_16_bit:xor_16_bit_ins1.input1[10]
+input1[11] => xor_16_bit:xor_16_bit_ins1.input1[11]
+input1[12] => xor_16_bit:xor_16_bit_ins1.input1[12]
+input1[13] => xor_16_bit:xor_16_bit_ins1.input1[13]
+input1[14] => xor_16_bit:xor_16_bit_ins1.input1[14]
+input1[15] => xor_16_bit:xor_16_bit_ins1.input1[15]
+input1[16] => xor_16_bit:xor_16_bit_ins2.input1[0]
+input1[17] => xor_16_bit:xor_16_bit_ins2.input1[1]
+input1[18] => xor_16_bit:xor_16_bit_ins2.input1[2]
+input1[19] => xor_16_bit:xor_16_bit_ins2.input1[3]
+input1[20] => xor_16_bit:xor_16_bit_ins2.input1[4]
+input1[21] => xor_16_bit:xor_16_bit_ins2.input1[5]
+input1[22] => xor_16_bit:xor_16_bit_ins2.input1[6]
+input1[23] => xor_16_bit:xor_16_bit_ins2.input1[7]
+input1[24] => xor_16_bit:xor_16_bit_ins2.input1[8]
+input1[25] => xor_16_bit:xor_16_bit_ins2.input1[9]
+input1[26] => xor_16_bit:xor_16_bit_ins2.input1[10]
+input1[27] => xor_16_bit:xor_16_bit_ins2.input1[11]
+input1[28] => xor_16_bit:xor_16_bit_ins2.input1[12]
+input1[29] => xor_16_bit:xor_16_bit_ins2.input1[13]
+input1[30] => xor_16_bit:xor_16_bit_ins2.input1[14]
+input1[31] => xor_16_bit:xor_16_bit_ins2.input1[15]
+input2[0] => xor_16_bit:xor_16_bit_ins1.input2[0]
+input2[1] => xor_16_bit:xor_16_bit_ins1.input2[1]
+input2[2] => xor_16_bit:xor_16_bit_ins1.input2[2]
+input2[3] => xor_16_bit:xor_16_bit_ins1.input2[3]
+input2[4] => xor_16_bit:xor_16_bit_ins1.input2[4]
+input2[5] => xor_16_bit:xor_16_bit_ins1.input2[5]
+input2[6] => xor_16_bit:xor_16_bit_ins1.input2[6]
+input2[7] => xor_16_bit:xor_16_bit_ins1.input2[7]
+input2[8] => xor_16_bit:xor_16_bit_ins1.input2[8]
+input2[9] => xor_16_bit:xor_16_bit_ins1.input2[9]
+input2[10] => xor_16_bit:xor_16_bit_ins1.input2[10]
+input2[11] => xor_16_bit:xor_16_bit_ins1.input2[11]
+input2[12] => xor_16_bit:xor_16_bit_ins1.input2[12]
+input2[13] => xor_16_bit:xor_16_bit_ins1.input2[13]
+input2[14] => xor_16_bit:xor_16_bit_ins1.input2[14]
+input2[15] => xor_16_bit:xor_16_bit_ins1.input2[15]
+input2[16] => xor_16_bit:xor_16_bit_ins2.input2[0]
+input2[17] => xor_16_bit:xor_16_bit_ins2.input2[1]
+input2[18] => xor_16_bit:xor_16_bit_ins2.input2[2]
+input2[19] => xor_16_bit:xor_16_bit_ins2.input2[3]
+input2[20] => xor_16_bit:xor_16_bit_ins2.input2[4]
+input2[21] => xor_16_bit:xor_16_bit_ins2.input2[5]
+input2[22] => xor_16_bit:xor_16_bit_ins2.input2[6]
+input2[23] => xor_16_bit:xor_16_bit_ins2.input2[7]
+input2[24] => xor_16_bit:xor_16_bit_ins2.input2[8]
+input2[25] => xor_16_bit:xor_16_bit_ins2.input2[9]
+input2[26] => xor_16_bit:xor_16_bit_ins2.input2[10]
+input2[27] => xor_16_bit:xor_16_bit_ins2.input2[11]
+input2[28] => xor_16_bit:xor_16_bit_ins2.input2[12]
+input2[29] => xor_16_bit:xor_16_bit_ins2.input2[13]
+input2[30] => xor_16_bit:xor_16_bit_ins2.input2[14]
+input2[31] => xor_16_bit:xor_16_bit_ins2.input2[15]
+output[0] <= xor_16_bit:xor_16_bit_ins1.output[0]
+output[1] <= xor_16_bit:xor_16_bit_ins1.output[1]
+output[2] <= xor_16_bit:xor_16_bit_ins1.output[2]
+output[3] <= xor_16_bit:xor_16_bit_ins1.output[3]
+output[4] <= xor_16_bit:xor_16_bit_ins1.output[4]
+output[5] <= xor_16_bit:xor_16_bit_ins1.output[5]
+output[6] <= xor_16_bit:xor_16_bit_ins1.output[6]
+output[7] <= xor_16_bit:xor_16_bit_ins1.output[7]
+output[8] <= xor_16_bit:xor_16_bit_ins1.output[8]
+output[9] <= xor_16_bit:xor_16_bit_ins1.output[9]
+output[10] <= xor_16_bit:xor_16_bit_ins1.output[10]
+output[11] <= xor_16_bit:xor_16_bit_ins1.output[11]
+output[12] <= xor_16_bit:xor_16_bit_ins1.output[12]
+output[13] <= xor_16_bit:xor_16_bit_ins1.output[13]
+output[14] <= xor_16_bit:xor_16_bit_ins1.output[14]
+output[15] <= xor_16_bit:xor_16_bit_ins1.output[15]
+output[16] <= xor_16_bit:xor_16_bit_ins2.output[0]
+output[17] <= xor_16_bit:xor_16_bit_ins2.output[1]
+output[18] <= xor_16_bit:xor_16_bit_ins2.output[2]
+output[19] <= xor_16_bit:xor_16_bit_ins2.output[3]
+output[20] <= xor_16_bit:xor_16_bit_ins2.output[4]
+output[21] <= xor_16_bit:xor_16_bit_ins2.output[5]
+output[22] <= xor_16_bit:xor_16_bit_ins2.output[6]
+output[23] <= xor_16_bit:xor_16_bit_ins2.output[7]
+output[24] <= xor_16_bit:xor_16_bit_ins2.output[8]
+output[25] <= xor_16_bit:xor_16_bit_ins2.output[9]
+output[26] <= xor_16_bit:xor_16_bit_ins2.output[10]
+output[27] <= xor_16_bit:xor_16_bit_ins2.output[11]
+output[28] <= xor_16_bit:xor_16_bit_ins2.output[12]
+output[29] <= xor_16_bit:xor_16_bit_ins2.output[13]
+output[30] <= xor_16_bit:xor_16_bit_ins2.output[14]
+output[31] <= xor_16_bit:xor_16_bit_ins2.output[15]
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:BMC_1_ins|xor_16_bit:xor_16_bit_ins1
+input1[0] => xor_4_bit:xor_4_bit_ins1.input1[0]
+input1[1] => xor_4_bit:xor_4_bit_ins1.input1[1]
+input1[2] => xor_4_bit:xor_4_bit_ins1.input1[2]
+input1[3] => xor_4_bit:xor_4_bit_ins1.input1[3]
+input1[4] => xor_4_bit:xor_4_bit_ins2.input1[0]
+input1[5] => xor_4_bit:xor_4_bit_ins2.input1[1]
+input1[6] => xor_4_bit:xor_4_bit_ins2.input1[2]
+input1[7] => xor_4_bit:xor_4_bit_ins2.input1[3]
+input1[8] => xor_4_bit:xor_4_bit_ins3.input1[0]
+input1[9] => xor_4_bit:xor_4_bit_ins3.input1[1]
+input1[10] => xor_4_bit:xor_4_bit_ins3.input1[2]
+input1[11] => xor_4_bit:xor_4_bit_ins3.input1[3]
+input1[12] => xor_4_bit:xor_4_bit_ins4.input1[0]
+input1[13] => xor_4_bit:xor_4_bit_ins4.input1[1]
+input1[14] => xor_4_bit:xor_4_bit_ins4.input1[2]
+input1[15] => xor_4_bit:xor_4_bit_ins4.input1[3]
+input2[0] => xor_4_bit:xor_4_bit_ins1.input2[0]
+input2[1] => xor_4_bit:xor_4_bit_ins1.input2[1]
+input2[2] => xor_4_bit:xor_4_bit_ins1.input2[2]
+input2[3] => xor_4_bit:xor_4_bit_ins1.input2[3]
+input2[4] => xor_4_bit:xor_4_bit_ins2.input2[0]
+input2[5] => xor_4_bit:xor_4_bit_ins2.input2[1]
+input2[6] => xor_4_bit:xor_4_bit_ins2.input2[2]
+input2[7] => xor_4_bit:xor_4_bit_ins2.input2[3]
+input2[8] => xor_4_bit:xor_4_bit_ins3.input2[0]
+input2[9] => xor_4_bit:xor_4_bit_ins3.input2[1]
+input2[10] => xor_4_bit:xor_4_bit_ins3.input2[2]
+input2[11] => xor_4_bit:xor_4_bit_ins3.input2[3]
+input2[12] => xor_4_bit:xor_4_bit_ins4.input2[0]
+input2[13] => xor_4_bit:xor_4_bit_ins4.input2[1]
+input2[14] => xor_4_bit:xor_4_bit_ins4.input2[2]
+input2[15] => xor_4_bit:xor_4_bit_ins4.input2[3]
+output[0] <= xor_4_bit:xor_4_bit_ins1.output[0]
+output[1] <= xor_4_bit:xor_4_bit_ins1.output[1]
+output[2] <= xor_4_bit:xor_4_bit_ins1.output[2]
+output[3] <= xor_4_bit:xor_4_bit_ins1.output[3]
+output[4] <= xor_4_bit:xor_4_bit_ins2.output[0]
+output[5] <= xor_4_bit:xor_4_bit_ins2.output[1]
+output[6] <= xor_4_bit:xor_4_bit_ins2.output[2]
+output[7] <= xor_4_bit:xor_4_bit_ins2.output[3]
+output[8] <= xor_4_bit:xor_4_bit_ins3.output[0]
+output[9] <= xor_4_bit:xor_4_bit_ins3.output[1]
+output[10] <= xor_4_bit:xor_4_bit_ins3.output[2]
+output[11] <= xor_4_bit:xor_4_bit_ins3.output[3]
+output[12] <= xor_4_bit:xor_4_bit_ins4.output[0]
+output[13] <= xor_4_bit:xor_4_bit_ins4.output[1]
+output[14] <= xor_4_bit:xor_4_bit_ins4.output[2]
+output[15] <= xor_4_bit:xor_4_bit_ins4.output[3]
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:BMC_1_ins|xor_16_bit:xor_16_bit_ins1|xor_4_bit:xor_4_bit_ins1
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:BMC_1_ins|xor_16_bit:xor_16_bit_ins1|xor_4_bit:xor_4_bit_ins2
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:BMC_1_ins|xor_16_bit:xor_16_bit_ins1|xor_4_bit:xor_4_bit_ins3
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:BMC_1_ins|xor_16_bit:xor_16_bit_ins1|xor_4_bit:xor_4_bit_ins4
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:BMC_1_ins|xor_16_bit:xor_16_bit_ins2
+input1[0] => xor_4_bit:xor_4_bit_ins1.input1[0]
+input1[1] => xor_4_bit:xor_4_bit_ins1.input1[1]
+input1[2] => xor_4_bit:xor_4_bit_ins1.input1[2]
+input1[3] => xor_4_bit:xor_4_bit_ins1.input1[3]
+input1[4] => xor_4_bit:xor_4_bit_ins2.input1[0]
+input1[5] => xor_4_bit:xor_4_bit_ins2.input1[1]
+input1[6] => xor_4_bit:xor_4_bit_ins2.input1[2]
+input1[7] => xor_4_bit:xor_4_bit_ins2.input1[3]
+input1[8] => xor_4_bit:xor_4_bit_ins3.input1[0]
+input1[9] => xor_4_bit:xor_4_bit_ins3.input1[1]
+input1[10] => xor_4_bit:xor_4_bit_ins3.input1[2]
+input1[11] => xor_4_bit:xor_4_bit_ins3.input1[3]
+input1[12] => xor_4_bit:xor_4_bit_ins4.input1[0]
+input1[13] => xor_4_bit:xor_4_bit_ins4.input1[1]
+input1[14] => xor_4_bit:xor_4_bit_ins4.input1[2]
+input1[15] => xor_4_bit:xor_4_bit_ins4.input1[3]
+input2[0] => xor_4_bit:xor_4_bit_ins1.input2[0]
+input2[1] => xor_4_bit:xor_4_bit_ins1.input2[1]
+input2[2] => xor_4_bit:xor_4_bit_ins1.input2[2]
+input2[3] => xor_4_bit:xor_4_bit_ins1.input2[3]
+input2[4] => xor_4_bit:xor_4_bit_ins2.input2[0]
+input2[5] => xor_4_bit:xor_4_bit_ins2.input2[1]
+input2[6] => xor_4_bit:xor_4_bit_ins2.input2[2]
+input2[7] => xor_4_bit:xor_4_bit_ins2.input2[3]
+input2[8] => xor_4_bit:xor_4_bit_ins3.input2[0]
+input2[9] => xor_4_bit:xor_4_bit_ins3.input2[1]
+input2[10] => xor_4_bit:xor_4_bit_ins3.input2[2]
+input2[11] => xor_4_bit:xor_4_bit_ins3.input2[3]
+input2[12] => xor_4_bit:xor_4_bit_ins4.input2[0]
+input2[13] => xor_4_bit:xor_4_bit_ins4.input2[1]
+input2[14] => xor_4_bit:xor_4_bit_ins4.input2[2]
+input2[15] => xor_4_bit:xor_4_bit_ins4.input2[3]
+output[0] <= xor_4_bit:xor_4_bit_ins1.output[0]
+output[1] <= xor_4_bit:xor_4_bit_ins1.output[1]
+output[2] <= xor_4_bit:xor_4_bit_ins1.output[2]
+output[3] <= xor_4_bit:xor_4_bit_ins1.output[3]
+output[4] <= xor_4_bit:xor_4_bit_ins2.output[0]
+output[5] <= xor_4_bit:xor_4_bit_ins2.output[1]
+output[6] <= xor_4_bit:xor_4_bit_ins2.output[2]
+output[7] <= xor_4_bit:xor_4_bit_ins2.output[3]
+output[8] <= xor_4_bit:xor_4_bit_ins3.output[0]
+output[9] <= xor_4_bit:xor_4_bit_ins3.output[1]
+output[10] <= xor_4_bit:xor_4_bit_ins3.output[2]
+output[11] <= xor_4_bit:xor_4_bit_ins3.output[3]
+output[12] <= xor_4_bit:xor_4_bit_ins4.output[0]
+output[13] <= xor_4_bit:xor_4_bit_ins4.output[1]
+output[14] <= xor_4_bit:xor_4_bit_ins4.output[2]
+output[15] <= xor_4_bit:xor_4_bit_ins4.output[3]
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:BMC_1_ins|xor_16_bit:xor_16_bit_ins2|xor_4_bit:xor_4_bit_ins1
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:BMC_1_ins|xor_16_bit:xor_16_bit_ins2|xor_4_bit:xor_4_bit_ins2
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:BMC_1_ins|xor_16_bit:xor_16_bit_ins2|xor_4_bit:xor_4_bit_ins3
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|xor_32_bit:BMC_1_ins|xor_16_bit:xor_16_bit_ins2|xor_4_bit:xor_4_bit_ins4
+input1[0] => output.IN0
+input1[1] => output.IN0
+input1[2] => output.IN0
+input1[3] => output.IN0
+input2[0] => output.IN1
+input2[1] => output.IN1
+input2[2] => output.IN1
+input2[3] => output.IN1
+output[0] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output.DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0
+d[0] => register_16_bit:register_16_bit_ins1.d[0]
+d[1] => register_16_bit:register_16_bit_ins1.d[1]
+d[2] => register_16_bit:register_16_bit_ins1.d[2]
+d[3] => register_16_bit:register_16_bit_ins1.d[3]
+d[4] => register_16_bit:register_16_bit_ins1.d[4]
+d[5] => register_16_bit:register_16_bit_ins1.d[5]
+d[6] => register_16_bit:register_16_bit_ins1.d[6]
+d[7] => register_16_bit:register_16_bit_ins1.d[7]
+d[8] => register_16_bit:register_16_bit_ins1.d[8]
+d[9] => register_16_bit:register_16_bit_ins1.d[9]
+d[10] => register_16_bit:register_16_bit_ins1.d[10]
+d[11] => register_16_bit:register_16_bit_ins1.d[11]
+d[12] => register_16_bit:register_16_bit_ins1.d[12]
+d[13] => register_16_bit:register_16_bit_ins1.d[13]
+d[14] => register_16_bit:register_16_bit_ins1.d[14]
+d[15] => register_16_bit:register_16_bit_ins1.d[15]
+d[16] => register_16_bit:register_16_bit_ins2.d[0]
+d[17] => register_16_bit:register_16_bit_ins2.d[1]
+d[18] => register_16_bit:register_16_bit_ins2.d[2]
+d[19] => register_16_bit:register_16_bit_ins2.d[3]
+d[20] => register_16_bit:register_16_bit_ins2.d[4]
+d[21] => register_16_bit:register_16_bit_ins2.d[5]
+d[22] => register_16_bit:register_16_bit_ins2.d[6]
+d[23] => register_16_bit:register_16_bit_ins2.d[7]
+d[24] => register_16_bit:register_16_bit_ins2.d[8]
+d[25] => register_16_bit:register_16_bit_ins2.d[9]
+d[26] => register_16_bit:register_16_bit_ins2.d[10]
+d[27] => register_16_bit:register_16_bit_ins2.d[11]
+d[28] => register_16_bit:register_16_bit_ins2.d[12]
+d[29] => register_16_bit:register_16_bit_ins2.d[13]
+d[30] => register_16_bit:register_16_bit_ins2.d[14]
+d[31] => register_16_bit:register_16_bit_ins2.d[15]
+clr => register_16_bit:register_16_bit_ins1.clr
+clr => register_16_bit:register_16_bit_ins2.clr
+clk => register_16_bit:register_16_bit_ins1.clk
+clk => register_16_bit:register_16_bit_ins2.clk
+q[0] <= register_16_bit:register_16_bit_ins1.q[0]
+q[1] <= register_16_bit:register_16_bit_ins1.q[1]
+q[2] <= register_16_bit:register_16_bit_ins1.q[2]
+q[3] <= register_16_bit:register_16_bit_ins1.q[3]
+q[4] <= register_16_bit:register_16_bit_ins1.q[4]
+q[5] <= register_16_bit:register_16_bit_ins1.q[5]
+q[6] <= register_16_bit:register_16_bit_ins1.q[6]
+q[7] <= register_16_bit:register_16_bit_ins1.q[7]
+q[8] <= register_16_bit:register_16_bit_ins1.q[8]
+q[9] <= register_16_bit:register_16_bit_ins1.q[9]
+q[10] <= register_16_bit:register_16_bit_ins1.q[10]
+q[11] <= register_16_bit:register_16_bit_ins1.q[11]
+q[12] <= register_16_bit:register_16_bit_ins1.q[12]
+q[13] <= register_16_bit:register_16_bit_ins1.q[13]
+q[14] <= register_16_bit:register_16_bit_ins1.q[14]
+q[15] <= register_16_bit:register_16_bit_ins1.q[15]
+q[16] <= register_16_bit:register_16_bit_ins2.q[0]
+q[17] <= register_16_bit:register_16_bit_ins2.q[1]
+q[18] <= register_16_bit:register_16_bit_ins2.q[2]
+q[19] <= register_16_bit:register_16_bit_ins2.q[3]
+q[20] <= register_16_bit:register_16_bit_ins2.q[4]
+q[21] <= register_16_bit:register_16_bit_ins2.q[5]
+q[22] <= register_16_bit:register_16_bit_ins2.q[6]
+q[23] <= register_16_bit:register_16_bit_ins2.q[7]
+q[24] <= register_16_bit:register_16_bit_ins2.q[8]
+q[25] <= register_16_bit:register_16_bit_ins2.q[9]
+q[26] <= register_16_bit:register_16_bit_ins2.q[10]
+q[27] <= register_16_bit:register_16_bit_ins2.q[11]
+q[28] <= register_16_bit:register_16_bit_ins2.q[12]
+q[29] <= register_16_bit:register_16_bit_ins2.q[13]
+q[30] <= register_16_bit:register_16_bit_ins2.q[14]
+q[31] <= register_16_bit:register_16_bit_ins2.q[15]
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1
+d[0] => register_4_bit:register_4_bit_ins1.d[0]
+d[1] => register_4_bit:register_4_bit_ins1.d[1]
+d[2] => register_4_bit:register_4_bit_ins1.d[2]
+d[3] => register_4_bit:register_4_bit_ins1.d[3]
+d[4] => register_4_bit:register_4_bit_ins2.d[0]
+d[5] => register_4_bit:register_4_bit_ins2.d[1]
+d[6] => register_4_bit:register_4_bit_ins2.d[2]
+d[7] => register_4_bit:register_4_bit_ins2.d[3]
+d[8] => register_4_bit:register_4_bit_ins3.d[0]
+d[9] => register_4_bit:register_4_bit_ins3.d[1]
+d[10] => register_4_bit:register_4_bit_ins3.d[2]
+d[11] => register_4_bit:register_4_bit_ins3.d[3]
+d[12] => register_4_bit:register_4_bit_ins4.d[0]
+d[13] => register_4_bit:register_4_bit_ins4.d[1]
+d[14] => register_4_bit:register_4_bit_ins4.d[2]
+d[15] => register_4_bit:register_4_bit_ins4.d[3]
+clr => register_4_bit:register_4_bit_ins1.clr
+clr => register_4_bit:register_4_bit_ins2.clr
+clr => register_4_bit:register_4_bit_ins3.clr
+clr => register_4_bit:register_4_bit_ins4.clr
+clk => register_4_bit:register_4_bit_ins1.clk
+clk => register_4_bit:register_4_bit_ins2.clk
+clk => register_4_bit:register_4_bit_ins3.clk
+clk => register_4_bit:register_4_bit_ins4.clk
+q[0] <= register_4_bit:register_4_bit_ins1.q[0]
+q[1] <= register_4_bit:register_4_bit_ins1.q[1]
+q[2] <= register_4_bit:register_4_bit_ins1.q[2]
+q[3] <= register_4_bit:register_4_bit_ins1.q[3]
+q[4] <= register_4_bit:register_4_bit_ins2.q[0]
+q[5] <= register_4_bit:register_4_bit_ins2.q[1]
+q[6] <= register_4_bit:register_4_bit_ins2.q[2]
+q[7] <= register_4_bit:register_4_bit_ins2.q[3]
+q[8] <= register_4_bit:register_4_bit_ins3.q[0]
+q[9] <= register_4_bit:register_4_bit_ins3.q[1]
+q[10] <= register_4_bit:register_4_bit_ins3.q[2]
+q[11] <= register_4_bit:register_4_bit_ins3.q[3]
+q[12] <= register_4_bit:register_4_bit_ins4.q[0]
+q[13] <= register_4_bit:register_4_bit_ins4.q[1]
+q[14] <= register_4_bit:register_4_bit_ins4.q[2]
+q[15] <= register_4_bit:register_4_bit_ins4.q[3]
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins1
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins2
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins3
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins4
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins1|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2
+d[0] => register_4_bit:register_4_bit_ins1.d[0]
+d[1] => register_4_bit:register_4_bit_ins1.d[1]
+d[2] => register_4_bit:register_4_bit_ins1.d[2]
+d[3] => register_4_bit:register_4_bit_ins1.d[3]
+d[4] => register_4_bit:register_4_bit_ins2.d[0]
+d[5] => register_4_bit:register_4_bit_ins2.d[1]
+d[6] => register_4_bit:register_4_bit_ins2.d[2]
+d[7] => register_4_bit:register_4_bit_ins2.d[3]
+d[8] => register_4_bit:register_4_bit_ins3.d[0]
+d[9] => register_4_bit:register_4_bit_ins3.d[1]
+d[10] => register_4_bit:register_4_bit_ins3.d[2]
+d[11] => register_4_bit:register_4_bit_ins3.d[3]
+d[12] => register_4_bit:register_4_bit_ins4.d[0]
+d[13] => register_4_bit:register_4_bit_ins4.d[1]
+d[14] => register_4_bit:register_4_bit_ins4.d[2]
+d[15] => register_4_bit:register_4_bit_ins4.d[3]
+clr => register_4_bit:register_4_bit_ins1.clr
+clr => register_4_bit:register_4_bit_ins2.clr
+clr => register_4_bit:register_4_bit_ins3.clr
+clr => register_4_bit:register_4_bit_ins4.clr
+clk => register_4_bit:register_4_bit_ins1.clk
+clk => register_4_bit:register_4_bit_ins2.clk
+clk => register_4_bit:register_4_bit_ins3.clk
+clk => register_4_bit:register_4_bit_ins4.clk
+q[0] <= register_4_bit:register_4_bit_ins1.q[0]
+q[1] <= register_4_bit:register_4_bit_ins1.q[1]
+q[2] <= register_4_bit:register_4_bit_ins1.q[2]
+q[3] <= register_4_bit:register_4_bit_ins1.q[3]
+q[4] <= register_4_bit:register_4_bit_ins2.q[0]
+q[5] <= register_4_bit:register_4_bit_ins2.q[1]
+q[6] <= register_4_bit:register_4_bit_ins2.q[2]
+q[7] <= register_4_bit:register_4_bit_ins2.q[3]
+q[8] <= register_4_bit:register_4_bit_ins3.q[0]
+q[9] <= register_4_bit:register_4_bit_ins3.q[1]
+q[10] <= register_4_bit:register_4_bit_ins3.q[2]
+q[11] <= register_4_bit:register_4_bit_ins3.q[3]
+q[12] <= register_4_bit:register_4_bit_ins4.q[0]
+q[13] <= register_4_bit:register_4_bit_ins4.q[1]
+q[14] <= register_4_bit:register_4_bit_ins4.q[2]
+q[15] <= register_4_bit:register_4_bit_ins4.q[3]
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins1
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins1|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins2
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins2|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins3
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins3|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins4
+d[0] => register_1_bit:register_1_bit_ins1.d
+d[1] => register_1_bit:register_1_bit_ins2.d
+d[2] => register_1_bit:register_1_bit_ins3.d
+d[3] => register_1_bit:register_1_bit_ins4.d
+clr => register_1_bit:register_1_bit_ins1.clr
+clr => register_1_bit:register_1_bit_ins2.clr
+clr => register_1_bit:register_1_bit_ins3.clr
+clr => register_1_bit:register_1_bit_ins4.clr
+clk => register_1_bit:register_1_bit_ins1.clk
+clk => register_1_bit:register_1_bit_ins2.clk
+clk => register_1_bit:register_1_bit_ins3.clk
+clk => register_1_bit:register_1_bit_ins4.clk
+q[0] <= register_1_bit:register_1_bit_ins1.q
+q[1] <= register_1_bit:register_1_bit_ins2.q
+q[2] <= register_1_bit:register_1_bit_ins3.q
+q[3] <= register_1_bit:register_1_bit_ins4.q
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins1
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins2
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins3
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|register_32_bit:register_BMC_0|register_16_bit:register_16_bit_ins2|register_4_bit:register_4_bit_ins4|register_1_bit:register_1_bit_ins4
+d => q~reg0.DATAIN
+clk => q~reg0.CLK
+clr => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins1
+control[0] => mux_16_bit:mux_16_bit_ins1.control[0]
+control[1] => mux_16_bit:mux_16_bit_ins1.control[1]
+control[2] => mux_16_bit:mux_16_bit_ins1.control[2]
+control[3] => mux_16_bit:mux_16_bit_ins1.control[3]
+control[4] => mux_16_bit:mux_16_bit_ins1.control[4]
+control[5] => mux_16_bit:mux_16_bit_ins1.control[5]
+control[6] => mux_16_bit:mux_16_bit_ins1.control[6]
+control[7] => mux_16_bit:mux_16_bit_ins1.control[7]
+control[8] => mux_16_bit:mux_16_bit_ins1.control[8]
+control[9] => mux_16_bit:mux_16_bit_ins1.control[9]
+control[10] => mux_16_bit:mux_16_bit_ins1.control[10]
+control[11] => mux_16_bit:mux_16_bit_ins1.control[11]
+control[12] => mux_16_bit:mux_16_bit_ins1.control[12]
+control[13] => mux_16_bit:mux_16_bit_ins1.control[13]
+control[14] => mux_16_bit:mux_16_bit_ins1.control[14]
+control[15] => mux_16_bit:mux_16_bit_ins1.control[15]
+control[16] => mux_16_bit:mux_16_bit_ins2.control[0]
+control[17] => mux_16_bit:mux_16_bit_ins2.control[1]
+control[18] => mux_16_bit:mux_16_bit_ins2.control[2]
+control[19] => mux_16_bit:mux_16_bit_ins2.control[3]
+control[20] => mux_16_bit:mux_16_bit_ins2.control[4]
+control[21] => mux_16_bit:mux_16_bit_ins2.control[5]
+control[22] => mux_16_bit:mux_16_bit_ins2.control[6]
+control[23] => mux_16_bit:mux_16_bit_ins2.control[7]
+control[24] => mux_16_bit:mux_16_bit_ins2.control[8]
+control[25] => mux_16_bit:mux_16_bit_ins2.control[9]
+control[26] => mux_16_bit:mux_16_bit_ins2.control[10]
+control[27] => mux_16_bit:mux_16_bit_ins2.control[11]
+control[28] => mux_16_bit:mux_16_bit_ins2.control[12]
+control[29] => mux_16_bit:mux_16_bit_ins2.control[13]
+control[30] => mux_16_bit:mux_16_bit_ins2.control[14]
+control[31] => mux_16_bit:mux_16_bit_ins2.control[15]
+input1[0] => mux_16_bit:mux_16_bit_ins1.input1[0]
+input1[1] => mux_16_bit:mux_16_bit_ins1.input1[1]
+input1[2] => mux_16_bit:mux_16_bit_ins1.input1[2]
+input1[3] => mux_16_bit:mux_16_bit_ins1.input1[3]
+input1[4] => mux_16_bit:mux_16_bit_ins1.input1[4]
+input1[5] => mux_16_bit:mux_16_bit_ins1.input1[5]
+input1[6] => mux_16_bit:mux_16_bit_ins1.input1[6]
+input1[7] => mux_16_bit:mux_16_bit_ins1.input1[7]
+input1[8] => mux_16_bit:mux_16_bit_ins1.input1[8]
+input1[9] => mux_16_bit:mux_16_bit_ins1.input1[9]
+input1[10] => mux_16_bit:mux_16_bit_ins1.input1[10]
+input1[11] => mux_16_bit:mux_16_bit_ins1.input1[11]
+input1[12] => mux_16_bit:mux_16_bit_ins1.input1[12]
+input1[13] => mux_16_bit:mux_16_bit_ins1.input1[13]
+input1[14] => mux_16_bit:mux_16_bit_ins1.input1[14]
+input1[15] => mux_16_bit:mux_16_bit_ins1.input1[15]
+input1[16] => mux_16_bit:mux_16_bit_ins2.input1[0]
+input1[17] => mux_16_bit:mux_16_bit_ins2.input1[1]
+input1[18] => mux_16_bit:mux_16_bit_ins2.input1[2]
+input1[19] => mux_16_bit:mux_16_bit_ins2.input1[3]
+input1[20] => mux_16_bit:mux_16_bit_ins2.input1[4]
+input1[21] => mux_16_bit:mux_16_bit_ins2.input1[5]
+input1[22] => mux_16_bit:mux_16_bit_ins2.input1[6]
+input1[23] => mux_16_bit:mux_16_bit_ins2.input1[7]
+input1[24] => mux_16_bit:mux_16_bit_ins2.input1[8]
+input1[25] => mux_16_bit:mux_16_bit_ins2.input1[9]
+input1[26] => mux_16_bit:mux_16_bit_ins2.input1[10]
+input1[27] => mux_16_bit:mux_16_bit_ins2.input1[11]
+input1[28] => mux_16_bit:mux_16_bit_ins2.input1[12]
+input1[29] => mux_16_bit:mux_16_bit_ins2.input1[13]
+input1[30] => mux_16_bit:mux_16_bit_ins2.input1[14]
+input1[31] => mux_16_bit:mux_16_bit_ins2.input1[15]
+input2[0] => mux_16_bit:mux_16_bit_ins1.input2[0]
+input2[1] => mux_16_bit:mux_16_bit_ins1.input2[1]
+input2[2] => mux_16_bit:mux_16_bit_ins1.input2[2]
+input2[3] => mux_16_bit:mux_16_bit_ins1.input2[3]
+input2[4] => mux_16_bit:mux_16_bit_ins1.input2[4]
+input2[5] => mux_16_bit:mux_16_bit_ins1.input2[5]
+input2[6] => mux_16_bit:mux_16_bit_ins1.input2[6]
+input2[7] => mux_16_bit:mux_16_bit_ins1.input2[7]
+input2[8] => mux_16_bit:mux_16_bit_ins1.input2[8]
+input2[9] => mux_16_bit:mux_16_bit_ins1.input2[9]
+input2[10] => mux_16_bit:mux_16_bit_ins1.input2[10]
+input2[11] => mux_16_bit:mux_16_bit_ins1.input2[11]
+input2[12] => mux_16_bit:mux_16_bit_ins1.input2[12]
+input2[13] => mux_16_bit:mux_16_bit_ins1.input2[13]
+input2[14] => mux_16_bit:mux_16_bit_ins1.input2[14]
+input2[15] => mux_16_bit:mux_16_bit_ins1.input2[15]
+input2[16] => mux_16_bit:mux_16_bit_ins2.input2[0]
+input2[17] => mux_16_bit:mux_16_bit_ins2.input2[1]
+input2[18] => mux_16_bit:mux_16_bit_ins2.input2[2]
+input2[19] => mux_16_bit:mux_16_bit_ins2.input2[3]
+input2[20] => mux_16_bit:mux_16_bit_ins2.input2[4]
+input2[21] => mux_16_bit:mux_16_bit_ins2.input2[5]
+input2[22] => mux_16_bit:mux_16_bit_ins2.input2[6]
+input2[23] => mux_16_bit:mux_16_bit_ins2.input2[7]
+input2[24] => mux_16_bit:mux_16_bit_ins2.input2[8]
+input2[25] => mux_16_bit:mux_16_bit_ins2.input2[9]
+input2[26] => mux_16_bit:mux_16_bit_ins2.input2[10]
+input2[27] => mux_16_bit:mux_16_bit_ins2.input2[11]
+input2[28] => mux_16_bit:mux_16_bit_ins2.input2[12]
+input2[29] => mux_16_bit:mux_16_bit_ins2.input2[13]
+input2[30] => mux_16_bit:mux_16_bit_ins2.input2[14]
+input2[31] => mux_16_bit:mux_16_bit_ins2.input2[15]
+output[0] <= mux_16_bit:mux_16_bit_ins1.output[0]
+output[1] <= mux_16_bit:mux_16_bit_ins1.output[1]
+output[2] <= mux_16_bit:mux_16_bit_ins1.output[2]
+output[3] <= mux_16_bit:mux_16_bit_ins1.output[3]
+output[4] <= mux_16_bit:mux_16_bit_ins1.output[4]
+output[5] <= mux_16_bit:mux_16_bit_ins1.output[5]
+output[6] <= mux_16_bit:mux_16_bit_ins1.output[6]
+output[7] <= mux_16_bit:mux_16_bit_ins1.output[7]
+output[8] <= mux_16_bit:mux_16_bit_ins1.output[8]
+output[9] <= mux_16_bit:mux_16_bit_ins1.output[9]
+output[10] <= mux_16_bit:mux_16_bit_ins1.output[10]
+output[11] <= mux_16_bit:mux_16_bit_ins1.output[11]
+output[12] <= mux_16_bit:mux_16_bit_ins1.output[12]
+output[13] <= mux_16_bit:mux_16_bit_ins1.output[13]
+output[14] <= mux_16_bit:mux_16_bit_ins1.output[14]
+output[15] <= mux_16_bit:mux_16_bit_ins1.output[15]
+output[16] <= mux_16_bit:mux_16_bit_ins2.output[0]
+output[17] <= mux_16_bit:mux_16_bit_ins2.output[1]
+output[18] <= mux_16_bit:mux_16_bit_ins2.output[2]
+output[19] <= mux_16_bit:mux_16_bit_ins2.output[3]
+output[20] <= mux_16_bit:mux_16_bit_ins2.output[4]
+output[21] <= mux_16_bit:mux_16_bit_ins2.output[5]
+output[22] <= mux_16_bit:mux_16_bit_ins2.output[6]
+output[23] <= mux_16_bit:mux_16_bit_ins2.output[7]
+output[24] <= mux_16_bit:mux_16_bit_ins2.output[8]
+output[25] <= mux_16_bit:mux_16_bit_ins2.output[9]
+output[26] <= mux_16_bit:mux_16_bit_ins2.output[10]
+output[27] <= mux_16_bit:mux_16_bit_ins2.output[11]
+output[28] <= mux_16_bit:mux_16_bit_ins2.output[12]
+output[29] <= mux_16_bit:mux_16_bit_ins2.output[13]
+output[30] <= mux_16_bit:mux_16_bit_ins2.output[14]
+output[31] <= mux_16_bit:mux_16_bit_ins2.output[15]
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins1|mux_16_bit:mux_16_bit_ins1
+control[0] => mux_4_bit:mux_4_bit_ins1.control[0]
+control[1] => mux_4_bit:mux_4_bit_ins1.control[1]
+control[2] => mux_4_bit:mux_4_bit_ins1.control[2]
+control[3] => mux_4_bit:mux_4_bit_ins1.control[3]
+control[4] => mux_4_bit:mux_4_bit_ins2.control[0]
+control[5] => mux_4_bit:mux_4_bit_ins2.control[1]
+control[6] => mux_4_bit:mux_4_bit_ins2.control[2]
+control[7] => mux_4_bit:mux_4_bit_ins2.control[3]
+control[8] => mux_4_bit:mux_4_bit_ins3.control[0]
+control[9] => mux_4_bit:mux_4_bit_ins3.control[1]
+control[10] => mux_4_bit:mux_4_bit_ins3.control[2]
+control[11] => mux_4_bit:mux_4_bit_ins3.control[3]
+control[12] => mux_4_bit:mux_4_bit_ins4.control[0]
+control[13] => mux_4_bit:mux_4_bit_ins4.control[1]
+control[14] => mux_4_bit:mux_4_bit_ins4.control[2]
+control[15] => mux_4_bit:mux_4_bit_ins4.control[3]
+input1[0] => mux_4_bit:mux_4_bit_ins1.input1[0]
+input1[1] => mux_4_bit:mux_4_bit_ins1.input1[1]
+input1[2] => mux_4_bit:mux_4_bit_ins1.input1[2]
+input1[3] => mux_4_bit:mux_4_bit_ins1.input1[3]
+input1[4] => mux_4_bit:mux_4_bit_ins2.input1[0]
+input1[5] => mux_4_bit:mux_4_bit_ins2.input1[1]
+input1[6] => mux_4_bit:mux_4_bit_ins2.input1[2]
+input1[7] => mux_4_bit:mux_4_bit_ins2.input1[3]
+input1[8] => mux_4_bit:mux_4_bit_ins3.input1[0]
+input1[9] => mux_4_bit:mux_4_bit_ins3.input1[1]
+input1[10] => mux_4_bit:mux_4_bit_ins3.input1[2]
+input1[11] => mux_4_bit:mux_4_bit_ins3.input1[3]
+input1[12] => mux_4_bit:mux_4_bit_ins4.input1[0]
+input1[13] => mux_4_bit:mux_4_bit_ins4.input1[1]
+input1[14] => mux_4_bit:mux_4_bit_ins4.input1[2]
+input1[15] => mux_4_bit:mux_4_bit_ins4.input1[3]
+input2[0] => mux_4_bit:mux_4_bit_ins1.input2[0]
+input2[1] => mux_4_bit:mux_4_bit_ins1.input2[1]
+input2[2] => mux_4_bit:mux_4_bit_ins1.input2[2]
+input2[3] => mux_4_bit:mux_4_bit_ins1.input2[3]
+input2[4] => mux_4_bit:mux_4_bit_ins2.input2[0]
+input2[5] => mux_4_bit:mux_4_bit_ins2.input2[1]
+input2[6] => mux_4_bit:mux_4_bit_ins2.input2[2]
+input2[7] => mux_4_bit:mux_4_bit_ins2.input2[3]
+input2[8] => mux_4_bit:mux_4_bit_ins3.input2[0]
+input2[9] => mux_4_bit:mux_4_bit_ins3.input2[1]
+input2[10] => mux_4_bit:mux_4_bit_ins3.input2[2]
+input2[11] => mux_4_bit:mux_4_bit_ins3.input2[3]
+input2[12] => mux_4_bit:mux_4_bit_ins4.input2[0]
+input2[13] => mux_4_bit:mux_4_bit_ins4.input2[1]
+input2[14] => mux_4_bit:mux_4_bit_ins4.input2[2]
+input2[15] => mux_4_bit:mux_4_bit_ins4.input2[3]
+output[0] <= mux_4_bit:mux_4_bit_ins1.output[0]
+output[1] <= mux_4_bit:mux_4_bit_ins1.output[1]
+output[2] <= mux_4_bit:mux_4_bit_ins1.output[2]
+output[3] <= mux_4_bit:mux_4_bit_ins1.output[3]
+output[4] <= mux_4_bit:mux_4_bit_ins2.output[0]
+output[5] <= mux_4_bit:mux_4_bit_ins2.output[1]
+output[6] <= mux_4_bit:mux_4_bit_ins2.output[2]
+output[7] <= mux_4_bit:mux_4_bit_ins2.output[3]
+output[8] <= mux_4_bit:mux_4_bit_ins3.output[0]
+output[9] <= mux_4_bit:mux_4_bit_ins3.output[1]
+output[10] <= mux_4_bit:mux_4_bit_ins3.output[2]
+output[11] <= mux_4_bit:mux_4_bit_ins3.output[3]
+output[12] <= mux_4_bit:mux_4_bit_ins4.output[0]
+output[13] <= mux_4_bit:mux_4_bit_ins4.output[1]
+output[14] <= mux_4_bit:mux_4_bit_ins4.output[2]
+output[15] <= mux_4_bit:mux_4_bit_ins4.output[3]
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins1|mux_16_bit:mux_16_bit_ins1|mux_4_bit:mux_4_bit_ins1
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins1|mux_16_bit:mux_16_bit_ins1|mux_4_bit:mux_4_bit_ins2
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins1|mux_16_bit:mux_16_bit_ins1|mux_4_bit:mux_4_bit_ins3
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins1|mux_16_bit:mux_16_bit_ins1|mux_4_bit:mux_4_bit_ins4
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins1|mux_16_bit:mux_16_bit_ins2
+control[0] => mux_4_bit:mux_4_bit_ins1.control[0]
+control[1] => mux_4_bit:mux_4_bit_ins1.control[1]
+control[2] => mux_4_bit:mux_4_bit_ins1.control[2]
+control[3] => mux_4_bit:mux_4_bit_ins1.control[3]
+control[4] => mux_4_bit:mux_4_bit_ins2.control[0]
+control[5] => mux_4_bit:mux_4_bit_ins2.control[1]
+control[6] => mux_4_bit:mux_4_bit_ins2.control[2]
+control[7] => mux_4_bit:mux_4_bit_ins2.control[3]
+control[8] => mux_4_bit:mux_4_bit_ins3.control[0]
+control[9] => mux_4_bit:mux_4_bit_ins3.control[1]
+control[10] => mux_4_bit:mux_4_bit_ins3.control[2]
+control[11] => mux_4_bit:mux_4_bit_ins3.control[3]
+control[12] => mux_4_bit:mux_4_bit_ins4.control[0]
+control[13] => mux_4_bit:mux_4_bit_ins4.control[1]
+control[14] => mux_4_bit:mux_4_bit_ins4.control[2]
+control[15] => mux_4_bit:mux_4_bit_ins4.control[3]
+input1[0] => mux_4_bit:mux_4_bit_ins1.input1[0]
+input1[1] => mux_4_bit:mux_4_bit_ins1.input1[1]
+input1[2] => mux_4_bit:mux_4_bit_ins1.input1[2]
+input1[3] => mux_4_bit:mux_4_bit_ins1.input1[3]
+input1[4] => mux_4_bit:mux_4_bit_ins2.input1[0]
+input1[5] => mux_4_bit:mux_4_bit_ins2.input1[1]
+input1[6] => mux_4_bit:mux_4_bit_ins2.input1[2]
+input1[7] => mux_4_bit:mux_4_bit_ins2.input1[3]
+input1[8] => mux_4_bit:mux_4_bit_ins3.input1[0]
+input1[9] => mux_4_bit:mux_4_bit_ins3.input1[1]
+input1[10] => mux_4_bit:mux_4_bit_ins3.input1[2]
+input1[11] => mux_4_bit:mux_4_bit_ins3.input1[3]
+input1[12] => mux_4_bit:mux_4_bit_ins4.input1[0]
+input1[13] => mux_4_bit:mux_4_bit_ins4.input1[1]
+input1[14] => mux_4_bit:mux_4_bit_ins4.input1[2]
+input1[15] => mux_4_bit:mux_4_bit_ins4.input1[3]
+input2[0] => mux_4_bit:mux_4_bit_ins1.input2[0]
+input2[1] => mux_4_bit:mux_4_bit_ins1.input2[1]
+input2[2] => mux_4_bit:mux_4_bit_ins1.input2[2]
+input2[3] => mux_4_bit:mux_4_bit_ins1.input2[3]
+input2[4] => mux_4_bit:mux_4_bit_ins2.input2[0]
+input2[5] => mux_4_bit:mux_4_bit_ins2.input2[1]
+input2[6] => mux_4_bit:mux_4_bit_ins2.input2[2]
+input2[7] => mux_4_bit:mux_4_bit_ins2.input2[3]
+input2[8] => mux_4_bit:mux_4_bit_ins3.input2[0]
+input2[9] => mux_4_bit:mux_4_bit_ins3.input2[1]
+input2[10] => mux_4_bit:mux_4_bit_ins3.input2[2]
+input2[11] => mux_4_bit:mux_4_bit_ins3.input2[3]
+input2[12] => mux_4_bit:mux_4_bit_ins4.input2[0]
+input2[13] => mux_4_bit:mux_4_bit_ins4.input2[1]
+input2[14] => mux_4_bit:mux_4_bit_ins4.input2[2]
+input2[15] => mux_4_bit:mux_4_bit_ins4.input2[3]
+output[0] <= mux_4_bit:mux_4_bit_ins1.output[0]
+output[1] <= mux_4_bit:mux_4_bit_ins1.output[1]
+output[2] <= mux_4_bit:mux_4_bit_ins1.output[2]
+output[3] <= mux_4_bit:mux_4_bit_ins1.output[3]
+output[4] <= mux_4_bit:mux_4_bit_ins2.output[0]
+output[5] <= mux_4_bit:mux_4_bit_ins2.output[1]
+output[6] <= mux_4_bit:mux_4_bit_ins2.output[2]
+output[7] <= mux_4_bit:mux_4_bit_ins2.output[3]
+output[8] <= mux_4_bit:mux_4_bit_ins3.output[0]
+output[9] <= mux_4_bit:mux_4_bit_ins3.output[1]
+output[10] <= mux_4_bit:mux_4_bit_ins3.output[2]
+output[11] <= mux_4_bit:mux_4_bit_ins3.output[3]
+output[12] <= mux_4_bit:mux_4_bit_ins4.output[0]
+output[13] <= mux_4_bit:mux_4_bit_ins4.output[1]
+output[14] <= mux_4_bit:mux_4_bit_ins4.output[2]
+output[15] <= mux_4_bit:mux_4_bit_ins4.output[3]
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins1|mux_16_bit:mux_16_bit_ins2|mux_4_bit:mux_4_bit_ins1
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins1|mux_16_bit:mux_16_bit_ins2|mux_4_bit:mux_4_bit_ins2
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins1|mux_16_bit:mux_16_bit_ins2|mux_4_bit:mux_4_bit_ins3
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins1|mux_16_bit:mux_16_bit_ins2|mux_4_bit:mux_4_bit_ins4
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins2
+control[0] => mux_16_bit:mux_16_bit_ins1.control[0]
+control[1] => mux_16_bit:mux_16_bit_ins1.control[1]
+control[2] => mux_16_bit:mux_16_bit_ins1.control[2]
+control[3] => mux_16_bit:mux_16_bit_ins1.control[3]
+control[4] => mux_16_bit:mux_16_bit_ins1.control[4]
+control[5] => mux_16_bit:mux_16_bit_ins1.control[5]
+control[6] => mux_16_bit:mux_16_bit_ins1.control[6]
+control[7] => mux_16_bit:mux_16_bit_ins1.control[7]
+control[8] => mux_16_bit:mux_16_bit_ins1.control[8]
+control[9] => mux_16_bit:mux_16_bit_ins1.control[9]
+control[10] => mux_16_bit:mux_16_bit_ins1.control[10]
+control[11] => mux_16_bit:mux_16_bit_ins1.control[11]
+control[12] => mux_16_bit:mux_16_bit_ins1.control[12]
+control[13] => mux_16_bit:mux_16_bit_ins1.control[13]
+control[14] => mux_16_bit:mux_16_bit_ins1.control[14]
+control[15] => mux_16_bit:mux_16_bit_ins1.control[15]
+control[16] => mux_16_bit:mux_16_bit_ins2.control[0]
+control[17] => mux_16_bit:mux_16_bit_ins2.control[1]
+control[18] => mux_16_bit:mux_16_bit_ins2.control[2]
+control[19] => mux_16_bit:mux_16_bit_ins2.control[3]
+control[20] => mux_16_bit:mux_16_bit_ins2.control[4]
+control[21] => mux_16_bit:mux_16_bit_ins2.control[5]
+control[22] => mux_16_bit:mux_16_bit_ins2.control[6]
+control[23] => mux_16_bit:mux_16_bit_ins2.control[7]
+control[24] => mux_16_bit:mux_16_bit_ins2.control[8]
+control[25] => mux_16_bit:mux_16_bit_ins2.control[9]
+control[26] => mux_16_bit:mux_16_bit_ins2.control[10]
+control[27] => mux_16_bit:mux_16_bit_ins2.control[11]
+control[28] => mux_16_bit:mux_16_bit_ins2.control[12]
+control[29] => mux_16_bit:mux_16_bit_ins2.control[13]
+control[30] => mux_16_bit:mux_16_bit_ins2.control[14]
+control[31] => mux_16_bit:mux_16_bit_ins2.control[15]
+input1[0] => mux_16_bit:mux_16_bit_ins1.input1[0]
+input1[1] => mux_16_bit:mux_16_bit_ins1.input1[1]
+input1[2] => mux_16_bit:mux_16_bit_ins1.input1[2]
+input1[3] => mux_16_bit:mux_16_bit_ins1.input1[3]
+input1[4] => mux_16_bit:mux_16_bit_ins1.input1[4]
+input1[5] => mux_16_bit:mux_16_bit_ins1.input1[5]
+input1[6] => mux_16_bit:mux_16_bit_ins1.input1[6]
+input1[7] => mux_16_bit:mux_16_bit_ins1.input1[7]
+input1[8] => mux_16_bit:mux_16_bit_ins1.input1[8]
+input1[9] => mux_16_bit:mux_16_bit_ins1.input1[9]
+input1[10] => mux_16_bit:mux_16_bit_ins1.input1[10]
+input1[11] => mux_16_bit:mux_16_bit_ins1.input1[11]
+input1[12] => mux_16_bit:mux_16_bit_ins1.input1[12]
+input1[13] => mux_16_bit:mux_16_bit_ins1.input1[13]
+input1[14] => mux_16_bit:mux_16_bit_ins1.input1[14]
+input1[15] => mux_16_bit:mux_16_bit_ins1.input1[15]
+input1[16] => mux_16_bit:mux_16_bit_ins2.input1[0]
+input1[17] => mux_16_bit:mux_16_bit_ins2.input1[1]
+input1[18] => mux_16_bit:mux_16_bit_ins2.input1[2]
+input1[19] => mux_16_bit:mux_16_bit_ins2.input1[3]
+input1[20] => mux_16_bit:mux_16_bit_ins2.input1[4]
+input1[21] => mux_16_bit:mux_16_bit_ins2.input1[5]
+input1[22] => mux_16_bit:mux_16_bit_ins2.input1[6]
+input1[23] => mux_16_bit:mux_16_bit_ins2.input1[7]
+input1[24] => mux_16_bit:mux_16_bit_ins2.input1[8]
+input1[25] => mux_16_bit:mux_16_bit_ins2.input1[9]
+input1[26] => mux_16_bit:mux_16_bit_ins2.input1[10]
+input1[27] => mux_16_bit:mux_16_bit_ins2.input1[11]
+input1[28] => mux_16_bit:mux_16_bit_ins2.input1[12]
+input1[29] => mux_16_bit:mux_16_bit_ins2.input1[13]
+input1[30] => mux_16_bit:mux_16_bit_ins2.input1[14]
+input1[31] => mux_16_bit:mux_16_bit_ins2.input1[15]
+input2[0] => mux_16_bit:mux_16_bit_ins1.input2[0]
+input2[1] => mux_16_bit:mux_16_bit_ins1.input2[1]
+input2[2] => mux_16_bit:mux_16_bit_ins1.input2[2]
+input2[3] => mux_16_bit:mux_16_bit_ins1.input2[3]
+input2[4] => mux_16_bit:mux_16_bit_ins1.input2[4]
+input2[5] => mux_16_bit:mux_16_bit_ins1.input2[5]
+input2[6] => mux_16_bit:mux_16_bit_ins1.input2[6]
+input2[7] => mux_16_bit:mux_16_bit_ins1.input2[7]
+input2[8] => mux_16_bit:mux_16_bit_ins1.input2[8]
+input2[9] => mux_16_bit:mux_16_bit_ins1.input2[9]
+input2[10] => mux_16_bit:mux_16_bit_ins1.input2[10]
+input2[11] => mux_16_bit:mux_16_bit_ins1.input2[11]
+input2[12] => mux_16_bit:mux_16_bit_ins1.input2[12]
+input2[13] => mux_16_bit:mux_16_bit_ins1.input2[13]
+input2[14] => mux_16_bit:mux_16_bit_ins1.input2[14]
+input2[15] => mux_16_bit:mux_16_bit_ins1.input2[15]
+input2[16] => mux_16_bit:mux_16_bit_ins2.input2[0]
+input2[17] => mux_16_bit:mux_16_bit_ins2.input2[1]
+input2[18] => mux_16_bit:mux_16_bit_ins2.input2[2]
+input2[19] => mux_16_bit:mux_16_bit_ins2.input2[3]
+input2[20] => mux_16_bit:mux_16_bit_ins2.input2[4]
+input2[21] => mux_16_bit:mux_16_bit_ins2.input2[5]
+input2[22] => mux_16_bit:mux_16_bit_ins2.input2[6]
+input2[23] => mux_16_bit:mux_16_bit_ins2.input2[7]
+input2[24] => mux_16_bit:mux_16_bit_ins2.input2[8]
+input2[25] => mux_16_bit:mux_16_bit_ins2.input2[9]
+input2[26] => mux_16_bit:mux_16_bit_ins2.input2[10]
+input2[27] => mux_16_bit:mux_16_bit_ins2.input2[11]
+input2[28] => mux_16_bit:mux_16_bit_ins2.input2[12]
+input2[29] => mux_16_bit:mux_16_bit_ins2.input2[13]
+input2[30] => mux_16_bit:mux_16_bit_ins2.input2[14]
+input2[31] => mux_16_bit:mux_16_bit_ins2.input2[15]
+output[0] <= mux_16_bit:mux_16_bit_ins1.output[0]
+output[1] <= mux_16_bit:mux_16_bit_ins1.output[1]
+output[2] <= mux_16_bit:mux_16_bit_ins1.output[2]
+output[3] <= mux_16_bit:mux_16_bit_ins1.output[3]
+output[4] <= mux_16_bit:mux_16_bit_ins1.output[4]
+output[5] <= mux_16_bit:mux_16_bit_ins1.output[5]
+output[6] <= mux_16_bit:mux_16_bit_ins1.output[6]
+output[7] <= mux_16_bit:mux_16_bit_ins1.output[7]
+output[8] <= mux_16_bit:mux_16_bit_ins1.output[8]
+output[9] <= mux_16_bit:mux_16_bit_ins1.output[9]
+output[10] <= mux_16_bit:mux_16_bit_ins1.output[10]
+output[11] <= mux_16_bit:mux_16_bit_ins1.output[11]
+output[12] <= mux_16_bit:mux_16_bit_ins1.output[12]
+output[13] <= mux_16_bit:mux_16_bit_ins1.output[13]
+output[14] <= mux_16_bit:mux_16_bit_ins1.output[14]
+output[15] <= mux_16_bit:mux_16_bit_ins1.output[15]
+output[16] <= mux_16_bit:mux_16_bit_ins2.output[0]
+output[17] <= mux_16_bit:mux_16_bit_ins2.output[1]
+output[18] <= mux_16_bit:mux_16_bit_ins2.output[2]
+output[19] <= mux_16_bit:mux_16_bit_ins2.output[3]
+output[20] <= mux_16_bit:mux_16_bit_ins2.output[4]
+output[21] <= mux_16_bit:mux_16_bit_ins2.output[5]
+output[22] <= mux_16_bit:mux_16_bit_ins2.output[6]
+output[23] <= mux_16_bit:mux_16_bit_ins2.output[7]
+output[24] <= mux_16_bit:mux_16_bit_ins2.output[8]
+output[25] <= mux_16_bit:mux_16_bit_ins2.output[9]
+output[26] <= mux_16_bit:mux_16_bit_ins2.output[10]
+output[27] <= mux_16_bit:mux_16_bit_ins2.output[11]
+output[28] <= mux_16_bit:mux_16_bit_ins2.output[12]
+output[29] <= mux_16_bit:mux_16_bit_ins2.output[13]
+output[30] <= mux_16_bit:mux_16_bit_ins2.output[14]
+output[31] <= mux_16_bit:mux_16_bit_ins2.output[15]
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins2|mux_16_bit:mux_16_bit_ins1
+control[0] => mux_4_bit:mux_4_bit_ins1.control[0]
+control[1] => mux_4_bit:mux_4_bit_ins1.control[1]
+control[2] => mux_4_bit:mux_4_bit_ins1.control[2]
+control[3] => mux_4_bit:mux_4_bit_ins1.control[3]
+control[4] => mux_4_bit:mux_4_bit_ins2.control[0]
+control[5] => mux_4_bit:mux_4_bit_ins2.control[1]
+control[6] => mux_4_bit:mux_4_bit_ins2.control[2]
+control[7] => mux_4_bit:mux_4_bit_ins2.control[3]
+control[8] => mux_4_bit:mux_4_bit_ins3.control[0]
+control[9] => mux_4_bit:mux_4_bit_ins3.control[1]
+control[10] => mux_4_bit:mux_4_bit_ins3.control[2]
+control[11] => mux_4_bit:mux_4_bit_ins3.control[3]
+control[12] => mux_4_bit:mux_4_bit_ins4.control[0]
+control[13] => mux_4_bit:mux_4_bit_ins4.control[1]
+control[14] => mux_4_bit:mux_4_bit_ins4.control[2]
+control[15] => mux_4_bit:mux_4_bit_ins4.control[3]
+input1[0] => mux_4_bit:mux_4_bit_ins1.input1[0]
+input1[1] => mux_4_bit:mux_4_bit_ins1.input1[1]
+input1[2] => mux_4_bit:mux_4_bit_ins1.input1[2]
+input1[3] => mux_4_bit:mux_4_bit_ins1.input1[3]
+input1[4] => mux_4_bit:mux_4_bit_ins2.input1[0]
+input1[5] => mux_4_bit:mux_4_bit_ins2.input1[1]
+input1[6] => mux_4_bit:mux_4_bit_ins2.input1[2]
+input1[7] => mux_4_bit:mux_4_bit_ins2.input1[3]
+input1[8] => mux_4_bit:mux_4_bit_ins3.input1[0]
+input1[9] => mux_4_bit:mux_4_bit_ins3.input1[1]
+input1[10] => mux_4_bit:mux_4_bit_ins3.input1[2]
+input1[11] => mux_4_bit:mux_4_bit_ins3.input1[3]
+input1[12] => mux_4_bit:mux_4_bit_ins4.input1[0]
+input1[13] => mux_4_bit:mux_4_bit_ins4.input1[1]
+input1[14] => mux_4_bit:mux_4_bit_ins4.input1[2]
+input1[15] => mux_4_bit:mux_4_bit_ins4.input1[3]
+input2[0] => mux_4_bit:mux_4_bit_ins1.input2[0]
+input2[1] => mux_4_bit:mux_4_bit_ins1.input2[1]
+input2[2] => mux_4_bit:mux_4_bit_ins1.input2[2]
+input2[3] => mux_4_bit:mux_4_bit_ins1.input2[3]
+input2[4] => mux_4_bit:mux_4_bit_ins2.input2[0]
+input2[5] => mux_4_bit:mux_4_bit_ins2.input2[1]
+input2[6] => mux_4_bit:mux_4_bit_ins2.input2[2]
+input2[7] => mux_4_bit:mux_4_bit_ins2.input2[3]
+input2[8] => mux_4_bit:mux_4_bit_ins3.input2[0]
+input2[9] => mux_4_bit:mux_4_bit_ins3.input2[1]
+input2[10] => mux_4_bit:mux_4_bit_ins3.input2[2]
+input2[11] => mux_4_bit:mux_4_bit_ins3.input2[3]
+input2[12] => mux_4_bit:mux_4_bit_ins4.input2[0]
+input2[13] => mux_4_bit:mux_4_bit_ins4.input2[1]
+input2[14] => mux_4_bit:mux_4_bit_ins4.input2[2]
+input2[15] => mux_4_bit:mux_4_bit_ins4.input2[3]
+output[0] <= mux_4_bit:mux_4_bit_ins1.output[0]
+output[1] <= mux_4_bit:mux_4_bit_ins1.output[1]
+output[2] <= mux_4_bit:mux_4_bit_ins1.output[2]
+output[3] <= mux_4_bit:mux_4_bit_ins1.output[3]
+output[4] <= mux_4_bit:mux_4_bit_ins2.output[0]
+output[5] <= mux_4_bit:mux_4_bit_ins2.output[1]
+output[6] <= mux_4_bit:mux_4_bit_ins2.output[2]
+output[7] <= mux_4_bit:mux_4_bit_ins2.output[3]
+output[8] <= mux_4_bit:mux_4_bit_ins3.output[0]
+output[9] <= mux_4_bit:mux_4_bit_ins3.output[1]
+output[10] <= mux_4_bit:mux_4_bit_ins3.output[2]
+output[11] <= mux_4_bit:mux_4_bit_ins3.output[3]
+output[12] <= mux_4_bit:mux_4_bit_ins4.output[0]
+output[13] <= mux_4_bit:mux_4_bit_ins4.output[1]
+output[14] <= mux_4_bit:mux_4_bit_ins4.output[2]
+output[15] <= mux_4_bit:mux_4_bit_ins4.output[3]
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins2|mux_16_bit:mux_16_bit_ins1|mux_4_bit:mux_4_bit_ins1
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins2|mux_16_bit:mux_16_bit_ins1|mux_4_bit:mux_4_bit_ins2
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins2|mux_16_bit:mux_16_bit_ins1|mux_4_bit:mux_4_bit_ins3
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins2|mux_16_bit:mux_16_bit_ins1|mux_4_bit:mux_4_bit_ins4
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins2|mux_16_bit:mux_16_bit_ins2
+control[0] => mux_4_bit:mux_4_bit_ins1.control[0]
+control[1] => mux_4_bit:mux_4_bit_ins1.control[1]
+control[2] => mux_4_bit:mux_4_bit_ins1.control[2]
+control[3] => mux_4_bit:mux_4_bit_ins1.control[3]
+control[4] => mux_4_bit:mux_4_bit_ins2.control[0]
+control[5] => mux_4_bit:mux_4_bit_ins2.control[1]
+control[6] => mux_4_bit:mux_4_bit_ins2.control[2]
+control[7] => mux_4_bit:mux_4_bit_ins2.control[3]
+control[8] => mux_4_bit:mux_4_bit_ins3.control[0]
+control[9] => mux_4_bit:mux_4_bit_ins3.control[1]
+control[10] => mux_4_bit:mux_4_bit_ins3.control[2]
+control[11] => mux_4_bit:mux_4_bit_ins3.control[3]
+control[12] => mux_4_bit:mux_4_bit_ins4.control[0]
+control[13] => mux_4_bit:mux_4_bit_ins4.control[1]
+control[14] => mux_4_bit:mux_4_bit_ins4.control[2]
+control[15] => mux_4_bit:mux_4_bit_ins4.control[3]
+input1[0] => mux_4_bit:mux_4_bit_ins1.input1[0]
+input1[1] => mux_4_bit:mux_4_bit_ins1.input1[1]
+input1[2] => mux_4_bit:mux_4_bit_ins1.input1[2]
+input1[3] => mux_4_bit:mux_4_bit_ins1.input1[3]
+input1[4] => mux_4_bit:mux_4_bit_ins2.input1[0]
+input1[5] => mux_4_bit:mux_4_bit_ins2.input1[1]
+input1[6] => mux_4_bit:mux_4_bit_ins2.input1[2]
+input1[7] => mux_4_bit:mux_4_bit_ins2.input1[3]
+input1[8] => mux_4_bit:mux_4_bit_ins3.input1[0]
+input1[9] => mux_4_bit:mux_4_bit_ins3.input1[1]
+input1[10] => mux_4_bit:mux_4_bit_ins3.input1[2]
+input1[11] => mux_4_bit:mux_4_bit_ins3.input1[3]
+input1[12] => mux_4_bit:mux_4_bit_ins4.input1[0]
+input1[13] => mux_4_bit:mux_4_bit_ins4.input1[1]
+input1[14] => mux_4_bit:mux_4_bit_ins4.input1[2]
+input1[15] => mux_4_bit:mux_4_bit_ins4.input1[3]
+input2[0] => mux_4_bit:mux_4_bit_ins1.input2[0]
+input2[1] => mux_4_bit:mux_4_bit_ins1.input2[1]
+input2[2] => mux_4_bit:mux_4_bit_ins1.input2[2]
+input2[3] => mux_4_bit:mux_4_bit_ins1.input2[3]
+input2[4] => mux_4_bit:mux_4_bit_ins2.input2[0]
+input2[5] => mux_4_bit:mux_4_bit_ins2.input2[1]
+input2[6] => mux_4_bit:mux_4_bit_ins2.input2[2]
+input2[7] => mux_4_bit:mux_4_bit_ins2.input2[3]
+input2[8] => mux_4_bit:mux_4_bit_ins3.input2[0]
+input2[9] => mux_4_bit:mux_4_bit_ins3.input2[1]
+input2[10] => mux_4_bit:mux_4_bit_ins3.input2[2]
+input2[11] => mux_4_bit:mux_4_bit_ins3.input2[3]
+input2[12] => mux_4_bit:mux_4_bit_ins4.input2[0]
+input2[13] => mux_4_bit:mux_4_bit_ins4.input2[1]
+input2[14] => mux_4_bit:mux_4_bit_ins4.input2[2]
+input2[15] => mux_4_bit:mux_4_bit_ins4.input2[3]
+output[0] <= mux_4_bit:mux_4_bit_ins1.output[0]
+output[1] <= mux_4_bit:mux_4_bit_ins1.output[1]
+output[2] <= mux_4_bit:mux_4_bit_ins1.output[2]
+output[3] <= mux_4_bit:mux_4_bit_ins1.output[3]
+output[4] <= mux_4_bit:mux_4_bit_ins2.output[0]
+output[5] <= mux_4_bit:mux_4_bit_ins2.output[1]
+output[6] <= mux_4_bit:mux_4_bit_ins2.output[2]
+output[7] <= mux_4_bit:mux_4_bit_ins2.output[3]
+output[8] <= mux_4_bit:mux_4_bit_ins3.output[0]
+output[9] <= mux_4_bit:mux_4_bit_ins3.output[1]
+output[10] <= mux_4_bit:mux_4_bit_ins3.output[2]
+output[11] <= mux_4_bit:mux_4_bit_ins3.output[3]
+output[12] <= mux_4_bit:mux_4_bit_ins4.output[0]
+output[13] <= mux_4_bit:mux_4_bit_ins4.output[1]
+output[14] <= mux_4_bit:mux_4_bit_ins4.output[2]
+output[15] <= mux_4_bit:mux_4_bit_ins4.output[3]
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins2|mux_16_bit:mux_16_bit_ins2|mux_4_bit:mux_4_bit_ins1
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins2|mux_16_bit:mux_16_bit_ins2|mux_4_bit:mux_4_bit_ins2
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins2|mux_16_bit:mux_16_bit_ins2|mux_4_bit:mux_4_bit_ins3
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|BMC_coding|encoder:encoder|mux_32_bit:mux_32_bit_ins2|mux_16_bit:mux_16_bit_ins2|mux_4_bit:mux_4_bit_ins4
+control[0] => output[0].OUTPUTSELECT
+control[1] => output[1].OUTPUTSELECT
+control[2] => output[2].OUTPUTSELECT
+control[3] => output[3].OUTPUTSELECT
+input1[0] => output[0].DATAB
+input1[0] => output[2].DATAB
+input1[0] => output[3].DATAB
+input1[1] => output[1].DATAB
+input1[2] => ~NO_FANOUT~
+input1[3] => ~NO_FANOUT~
+input2[0] => output[0].DATAA
+input2[1] => output[1].DATAA
+input2[2] => output[2].DATAA
+input2[3] => output[3].DATAA
+output[0] <= output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= output[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

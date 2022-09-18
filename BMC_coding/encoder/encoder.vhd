@@ -24,9 +24,9 @@ begin
 	);
 	
 	-- Generate the BMC_1 Signal
-	extend_signal: process is
+	extend_signal: process(clk) is
 	begin
-		for i in (0 to 31) loop
+		for i in 0 to 31 loop
 			clk_extended(i) <=  clk;
 		end loop;
 	end process extend_signal;

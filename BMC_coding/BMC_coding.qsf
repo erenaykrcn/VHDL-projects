@@ -65,3 +65,12 @@ set_global_assignment -name VHDL_FILE components/registers/register_32_bit.vhd
 set_global_assignment -name VHDL_FILE components/xor_gates/xor_4_bit.vhd
 set_global_assignment -name VHDL_FILE components/xor_gates/xor_16_bit.vhd
 set_global_assignment -name VHDL_FILE components/xor_gates/xor_32_bit.vhd
+set_global_assignment -name VHDL_FILE components/mux/mux_4_bit.vhd
+set_global_assignment -name VHDL_FILE components/mux/mux_16_bit.vhd
+set_global_assignment -name VHDL_FILE components/mux/mux_32_bit.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_1993
+set_global_assignment -name VHDL_SHOW_LMF_MAPPING_MESSAGES OFF
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'mode'
+Slack : -4.664
+TNS   : -135.209
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -1.731
+TNS   : -57.485
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'mode'
+Slack : 1.254
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -44.303
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'mode'
+Slack : 0.231
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'mode'
+Slack : -4.764
+TNS   : -137.264
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -1.537
+TNS   : -48.412
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'mode'
+Slack : 1.093
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -44.478
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'mode'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'mode'
+Slack : -2.330
+TNS   : -66.508
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -0.516
+TNS   : -11.010
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'mode'
+Slack : 0.524
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.087
+TNS   : -3.384
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'mode'
+Slack : -0.071
+TNS   : -1.400
+
+Type  : Fast 1100mV 0C Model Setup 'mode'
+Slack : -2.058
+TNS   : -59.482
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -0.323
+TNS   : -5.048
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.085
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'mode'
+Slack : 0.432
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.086
+TNS   : -3.366
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'mode'
+Slack : -0.063
+TNS   : -1.078
+
+------------------------------------------------------------

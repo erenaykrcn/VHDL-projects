@@ -14,7 +14,7 @@ end mux_4_bit;
 
 architecture rtl of mux_4_bit is
 begin
-	main: process is
+	main: process(control) is
 	begin
 		if control(0) = '0' then
 			output(0) <= input1(0);
